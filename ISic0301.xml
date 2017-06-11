@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription recording restoration of a nymphaeum</title>
+                <editor ref="#JP">Jonathan Prag</editor>
+                <principal ref="#JP">Jonathan Prag</principal>
+                <funder>John Fell OUP Research Fund</funder>
+                <respStmt>
+                    <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+                    <resp>original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+                    <resp>conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+                    <resp>site construction and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+                    <resp>editing of geo data</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MM">Michael Metcalfe</name>
+                    <resp>museum data collection</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>I.Sicily</authority>
+                <idno type="filename">ISic0301</idno>
+                <idno type="TM">175828</idno>
+                <idno type="EDR">074190</idno>
+                <idno type="EDH"/>
+                <idno type="EDCS"/>
+                <idno type="PHI"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Sicily</region>
+                        <settlement>Catania</settlement>
+                        <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                        <idno type="inventory">539</idno>
+                       <altIdentifier>
+                            <settlement/>
+                            <repository/>
+                            <idno type="old"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">limestone</material>
+                                    <dimensions><!--Default values and requires editing-->
+                                        <height unit="cm"/>
+                                        <width unit="cm"/>
+                                        <depth unit="cm"/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><!--Default value and requires editing-->
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm"/>
+                                </dimensions>
+                                <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
+                                <dimensions type="interlinear">
+                                    <height unit="mm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace datingMethod="#julian">
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
+<geo>37.49223, 15.07041</geo>
+                                </placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
+</placeName>
+                            </origPlace>
+                            <origDate n="Lb" notBefore-custom="0350" notAfter-custom="0400">c.370/379 (s.v. Fl.Ambrosius 5 in PLRE I)</origDate>
+                        </origin>
+                        <provenance type="found"/>
+                        <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
+                        <acquisition>Catania, Museo Civico</acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="location">Display, Voci di pietra no.15</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">building</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
+                <change when="2017-06-11" who="#JP">Jonathan Prag made initial edits of the EpiDoc, added museum data and unconverted text</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+      <!--delete empty surface above and uncomment template below if needed-->
+      <!--
+<surface type="front">
+  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
+    height="4912px" width="7360px">
+    <desc>Add Description Here</desc>
+  </graphic>
+  <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
+    <desc>Add Description Here</desc>
+  </graphic>
+</surface>
+
+  -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la"><!-- text requires full conversion to EpiDoc -->
+                <ab>
+                    <lb n="1"/>[Dilapsum multor]um in[cur]ia nymfeum [et]
+                    <lb n="2"/>[magna l]abe foedatum, cuius etiam aqua
+                    <lb n="3"/>[inducta no]vo meatu, tamen corruptione
+                    <lb n="4"/>[fistularu]m ita fuerat polluta ut quandam
+                    <lb n="5"/>[pernici]em haurientibus inferre videretur,
+                    <lb n="6"/>[indulgenti]a Fl(avi) Arsini v(iri) c(larissimi) consularis p(rovinciae) S(iciliae),
+                    <lb n="7"/>[restitut]um adque usui populi splendidissimi
+                    <lb n="8"/>[Catinensiu]m redditum reformatumque est.
+                    <lb n="9"/>[Cur]ante Fl(avio) Ambrosio v(iro) p(erfectissimo), d(ecurionum) [d(ecreto) a]er(e) p(ublico).
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><!--external apparatus criticus (if applicable)--></p>
+            </div>
+            <div type="translation" xml:lang="en" resp="#JP">
+                <p>The nymphaeum, ruined by the neglect of many and disfigured by a great collapse, and whose waters, although brought in by a new supply, yet had become so polluted by the decay of the pipes that they seemed to bring some ruin on those that drank them, by the favour of the most noble Flavius Arsinius, consular governor of the province of Sicily, has been restored and given back for the use of the most splendid people of Catania, and it has been restructured. The work was overseen by the most perfect Flavius Ambrosius, by decree of the town councillors, at public expense.</p>
+            </div>
+            <div type="commentary">
+                <p><!--commented out pending revision-->
+          <!--long text; the greek reverse is a verse inscr. of earlier C3 AD (Wilson 1990b: fig.153  = IG 14.453); stone re-used for the lat - i.e. NOT a bilingual - Gr. text is IG 14.453 (note that Manganaro says it's marble). Korhonen 2003, 73 n.305 comments: "IG XIV 453 = CIL X 7017, una lastra con l'epigrafe greca su una faccia, l'epigrafe latina sull'altra. Manganaro ha proposto che l'epigrafe greca sia anteriore a quella latina, e che la prima sia databile al III secolo, la seconda al IV (Manganaro 1993, 553; id. 1994, 96, con fotografia, fig. 15). A mio avviso è verosimile che i due testi siano contemporanei, in base alla somiglianza dell'argomento e al confronto con la siracusana IG XIV 14 = CIL X 7125. Ènotevole la paleografia greca romboidale, con l'epsilon che ha la forma "S", ma non impedisce di datarla nel IV secolo, al quale sembra appartenere l'iscrizione latina (sulle lettere romboidali a Catania, vd. pp. 92 e 112)."  Wilson 1990, p. 186 catpion to fig. 155 provides an approximate translation: 'Through the neglect [?of many citizens], the nymphaeum has been defiled [?by a great stain]. Even its water, although brought in a new channel, has however become so polluted by decay [?of the pipes] that it seemed to bring a certain [?illness] to those who drank it. [Through the agency of] Flavius Arsinius, v(ir) c(larissimus), governor of the province of Sicily (consularis p(rovinciae) S(iciliae)), [the nymphaeum] has been reshaped and restored and given back for the use of the very splendid people of Catania. The work was carried out under the supervision of Flavius Ambrosius v(ir) p(erfectissimus), d(efensor) perp(etuus).' W. goes on to comment: 'Flavius Arsiniusis not otherwise recorded and the date of his governorship is therefore uncertain, but Flavius Ambrosius is known to have been an advocate at the provincial council in the 370s. The defensor, a city ombudsman and judge of minor cases, who received complaints and tried to reduce corruption and extortion, was a comparatively new civic office at this time (Valentinian I was apparently responsible for introducing it to the West): Ambrosius as a top-ranking barrister had just the sort of high official standing sought for the job at this period.' Korhonen thinks the two inscrs. are contemporary, the Greek an accompanying versifying epigram for the work commemorated in the Latin; Wilson and Manganaro consider the Greek to be slightly earlier, and indeed, if Roger's translation is accepted the Greek would appear to make reference to a previous phase of the work.-->
+                </p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl type="CIL">
+                        <citedRange>
+                            <ref target="http://arachne.uni-koeln.de/books/CILv10pII1883">10.7017</ref>
+                        </citedRange>
+                        <ptr target="https://www.zotero.org/groups/382445/items/GQN8UZSI"/>
+                    </bibl>
+                    <bibl type="AE">
+                        <citedRange>1959.0025</citedRange>
+                        <ptr target="http://zotero.org/groups/382445/items/R46KDTZX"/>
+                    </bibl>
+                    <bibl>
+                        <author>Wilson</author>
+                        <date>1990</date>
+                        <citedRange>186 fig.155</citedRange>
+                        <ptr target="https://www.zotero.org/groups/382445/items/VF9MMBI9"/>
+                    </bibl>
+                    <bibl>
+                        <author>Manganaro</author>
+                        <date>1993</date>
+                        <citedRange>553 no.22</citedRange>
+                        <ptr target="https://www.zotero.org/groups/382445/items/JBI7CI5R"/>
+                    </bibl>
+                    <bibl>
+                        <author>Korhonen</author>
+                        <date>2004</date>
+                        <citedRange>73 n.24</citedRange>
+                        <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
