@@ -28,6 +28,10 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
@@ -184,6 +188,9 @@
             </div>
             <div type="translation" xml:lang="en" resp="#JP">
                 <p>The nymphaeum, ruined by the neglect of many and disfigured by a great collapse, and whose waters, although brought in by a new supply, yet had become so polluted by the decay of the pipes that they seemed to bring some ruin on those that drank them, by the favour of the most noble Flavius Arsinius, consular governor of the province of Sicily, has been restored and given back for the use of the most splendid people of Catania, and it has been restructured. The work was overseen by the most perfect Flavius Ambrosius, by decree of the town councillors, at public expense.</p>
+            </div>
+            <div type="translation" xml:lang="it" resp="#SA">
+            <p>Il ninfeo, rovinato dall'abbandono di molti e disfatto da un grande crollo, e le cui acque, benché fornite da una nuova offerta, erano ancora così inquinate dal decadimento dei tubi che sembravano portare malanni su quelli che le bevevano, per il favore del più nobile Flavius Arsinius, governatore consolare della provincia di Sicilia, è stato restaurato e restituito per l'uso delle più splendide persone di Catania, ed è stato ristrutturato. Il lavoro è stato supervisionato dal  più perfetto Flavius Ambrosius, con decreto dei consiglieri comunali, a spese pubbliche. </p>
             </div>
             <div type="commentary">
                 <p>An earlier Greek text on the other side of this stone (ISic0649) records the original construction of the nymphaeum, the repair of which is recorded in this later Latin text. Flavius Ambrosius is mentioned by Symmachus, having been sent as a legate to the imperial court by the provincial council of Sicily (c.377-379 AD). Flavius Arsinius, could be identical with an Arsenius who was praised by Emperor Constantius II in 359 AD, and if so would have been governor of Sicily perhaps in the early 350s AD. It is possible that the collapse of the nymphaeum was connected to the major earthquake and tsunami of 365 AD. The stone bearing the earlier inscription was re-used in order to record the restoration. It is possible that it was displayed in such as way as to show both sides, but this is not common.</p>
