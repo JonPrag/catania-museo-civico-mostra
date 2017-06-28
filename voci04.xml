@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Voci di pietra mostra no.4: Funerary urn of Titus Iunius Festus</title>
+            <editor ref="#JP">Jonathan Prag</editor>
+            <principal ref="#JP">Jonathan Prag</principal>
+            <funder>John Fell OUP Research Fund</funder>
+            <respStmt>
+               <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+               <resp>original data collection and editing</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+               <resp>conversion to EpiDoc</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+               <resp>site construction and encoding</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+               <resp>editing of geo data</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="MM">Michael Metcalfe</name>
+               <resp>museum data collection</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SA">Serena Agodi</name>
+               <resp>Italian translation</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>I.Sicily</authority>
+            <idno type="filename"></idno>
+            <idno type="mostravoci">04</idno>
+            <idno type="TM"/>
+            <idno type="EDR"> 119996</idno>
+            <idno type="EDH"/>
+            <idno type="EDCS"/>
+            <idno type="PHI"/>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <region>Sicily</region>
+                  <settlement>Catania</settlement>
+                  <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                  <idno type="inventory">841</idno>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno type="old"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la" >Latin</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78.html">Cinerary urn</objectType>
+                           <p>A marble funerary urn decorated on the sides with cornucopia, and on the front with theatrical masks, from which hang garlands, with birds above and below. The rear is unfinished.</p>
+                           <dimensions>
+                              <height unit="cm">18</height>
+                              <width unit="cm">25.5</width>
+                              <depth unit="cm">25</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                           <p>Latin text engraved over five lines in a framed panel in the upper middle of the front face of the urn. The text is centred and reduces slightly in size over the five lines.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <p>Wide moderately regular letters of the high imperial period, with basic serifs. R and B are closed. Traces of red paint are preserved in many of the letters.</p>
+                        <locus from="line1" to="line5">Lines 1-5</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">7-12</height>
+                        </dimensions>
+                        <locus from="line1" to="line2">Not measured</locus>
+                        <dimensions type="interlinear">
+                           <height unit="mm"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace datingMethod="#julian">
+                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025">Roma<geo>41.891775, 12.486136</geo>
+                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html">Rome<geo></geo>
+                        </placeName>
+                     </origPlace>
+                     <origDate notBefore-custom="0050" notAfter-custom="0150">Second half of the first or first half of the second century AD</origDate>
+                  </origin>
+                  <provenance type="found">Unknown</provenance>
+                  <provenance type="observed">First seen in Rome in the 17th century</provenance>
+                  <provenance type="observed">Recorded as acquired and transported to Sicily in 1748 by Scammacca</provenance>
+                  <provenance type="observed" subtype="autopsied" resp="#JP">2017.04.04</provenance>
+                  <acquisition>Museo Civico di Catania, inv.841</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="julian">
+               <p>Julian Calendar</p>
+            </calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            </langUsage>
+         <textClass>
+            <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2017.06.28" resp="#JP">Jonathan Prag created the file from a template</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <!-- Image data to add
+      <facsimile>
+      <surface type="front">
+         <graphic n="screen"
+                  url="ISic0000_tiled.tif"
+                  height="4912px"
+                  width="7360px">
+            <desc>Add Description Here</desc>
+         </graphic>
+         <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
+            <desc>Add Description Here</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   -->
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" resp="#JP">
+            <ab>               
+               <lb n="1"/>Dis · <expan><abbr>Manib</abbr><ex>us</ex></expan>
+               <lb n="2"/><persName><name><expan><abbr>T</abbr><ex>ito</ex></expan></name> · <name>Iunio</name> · <name>Festo</name></persName>
+               <lb n="3"/><expan><abbr>v</abbr><ex>ixit</ex></expan> · <expan><abbr>a</abbr><ex>nnis</ex></expan> · <num value="44">X<unclear>L</unclear>IIII</num> · <persName><name>Iunia</name>
+               <lb n="4"/><name>Doris</name></persName> · <expan><abbr>coniug</abbr><ex>i</ex></expan>
+               <lb n="5"/>suo
+            </ab>
+         </div>
+         <div type="apparatus">
+            <p><!--external apparatus criticus (if applicable)--></p>
+         </div>
+         <div type="translation" xml:lang="en" resp="#JP">
+            <p>To the shades of the underworld. For Titus Iunius Festus, who lived 44 years, Iunia Doris (made it) for her husband.</p>
+         </div>
+         <div type="translation" xml:lang="it" resp="#SA">
+            <p>Alle ombre di sotterra. Per Tito Iunio Festo, che visse 44 anni, Iunia Doris fece per suo marito.</p>
+         </div>
+         <div type="commentary">
+            <p>
+               A typical example of a Roman funerary urn (for the ashes of the deceased). The lack of decoration on the rear reflects the fact that it would probably be invisible when placed in a niche in the wall of a tomb or columbarium. The Greek name Doris (Δωρίς) is fairly common, and frequently attested in Rome, principally as the name of a slave. It is likely therefore that Iunia Doris was formerly a slave (cf. H. Solin, Die griechischen Personennamen in Rom (Berlin 2003), vol.1 , p.534): either formerly a slave of Iunius Festus himself, who freed her before marrying her, or else both were slaves of a citizen called Titus Iunius, and once freed were able legally to marry as citizens.
+          </p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl type="CIL">
+                  <ref target="http://arachne.uni-koeln.de/books/CILv10pII1883">10.1088*.204</ref>
+                  <ptr target="https://www.zotero.org/groups/382445/items/GQN8UZSI"/>
+               </bibl>
+               <bibl type="CIL">
+                  <citedRange>06.20791 and p.3525</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/GQN8UZSI"/>
+               </bibl>
+               <bibl type="IMusCatania">
+                  <citedRange>300</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

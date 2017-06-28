@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Voci di pietra mostra no.6: Funerary inscription for Polocronia</title>
+            <editor ref="#JP">Jonathan Prag</editor>
+            <principal ref="#JP">Jonathan Prag</principal>
+            <funder>John Fell OUP Research Fund</funder>
+            <respStmt>
+               <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+               <resp>original data collection and editing</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+               <resp>conversion to EpiDoc</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+               <resp>site construction and encoding</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+               <resp>editing of geo data</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="MM">Michael Metcalfe</name>
+               <resp>museum data collection</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SA">Serena Agodi</name>
+               <resp>Italian translation</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>I.Sicily</authority>
+            <idno type="filename"></idno>
+            <idno type="mostravoci">06</idno>
+            <idno type="TM"/>
+            <idno type="EDR"/>
+            <idno type="EDB">15719</idno>
+            <idno type="EDH"/>
+            <idno type="EDCS"/>
+            <idno type="PHI"/>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <region>Sicily</region>
+                  <settlement>Catania</settlement>
+                  <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                  <idno type="inventory">714</idno>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno type="old"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la" >Latin</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
+                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+                           <p>A large rectangular marble plaque broken into four pieces. The rear is smooth. To the left of the text is engraved a figure in an attitude of prayer and a chi-rho symbol; to the right a bird perched on a branch.</p>
+                           <dimensions>
+                              <height unit="cm">33</height>
+                              <width unit="cm">118</width>
+                              <depth unit="cm">1.8-2.4</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                           <p>Four lines of large regular Latin letters with wide border of empty space all round; images to left and right.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <p>Finely engraved regular laters. F, M and L all show tendencies towards later cursive style. Single letter abbreviations are marked by a horizontal stroke through the letter.</p>
+                        <locus from="line1" to="line4">Lines 1-4</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">35-48</height>
+                        </dimensions>
+                        <locus from="line1" to="line2">Not measured</locus>
+                        <dimensions type="interlinear">
+                           <height unit="mm"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace datingMethod="#julian">
+                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025">Roma<geo>41.891775, 12.486136</geo>
+                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html">Rome<geo></geo>
+                        </placeName>
+                     </origPlace>
+                     <origDate notBefore-custom="0300" notAfter-custom="0400">Fourth century AD</origDate>
+                  </origin>
+                  <provenance type="found">Found c.1740 in the Catacomb of Domitilla, Rome</provenance>
+                 <provenance type="observed" subtype="autopsied">Details to be added</provenance>
+                  <acquisition>Museo Civico di Catania, inv.714</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="julian">
+               <p>Julian Calendar</p>
+            </calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            </langUsage>
+         <textClass>
+            <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2017.06.28" resp="#JP">Jonathan Prag created the file from a template</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <!-- Image data to add
+      <facsimile>
+      <surface type="front">
+         <graphic n="screen"
+                  url="ISic0000_tiled.tif"
+                  height="4912px"
+                  width="7360px">
+            <desc>Add Description Here</desc>
+         </graphic>
+         <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
+            <desc>Add Description Here</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   -->
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" resp="#JP">
+            <ab>               
+               <lb n="1"/>fecit · maritus · <persName><name>Polocro
+               <lb n="2" break="no"/>rinae</name></persName> · <choice><reg>uxori</reg><orig>uxxori</orig></choice> <choice><reg>qui</reg><orig>que</orig></choice> · vixit ·
+               <lb n="3"/><expan><abbr>ann</abbr><ex>is</ex></expan> · <num value="27">XXVII</num> et · <expan><abbr><hi rend="strikethrough">m</hi></abbr><ex>ensibus</ex></expan> · <num value="8">VIII</num> · <expan><abbr>dec</abbr><ex>essit</ex></expan> ·
+               <lb n="4"/>· <num value="5">V</num> · <expan><ex>i</ex><abbr><hi rend="strikethrough">d</hi></abbr><ex>us</ex></expan> · <expan><abbr>Oct</abbr><ex>obres</ex></expan> ·  bene · merenti · in · <expan><abbr><hi rend="strikethrough">p</hi></abbr><ex>ace</ex></expan>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <p><!--external apparatus criticus (if applicable)--></p>
+         </div>
+         <div type="translation" xml:lang="en" resp="#JP">
+            <p>Her husband made (this) for Polocronia, his wife, who lived for 27 years and 8 months; she departed the 9th of October, well-deserving, in peace.</p>
+         </div>
+         <div type="translation" xml:lang="it" resp="#SA">
+            <p>Il marito (lo) pose per la moglie Polocronia, che visse 27 anni e 8 mesi; morì il 9 ottobre, benemerita, in pace.</p>
+         </div>
+         <div type="commentary">
+            <p>Polocronia is a Greek name (Polychronia) mostly attested at Rome in Christian inscriptions of the third to fifth centuries AD. Both the bird and the praying figure are familiar elements in the attested repertoire of imagery in Christian funerary inscriptions (the bird is the more common). The interpretation of the dating formula is not entirely certain (the use of D only as abbreviation for "Idus" is unusual; but as Korhonen notes, to read "d(ie)" instead, and so 'on the 5th day of October', without reference to the Ides or Kalends would be even more unusual at this date). uxxori (uxori) and que (qui) are typical deviations from ‘classical’ spelling, reflecting pronunciation and formal literacy. The repeated use of a diagonal strikethrough to mark an abbreviation, together with comparison with the chi-rho symbol upper left, suggests that the final letter should be read as 'P(ace)', i.e. 'in peace' and not as a 'chi-rho' symbol and so 'in Christ'  as implied in ICUR.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl type="CIL">
+                  <ref target="http://arachne.uni-koeln.de/books/CILv10pII1883">10.1088*.445</ref>
+                  <ptr target="https://www.zotero.org/groups/382445/items/GQN8UZSI"/>
+               </bibl>
+               <bibl type="ICUR"><!-- needs adding to Zotero -->
+                  <citedRange>3.9081</citedRange>
+                  <ptr target=""/>
+               </bibl>
+               <bibl type="IMusCatania">
+                  <citedRange>361</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
