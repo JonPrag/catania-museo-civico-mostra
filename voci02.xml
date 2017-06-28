@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Voci di Pietra mostra no.2: a brick of the Oscan Mamertini</title>
+            <editor ref="#JP">Jonathan Prag</editor>
+            <principal ref="#JP">Jonathan Prag</principal>
+            <funder>John Fell OUP Research Fund</funder>
+            <respStmt>
+               <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+               <resp>original data collection and editing</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+               <resp>conversion to EpiDoc</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+               <resp>site construction and encoding</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+               <resp>editing of geo data</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="MM">Michael Metcalfe</name>
+               <resp>museum data collection</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>I.Sicily</authority>
+            <idno type="filename"></idno>
+            <idno type="mostravoci">02</idno>
+            <idno type="TM"/>
+            <idno type="EDR"/>
+            <idno type="EDH"/>
+            <idno type="EDCS"/>
+            <idno type="PHI"/>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <region>Sicily</region>
+                  <settlement>Catania</settlement>
+                  <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                  <idno type="inventory">?</idno>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno type="old"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="osc-grc">Oscan in Greek script</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/131.html">clay</material>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147.html">brick</objectType>
+                           <p>A rectangular brick of a pink-orange fabric, with a broad rectangular stamp diagonally across one of the wide faces. The edges of the brick are lightly chipped, particularly at the left end, but it is otherwise intact.</p>
+                           <dimensions>
+                              <height unit="cm">17.6</height>
+                              <width unit="cm">36.3</width>
+                              <depth unit="cm">8.8-9.2</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/13">Stamped</rs>
+                           <p>The stamp occupies a rectangular recessed field 2.5-2.6 cm x 19 cm, rounded at the left end, square at the right end, and filled by large regular letters in Greek script.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <p>Neat regular wide letters of the third or second century BC. Mu has vertical end strokes, and the middle strokes do not extend down to the bottom of the letter; epsilon has a shorter middle bar; omicron is small and midline.</p>
+                        <locus from="line1" to="line1">Line 1</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">10-18</height>
+                        </dimensions>
+                    </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace datingMethod="#julian">
+                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/462538">Messana<geo>38.19394, 15.55256</geo>
+                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/2524170/messina.html"><geo></geo>
+                        </placeName>
+                     </origPlace>
+                     <origDate notBefore-custom="-0288" notAfter-custom="-0200">Probably later third century BC</origDate>
+                  </origin>
+                  <provenance type="found">Not known</provenance>
+                  <provenance type="observed" subtype="autopsied" resp="#JP">2017-03-21</provenance>
+                  <acquisition>Museo Civico di Catania</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="julian">
+               <p>Julian Calendar</p>
+            </calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="it">Italian</language>
+            <language ident="osc-grc">Oscan in Greek script</language>
+            </langUsage>
+         <textClass>
+            <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+               <term ref="http://www.eagle-network.eu/voc/typeins/lod/118">Stamp</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2017=06-28" resp="#JP">Jonathan Prag created the file from template</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <!-- images to add
+   <facsimile>   
+   <surface type="front">
+         <graphic n="screen"
+                  url="ISic0000_tiled.tif"
+                  height="4912px"
+                  width="7360px">
+            <desc>Add Description Here</desc>
+         </graphic>
+         <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
+            <desc>Add Description Here</desc>
+         </graphic>
+      </surface>
+      </facsimile>
+      -->
+   <text>
+      <body>
+         <div type="edition" xml:lang="osc-grc">
+            <ab>
+               <lb n="1"/>ΜΑΜΕΡΤΙΝΟΥΜ
+            </ab>
+         </div>
+         <div type="apparatus">
+            <p><!--external apparatus criticus (if applicable)--></p>
+         </div>
+         <div type="translation" xml:lang="en" resp="#JP">
+            <p>Of the Mamertines</p>
+         </div>
+         <div type="commentary">
+            <p>
+               A group of Oscan-speaking Campanian mercenaries, originally employed by the Syrcusan tyrant Agathokles, seized the city of Messana in 289 BC. In the following period (for perhaps the first century of their occupation) they continued to use the Oscan language in inscribed documents, and a number of texts survive. They called themselves the ‘sons of Mamers’ (an Italic equivalent of Mars), and so the Mamertini, and Messana in the Roman period was sometimes called the civitas Mamertina. Oscan was an Italic language, spoken throughout much of central and southern Italy, and remained in use and visible down to the end of the Roman Republican period (first century BC), before being wholly replaced by Latin. Although other groups of Campanian mercenaries settled in Sicily in the Hellenistic period (e.g. at Entella in the fourth century BC), Messana is the only settlement in Sicily which has produced written evidence for Oscan use. All of these texts, although in the Oscan language, use the Greek alphabet: this is the practice across much of southern Italy (Lucania and Bruttium), whereas a distinctive Oscan alphabet was normally used elsewhere (including Campania). There is some linguistic evidence to suggest that the use of the Greek alphabet in Messana was particularly influenced by the surrounding Sicilian use of Greek.
+               The practice of stamping tiles and bricks during production was common in antiquity, whether publicly produced (as in the case) or privately (in which case the name of the owner of the brick works is most common). Greek examples (ΤΑΥΡΟΜΕΝΙΤΑΝ (‘of the Tauromenitani’) are known, for example, from Taormina.
+               </p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl type="IMusCatania">
+                  <citedRange>p. 144.ε</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
+               </bibl>
+               <bibl>
+                  <author>Crawford</author>
+                  <date>2011</date>
+                  <citedRange>vol.3, p.1512, Messana no.2 stamp no.6</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/UQRFDXEG"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Voci di pietra mostra no.10: honorific for the Emperor Claudius</title>
+            <editor ref="#JP">Jonathan Prag</editor>
+            <principal ref="#JP">Jonathan Prag</principal>
+            <funder>John Fell OUP Research Fund</funder>
+            <respStmt>
+               <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+               <resp>original data collection and editing</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+               <resp>conversion to EpiDoc</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+               <resp>site construction and encoding</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+               <resp>editing of geo data</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="MM">Michael Metcalfe</name>
+               <resp>museum data collection</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SA">Serena Agodi</name>
+               <resp>Italian translation</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>I.Sicily</authority>
+            <idno type="filename"></idno>
+            <idno type="mostravoci">10</idno>
+            <idno type="TM"/>
+            <idno type="EDR"/>
+            <idno type="EDH"/>
+            <idno type="EDCS"/>
+            <idno type="PHI"/>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <region>Sicily</region>
+                  <settlement>Catania</settlement>
+                  <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                  <idno type="inventory">349</idno>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno type="old"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la" >Latin</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
+                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+                           <p>A substantial marble slab, broken down the middle but joined together again. Intact on top, left, and below, but broken on the right. The rear is smooth.</p>
+                           <dimensions>
+                              <height unit="cm">51</height>
+                              <width unit="cm">55</width>
+                              <depth unit="cm">2.9-4.1</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                           <p>Latin text over five lines. The text appears to be centred on the stone. The horizontal alignment is very slightly awry in relation to the margins of the stone. Line 1 is in significantly larger letters.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <p>Regular wide, deeply cut letters of high Imperial form, with very modest serifs. P is open, E and F have equal length horizontal bars. The first and last strokes of the M lean inwards. Numerals are indicated with lines above. Interpuncts are present, but very lightly incised.</p>
+                        <locus from="line1" to="line1">Line 1</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">80</height>
+                        </dimensions>
+                        <locus from="line2" to="line2">Line 2</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">60</height>
+                        </dimensions>
+                        <locus from="line3" to="line5">Lines 3-5</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">53-55</height>
+                        </dimensions>
+                        <locus from="line1" to="line2">Not measured</locus>
+                        <dimensions type="interlinear">
+                           <height unit="mm"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace datingMethod="#julian">
+                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025" cert="low">Roma (?)<geo>41.891775, 12.486136</geo>
+                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html" cert="low">Rome (?)<geo></geo>
+                        </placeName>
+                     </origPlace>
+                     <origDate notBefore-custom="0052" notAfter-custom="0053">Between 25 January 52 AD and 24 January 53 AD.</origDate>
+                  </origin>
+                  <provenance type="found">Provenance is uncertain</provenance>
+                  <provenance type="observed">First noted by Mommsen in 1881 in the Museo dei Benedettini in Catania</provenance>
+                  <provenance type="observed" subtype="autopsied" resp="#JP">2017.03.22</provenance>
+                  <acquisition>Museo Civico di Catania, inv.349</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="julian">
+               <p>Julian Calendar</p>
+            </calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            </langUsage>
+         <textClass>
+            <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+               <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html"> Honorific</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2017.06.28" resp="#JP">Jonathan Prag created the file from a template</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader >
+   <facsimile>
+      <surface type="front">
+         <graphic n="screen" url="mostravoci10_tiled.tif" height="3744px" width="5616px">
+            <desc>Photo Liceo Artistico Statale "M.M. Lazzaro"</desc>
+         </graphic>
+         <graphic n="print" url="mostravoci10.jpg" height="3744px" width="5616px">
+            <desc>Photo Liceo Artistico Statale "M.M. Lazzaro"</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" resp="#JP">
+            <ab>
+               <lb n="1"/><persName><name><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> · <name>Claudio</name> <supplied reason="lost"><name>Drusi <expan><abbr>f</abbr><ex>ilio</ex></expan></name></supplied>
+               <lb n="2"/><name>Caesari</name> · <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <name>G<unclear>e</unclear><supplied reason="lost">rmanico</supplied></name></persName>
+               <lb n="3"/>pontifici · max<supplied reason="lost">imo <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied>
+               <lb n="4"/><expan><abbr>potest</abbr><ex>ate</ex></expan> · <num value="12"><hi rend="supraline">XII</hi></num> · <expan><abbr>imp</abbr><ex>eratori</ex></expan> · <num value="25"><hi rend="supraline">X<supplied reason="lost">XV</supplied></hi></num> <supplied reason="lost"> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied>
+               <lb n="5"/><num value="5"><hi rend="supraline">V</hi></num> · <expan><abbr>p</abbr><ex>atri</ex></expan> · <expan><abbr>p</abbr><ex>atriae</ex></expan> · cen<supplied reason="lost">sori</supplied>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <p><!--external apparatus criticus (if applicable)--></p>
+         </div>
+         <div type="translation" xml:lang="en" resp="#JP">
+            <p>To Tiberius Claudius, son of Drusus, Caesar Augustus Germanicus, pontifex maximus, in the 12th year of his tribunician power, imperator for the 25th time, consul for the 5th time, father of the fatherland, censor.</p>
+         </div>
+         <div type="translation" xml:lang="it" resp="#SA">
+            <p>Per Tiberio Claudio, figlio di Druso, Caesar Augustus Germanico, Pontefice Massimo, nel XII anno della sua potestà tribunizia, imperatore per la XXV volta, console per la V volta, padre della patria, censore.</p>
+         </div>
+         <div type="commentary">
+            <p>The stone and the inscription is of the high quality typical of an imperial honorific. There is no room on the surviving stone for the name of the individual or community responsible, but this might have appeared on a separate stone. A marble slab of this sort would be fixed to the base of a statue. Fragments of a colossal statue, probably of the Emperor Claudius, were found in Tindari at the start of the 1800s (now Museo Archeologico Regionale “Antonino Salinas” di Palermo, inv.702), where it was one part of a series of monumental statues of Julio-Claudian emperors (and statues of the Julio-Claudian emperors are attested in several Sicilian cities). The restoration of the Tyndaris statue was modelled on the colossal torso in the Museo Civico, found in 1737 in the area of monumental public buildings in the centre of the Roman colonia of Catania. It is highly likely that the torso in the Museo Civico is that of a Julio-Claudian emperor, possibly Claudius, seated in the style of the god Jupiter. In the absence of specific evidence, this inscription may come from Rome - but it is no less plausible that it does in fact come from Catania, and might possibly even related to this statue, or a similar monument.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl type="CIL">
+                  <citedRange>06.31283 and p.4341</citedRange>
+                  <ptr target=""/><!-- CIL VI needs adding to Zotero -->
+               </bibl>
+               <bibl type="EphEp">
+                  <citedRange>4.777</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/PU8UDAF3"/><!-- needs adding for vol.4 -->
+               </bibl>
+               <bibl type="IMusCatania">
+                  <citedRange>343</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

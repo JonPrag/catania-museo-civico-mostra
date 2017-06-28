@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Voci di pietra mostra no.5: Funerary inscription for Sabiniane</title>
+            <editor ref="#JP">Jonathan Prag</editor>
+            <principal ref="#JP">Jonathan Prag</principal>
+            <funder>John Fell OUP Research Fund</funder>
+            <respStmt>
+               <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+               <resp>original data collection and editing</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+               <resp>conversion to EpiDoc</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+               <resp>site construction and encoding</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+               <resp>editing of geo data</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="MM">Michael Metcalfe</name>
+               <resp>museum data collection</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SA">Serena Agodi</name>
+               <resp>Italian translation</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>I.Sicily</authority>
+            <idno type="filename"></idno>
+            <idno type="mostravoci">05</idno>
+            <idno type="TM"/>
+            <idno type="EDR"/>
+            <idno type="EDB">29786</idno>
+            <idno type="EDH"/>
+            <idno type="EDCS"/>
+            <idno type="PHI"/>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <region>Sicily</region>
+                  <settlement>Catania</settlement>
+                  <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                  <idno type="inventory">721</idno>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno type="old"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la" >Latin</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
+                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+                           <p>A marble plaque intact along the top edge, but irregular and broken to right and below; the left edge is regular, but the original left side is missing. The rear is smooth. The lower part of the plaque is decorated with engraved images of a bird with olive branch, a jug and a cup.</p>
+                           <dimensions>
+                              <height unit="cm">27.8</height>
+                              <width unit="cm">28</width>
+                              <depth unit="cm">2</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                           <p>Latin text engraved over three lines (line 1 is larger than lines 2-3), with engraved images below and a wide border of empty space around the text.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <p>Tall letters indicative of the late empire. L has an oblique lower stroke, M is more cursive in style.</p>
+                        <locus from="line1" to="line3">Lines 1-3</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">28-37</height>
+                        </dimensions>
+                        <locus from="line1" to="line2">Not measured</locus>
+                        <dimensions type="interlinear">
+                           <height unit="mm"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace datingMethod="#julian">
+                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025">Roma<geo>41.891775, 12.486136</geo>
+                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html">Rome<geo></geo>
+                        </placeName>
+                     </origPlace>
+                     <origDate notBefore-custom="0350" notAfter-custom="0450">Later fourth or earlier fifth century AD</origDate>
+                  </origin>
+                  <provenance type="found">Found in 1696 in the catacomb of S. Lorenzo (also known as the cemetery of Cyriaca), via Tiburtina, Rome</provenance>
+                 <provenance type="observed" subtype="autopsied"/>
+                  <acquisition>Museo Civico di Catania, inv.721</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="julian">
+               <p>Julian Calendar</p>
+            </calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            </langUsage>
+         <textClass>
+            <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2017.06.28" resp="#JP">Jonathan Prag created the file from a template</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <!-- Image data to add
+      <facsimile>
+      <surface type="front">
+         <graphic n="screen"
+                  url="ISic0000_tiled.tif"
+                  height="4912px"
+                  width="7360px">
+            <desc>Add Description Here</desc>
+         </graphic>
+         <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
+            <desc>Add Description Here</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   -->
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" resp="#JP">
+            <ab>               
+               <lb n="1"/><persName><name><supplied reason="undefined" evidence="previouseditor">Iu</supplied>llius</name> <name>Illyricus</name></persName> ·
+               <lb n="2"/><persName><name><supplied reason="undefined" evidence="previouseditor">Vet</supplied>ihe</name> <name>Gratia</name></persName> filie <g type="hedera"/>
+               <lb n="3"/><persName><name><supplied reason="undefined" evidence="previouseditor">Sabini</supplied>aneti</name></persName> carissime · 
+               <lb n="4"/><g type="cupa"/><g type="aviscumramo"/><g type="guttus"/><g type="calix"/><!-- this needs modifying -->
+            </ab>
+         </div>
+         <div type="apparatus">
+            <p><!--external apparatus criticus (if applicable)--></p>
+         </div>
+         <div type="translation" xml:lang="en" resp="#JP">
+            <p>Iullius Illyricus (and) Vettia Gratia (set this up) for their beloved daughter Sabiniane.</p>
+         </div>
+         <div type="translation" xml:lang="it" resp="#SA">
+            <p>Iullius Illirico (e) Vettia Gratia (lo edificarono) per la loro amata figlia Sabiniane.</p>
+         </div>
+         <div type="commentary">
+            <p>
+               The left part of the inscription was lost before it reached Catania, but the missing text (here underlined) and the image of a barrel are recorded by antiquarian writers. Christian epitaphs often included symbolic images, of which the bird holding an olive branch is among the most common. A second inscription from the same cemetery records the death also of Iullius’ and Vettia’s son, Iulius Navigius, aged 16.
+          </p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl type="ICUR">
+                  <citedRange>VII.18943</citedRange>
+                  <ptr target=""/><!-- needs checking against Zotero-->
+               </bibl>
+               <bibl type="IMusCatania">
+                  <citedRange>362</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
