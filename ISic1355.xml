@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Funerary inscription for Eutychios</title>
+                <title>
+                    <seg xml:lang="en">Funerary inscription for Eutychios</seg>
+                    <seg xml:lang="it">Iscrizione funeraria di Eutychios</seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -36,6 +39,7 @@
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic1355</idno>
+                <idno type="mostravoci">34</idno>
                 <idno type="TM">492969</idno>
                 <idno type="EDR"/>
                 <idno type="EDH"/>
@@ -61,31 +65,50 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="grc">Ancient Greek</textLang>
+                        <textLang mainLang="grc">
+                            <seg xml:lang="en">Ancient Greek</seg>
+                            <seg xml:lang="it">Greca antica</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                                    <dimensions><!--Default values and requires editing-->
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble</seg>
+                                        <seg xml:lang="it">marmo</seg>
+                                    </material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                                        <seg xml:lang="en">plaque</seg>
+                                        <seg xml:lang="it">lastra</seg>
+                                    </objectType>
+                                    <seg xml:lang="en"><p></p></seg><!-- object descriptoin to add-->
+                                    <seg xml:lang="it"><p></p></seg>
+                                    <dimensions>
+                                        <height unit="cm">20.7</height>
+                                        <width unit="cm">18.5</width>
+                                        <depth unit="cm">2.5</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it">Incisa</seg>
+                                    </rs>
+                                    <seg xml:lang="en"><p></p></seg><!-- description of epigraphic field to add -->
+                                    <seg xml:lang="it"><p></p></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><!--handnote to add-->
+                                <seg xml:lang="en"><p></p></seg>
+                                <seg xml:lang="it"><p></p></seg>
+                                <locus from="line1" to="line8">Lines 1-8</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
+                                    <height unit="mm">13-20</height>
                                 </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
@@ -97,16 +120,20 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="LMa" notBefore-custom="0300" notAfter-custom="0450">C4 AD or first half C5 AD (Korhonen)</origDate>
+                            <origDate n="LMa" notBefore-custom="0300" notAfter-custom="0450">
+                                <seg xml:lang="en">C4 AD or first half C5 AD</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found">Found c.1715 in the cloister of the monastery of S.Agata, buried inside a lead urn containing ashes and burnt bones</provenance>
-                        <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
+                        <provenance type="found">
+                            <seg xml:lang="en">Found c.1715 in the cloister of the monastery of S.Agata, buried inside a lead urn containing ashes and burnt bones.</seg>
+                            <seg xml:lang="it">Trovato nel 1715 nel chiostro del monastero di S.Agata, sepolto all'interno di una urna di piombo contenente ceneri e ossa bruciate.</seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied"></provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 719</acquisition>
                     </history>
                     <additional>
@@ -130,7 +157,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it">funeraria</seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -139,6 +169,7 @@
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made initial revision of the EpiDoc, added translation</change>
                 <change when="2017-06-23" who="#JP">Jonathan Prag revised the text division, added Italian translation and commentary</change>
+                <change when="2017-06-29" who="#JP">Jonathan Prag added Italian elements and further revised the file</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -169,9 +200,9 @@
                     <lb n="3" break="no"/>
                          <supplied reason="lost">οι</supplied>ς</name> ἐ<choice><corr>ν</corr><sic>ι</sic></choice> κόλποις
                     <lb n="4"/>
-                        <supplied reason="lost">λ</supplied><unclear>α</unclear>χὼν <persName> Εὐτύχι
+                        <supplied reason="lost">λ</supplied><unclear>α</unclear>χὼν <persName> <name>Εὐτύχι
                     <lb n="5" break="no"/>
-                        <supplied reason="lost">ος</supplied></persName> ἐνθὰδε κῖτε
+                        <supplied reason="lost">ος</supplied></name></persName> ἐνθὰδε κῖτε
                     <lb n="6"/>
                         <supplied reason="lost">ζήσ</supplied>ας ἔτη <num value="35"><hi rend="supraline"> λε</hi></num> τε
                     <lb n="7" break="no"/>
@@ -192,7 +223,8 @@
                 <p>Qui giace  Eutychios che, per la sua fede, ha ricevuto il suo posto nel grembo di Abramo. Dopo aver vissuto 35 anni, morì sei giorni prima delle Idi di  [---]ber.</p>
             </div>
             <div type="commentary">
-                <p>Eutychios is a fairly common name, but rare in Sicily. The text is Christian, as indicated by the phrase enthade kite and the chi-rho symbol at the end, but the initial phrase is strongly Jewish in form. Some have suggested that Eutychios was Jew who converted to Christianity, but it is simpler to see this as a good example of the extensive interaction and influence between the Christian and Jewish communities in ancient Catania.</p>
+                <seg xml:lang="en"><p>Eutychios is a fairly common name, but rare in Sicily. The text is Christian, as indicated by the phrase enthade kite and the chi-rho symbol at the end, but the initial phrase is strongly Jewish in form. Some have suggested that Eutychios was Jew who converted to Christianity, but it is simpler to see this as a good example of the extensive interaction and influence between the Christian and Jewish communities in ancient Catania.</p></seg>
+                <seg xml:lang="it"><p>Eutychios è un nome abbastanza comune, ma raro in Sicilia. Il testo è cristiano, come indicato dalla frase enthade kite e dal simbolo chi-rho alla fine, ma la frase iniziale è fortemente ebraica nella forma. Qualcuno ha suggerito che Eutychios fosse un ebreo, convertito al cristianesimo, ma è più semplice vedere questo come un tipico esempio dell'interazione e delle relazioni tra le comunità cristiane ed ebraiche dell'antica Catania.</p></seg>
             </div>
             <div type="bibliography">
                 <listBibl>

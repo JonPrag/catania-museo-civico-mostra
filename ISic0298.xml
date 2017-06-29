@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dedication to the Genius of the city of Catania</title>
+                <title>
+                    <seg xml:lang="en">Dedication to the Genius of the city of Catania</seg>
+                    <seg xml:lang="it">Dedica al Genius della città di Catania</seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -28,10 +31,15 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic0298</idno>
+                <idno type="mostravoci">12</idno>
                 <idno type="TM">175826</idno>
                 <idno type="EDR">074187</idno>
                 <idno type="EDH"/>
@@ -56,15 +64,27 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble (white)</material>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
-                                    <p>A tablet of white marble, smooth on the sides and the reverse, with the remains of a raised border (a moulding?) on the right side. The front face is lightly convex.</p>
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble (white)</seg>
+                                        <seg xml:lang="it">marmo (bianco)</seg>
+                                    </material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                                        <seg xml:lang="en">tablet</seg>
+                                        <seg xml:lang="it">lastra</seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en">A tablet of white marble, smooth on the sides and the reverse, with the remains of a raised border (a moulding?) on the right side. The front face is lightly convex.</seg>
+                                    <seg xml:lang="it"></seg>
+                                    </p>
                                     <dimensions>
                                         <height unit="cm">62</height>
                                         <width unit="cm">58</width>
@@ -74,13 +94,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
-                           <p>The text is preserved intact, over seven lines, although the edge of the surviving stone clips the tops of the letters of the first line. The letters diminish in size over the first four lines, with a vacat in the second half of line four; the final three lines are larger again. The left margin of the text is maintained regularly, the right margin varies from line to line.</p>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it">Inciso</seg>
+                                    </rs>
+                                    <seg xml:lang="en"><p>The text is preserved intact, over seven lines, although the edge of the surviving stone clips the tops of the letters of the first line. The letters diminish in size over the first four lines, with a vacat in the second half of line four; the final three lines are larger again. The left margin of the text is maintained regularly, the right margin varies from line to line.</p></seg>
+                                   <seg xml:lang="it"><p></p></seg>
                         </layout>
                        </layoutDesc>
                       </objectDesc>
                         <handDesc>
-                            <handNote>The letters are deeply but somewhat irregularly cut, with some internal variation (e.g. A appears with both broken and straight bar; E appears both as a tall narrow standard E and and as a vertical stroke with a single horizontal bar across the middle; V appears both as V and as Y). Interpuncts are mostly absent, except after VC and CONS in the final two lines.
+                            <handNote>
+                                <seg xml:lang="en"><p>The letters are deeply but somewhat irregularly cut, with some internal variation (e.g. A appears with both broken and straight bar; E appears both as a tall narrow standard E and and as a vertical stroke with a single horizontal bar across the middle; V appears both as V and as Y). Interpuncts are mostly absent, except after VC and CONS in the final two lines.</p></seg>
+                                <seg xml:lang="it"></seg>
                         <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">60-80</height>
@@ -107,9 +133,15 @@
                                 </placeName>
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="Lb" notBefore-custom="0337" notAfter-custom="0421">Munatidius is not otherwise known; the mention of three Domini requires one of the periods  337-340, 367-378, 379-383, 388-395, 402-408, and 421. A precise choice is not possible, but the consensus amongst scholars is for a date in the fourth century rather than later</origDate>
+                            <origDate n="Lb" notBefore-custom="0337" notAfter-custom="0421">
+                                <seg xml:lang="en">Munatidius is not otherwise known; the mention of three Domini requires one of the periods  337-340, 367-378, 379-383, 388-395, 402-408, and 421. A precise choice is not possible, but the consensus amongst scholars is for a date in the fourth century rather than later</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found">Found 18 May 1770 in excavations in the ancient theatre of Catania<geo>37.502748, 15.083639</geo>, by the Principe di Biscari</provenance>
+                        <provenance type="found">
+                            <seg xml:lang="en">Found 18 May 1770 in excavations in the ancient theatre of Catania<geo>37.502748, 15.083639</geo>, by the Principe di Biscari</seg>
+                            <seg xml:lang="it">Trovato da Biscari, il 18 maggio del 1770, negli scavi del Teatro Romano, Catania <geo>37.502748, 15.083639</geo></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2016.05.13</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 2</acquisition>
                     </history>
@@ -134,7 +166,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="dedication" ref="http://www.eagle-network.eu/voc/typeins/lod/88.html">dedication</term>
+                    <term n="dedication" ref="http://www.eagle-network.eu/voc/typeins/lod/88.html">
+                        <seg xml:lang="en">dedication</seg>
+                        <seg xml:lang="it">dedica</seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -149,24 +184,42 @@
     <facsimile>
         <surface type="front">
             <graphic n="screen" url="ISic0298_tiled.tif" height="4192px" width="3680px">
-                <desc>Photograph of front face by J. Prag</desc>
+                <desc>
+                            <seg xml:lang="en">Photograph of front face by J. Prag</seg>
+                            <seg xml:lang="it"></seg>
+                </desc>
             </graphic>
             <graphic n="print" url="ISic0298.jpg" height="4192px" width="3680px">
-                <desc>Photograph of front face by J. Prag</desc>
+                <desc>
+                        <seg xml:lang="en">Photograph of front face by J. Prag</seg>
+                        <seg xml:lang="it">Foto da J. Prag</seg>
+                </desc>
             </graphic>
             <graphic n="screen" url="ISic0298_alt_tiled.tif" height="2856px" width="4272px">
-                <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+                <desc>
+                              <seg xml:lang="en">Photograph of front face by Liceo M.M. Lazzaro</seg>
+                             <seg xml:lang="it">Foto da Liceo M.M. Lazzaro</seg>
+                </desc>
             </graphic>
             <graphic n="print" url="ISic0298_alt.jpg" height="2856px" width="4272px">
-                <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+                <desc>
+                            <seg xml:lang="en">Photograph of front face by Liceo M.M. Lazzaro</seg>
+                            <seg xml:lang="it">Foto da Liceo M.M. Lazzaro</seg>
+                </desc>
             </graphic>
         </surface>
         <surface type="threequarter">
             <graphic n="screen" url="ISic0298_threequarter_tiled.tif" height="2856px" width="4272px">
-                <desc>Photograph by Liceo M.M. Lazzaro</desc>
+                <desc>
+                            <seg xml:lang="en">Photograph by Liceo M.M. Lazzaro</seg>
+                            <seg xml:lang="it">Foto da Liceo M.M. Lazzaro</seg>
+                </desc>
             </graphic>
             <graphic n="print" url="ISic0298_threequarter.jpg" height="2856px" width="4272px">
-                <desc>Photograph by Liceo M.M. Lazzaro</desc>
+                <desc>
+                        <seg xml:lang="en">Photograph by Liceo M.M. Lazzaro</seg>
+                        <seg xml:lang="it">Foto da Liceo M.M. Lazzaro</seg>
+                </desc>
             </graphic>
         </surface>
     </facsimile>
@@ -175,7 +228,7 @@
             <div type="edition" xml:lang="la">
                 <ab>
                     <lb n="1"/>Vernantibus
-                    <lb n="2"/>saeculis <expan><abbr>d<am>dd</am></abbr><ex>ominorum</ex></expan><expan><abbr> n<am>nn</am></abbr>     <ex>ostrorum</ex></expan>
+                    <lb n="2"/>saeculis <expan><abbr>d<am>dd</am></abbr><ex>ominorum</ex></expan> <expan><abbr> n<am>nn</am></abbr>     <ex>ostrorum</ex></expan>
                     <lb n="3"/>Genio splendidae ur
                     <lb break="no" n="4"/>bis <placeName>Catinae</placeName>
                     <lb n="5"/><persName><name>Facundus </name> <name>Porfyrius </name>
@@ -186,15 +239,16 @@
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation" xml:lang="en" resp="#JP">
                 <p>At the dawn of the new age of our threefold lordship, (dedicated) to the Genius of the splendid city of Catania. Facundus Porfyrius Mynatidius, vir clarissimus, consular governor of the same (city?) (set this up).</p>
             </div>
-            <div type="translation" xml:lang="it">
+            <div type="translation" xml:lang="it" resp="#SA">
                 <p>Nel rifiorire dell'era dei nostri tre signori, al genio della splendida città di Catania (dedicò) Facundio Porfirio Munatidio, uomo di grande fama (vir clarissimus) Governatore Consolare della stessa (città?).
                 </p>
             </div>
             <div type="commentary">
-                <p>The text (on imported marble) would have been fixed to the base of a statue of the Genius of the city of Catania, probably erected on the stage-building of the theatre. The Genius was the protective spirit of a person or a thing. Dedications to the Genius of the Emperor were common, but also to cities (e.g. both a statue and temple of the Genius of the city of Lilybaeum = Marsala are mentioned in other inscriptions). Facundus Porfyrius is not otherwise known. The precise significance of 'cons eiusdem' in line 7 is extensively debated and several alternatives have been suggested: the most likely interpretation is 'consularis eiusdem', signifying consularis of the same city, i.e. Catania, and so by extension / implication the province of Sicily.</p>
+                <seg xml:lang="en"><p>The text (on imported marble) would have been fixed to the base of a statue of the Genius of the city of Catania, probably erected on the stage-building of the theatre. The Genius was the protective spirit of a person or a thing. Dedications to the Genius of the Emperor were common, but also to cities (e.g. both a statue and temple of the Genius of the city of Lilybaeum = Marsala are mentioned in other inscriptions). Facundus Porfyrius is not otherwise known. The precise significance of 'cons eiusdem' in line 7 is extensively debated and several alternatives have been suggested: the most likely interpretation is 'consularis eiusdem', signifying consularis of the same city, i.e. Catania, and so by extension / implication the province of Sicily.</p></seg>
+                <seg xml:lang="it"><p>Il testo ( su marmo di importazione) potrebbe essere stato fissato alla base di una  statua del Genio della città di Catania, probabilmente eretta nel palcoscenico del teatro. Il Genius era lo spirito protettivo di una persona o di una cosa. Dediche al Genius dell’Imperatore  erano comuni, così come quelle al Genio delle città ( ad esempio una statua e un tempio dedicati al Genio della città di Lilibeo/ Marsala sono citati in altre iscrizioni). Facundus Porfyrius non è altrimenti conosciuto. Sebbene l’ interpretazione dell’ultima riga sia incerta, l’ipotesi migliore è che si riferisca al governatore consolare della Sicilia</p></seg>
             </div>
             <div type="bibliography">
                 <listBibl>
