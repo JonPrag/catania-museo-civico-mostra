@@ -28,6 +28,10 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
@@ -44,9 +48,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country>Italy</country>
-                        <region>Sicily</region>
-                        <settlement>Paris, France</settlement>
+                        <country>France</country>
+                        <region></region>
+                        <settlement>Paris</settlement>
                         <repository role="museum">Louvre</repository>
                         <idno type="inventory">MA2994</idno>
                         <altIdentifier>
@@ -62,27 +66,31 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="stone" ref="http://www.eagle-network.eu/voc/material/lod/2.html">stone</material>
-                                    <dimensions><!--Default values and requires editing-->
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tablet</objectType>
+                                    <p>A slab of Luna marble, partly corroded in the centre. Slighty convex in form (thinner at the edges). Intact on all sides. The rear is unfinished.</p>
+                                    <dimensions>
+                                        <height unit="cm">48.5</height>
+                                        <width unit="cm">47</width>
+                                        <depth unit="cm">3-4</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <p>Thirteen lines of Latin text, filling the available space.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote>
+                                <p>Deeply engraved letters, somewhat irregular.</p>
+                                <locus from="line1" to="line13">Lines 1-13</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
+                                    <height unit="mm">15-20</height>
                                 </dimensions>
-                                <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
+                                <locus from="line1" to="line2">Not measured</locus>
                                 <dimensions type="interlinear">
                                     <height unit="mm"/>
                                 </dimensions>
@@ -92,13 +100,11 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="La" notBefore-custom="0300" notAfter-custom="0350">First quarter of the C4 AD (W)</origDate>
+                            <origDate n="La" notBefore-custom="0300" notAfter-custom="0329">First quarter of the C4 AD</origDate>
                         </origin>
                         <provenance type="found"/>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
@@ -118,7 +124,7 @@
                     <p>Julian Calendar</p>
                 </calendar>
             </calendarDesc>
-            <langUsage><!--English and Italian added by default (for translations) delete where not appropriate.-->
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="it">Italian</language>
                 <language ident="la">Latin</language>
@@ -154,7 +160,7 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:lang="la"><!-- text needs converting fully into EpiDoc still and editing-->
+            <div type="edition" xml:lang="la"><!-- text needs editing-->
                 <ab>
                     <lb n="1"/>Iuliae Florentinae infan(t)i dulcissimae atq(ue) in-
                     <lb n="2" break="no"/>nocentissimae fideli factae parens conlocavit
@@ -176,6 +182,21 @@
             </div>
             <div type="translation" xml:lang="en" resp="#JP">
                 <p>To Iulia Florentina, a most sweet and innocent child, who became an adherent of the faith, (this monument) her father has set up. She was born a pagan before dawn on the day before the Nones of March (= 6 March) in the year that Zoilus was corrector (= governor) of the province, and having lived 18 months and 22 days she was made faithful (i.e. became a Christian) at the eighth hour of the night, when breathing her last, and survived four hours returned to her former self. She died at Hybla at the first hour on the seventh day before the Kalends of October (= 25 September). While both parents at every moment throughout the night were lamenting her death, the voice of majesty issued forth to order them not to week over the dead girl. Her body was buried by the presbyter in her Christian grave in front of the doors of the Shrine of the Christian Martyrs on the fourth day before the Nones of October (= 3 October).</p>
+            </div>
+            <div type="translation" xml:lang="it" resp="#SA">
+                <p>A Iulia Florentina, infante dolcissima e
+                    innocentissima, divenuta fedele, il padre pose; lei,
+                    il giorno prima delle none di marzo (= 6 marzo) prima del far
+                    del giorno, nata pagana, mentre Zoilos era correttore
+                    della provincia, a 18 mesi e a 22 giorni compiuti
+                    divenuta fedele, all'ora ottava della notte rendendo
+                    l'ultimo sospiro, sopravvisse quattro ore sì da
+                    ripetere gli atti consueti, e morì a Ibla la prima ora
+                    del giorno, sette giorni prima delle calende di
+                    ottobre (= 25 settembre). [...] Il suo corpo [si trova]
+                    davanti alle porte dei martiri dove nel proprio loculo
+                    è stato inumato per mezzo del presbitero 4 giorni
+                    prima delle none di ottobre (= 3 ottobre).  </p>
             </div>
             <div type="commentary">
                 <p><!--commented out pending revision-->
@@ -203,6 +224,12 @@
                         <date>1953</date>
                         <citedRange>no.85</citedRange>
                         <ptr target="https://www.zotero.org/groups/382445/items/D9BZFDDR"/>
+                    </bibl>
+                    <bibl>
+                        <author>Manganaro</author>
+                        <date>1958-1959</date>
+                        <citedRange>10-15 no.2 fig.2</citedRange>
+                        <ptr target="http://zotero.org/groups/382445/items/BVD8KVF7"/>
                     </bibl>
                     <bibl>
                         <author>Ducroux</author>
