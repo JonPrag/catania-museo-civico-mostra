@@ -53,7 +53,11 @@
                   <region>Sicily</region>
                   <settlement>Catania</settlement>
                   <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+<<<<<<< HEAD
                   <idno type="inventory"></idno>
+=======
+                  <idno type="inventory">841</idno>
+>>>>>>> a3dbacb66b2c0503c64472bf17d15d9e26391e05
                   <altIdentifier>
                      <settlement/>
                      <repository/>
