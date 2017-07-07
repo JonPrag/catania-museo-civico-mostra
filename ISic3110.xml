@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Funerary inscription for Philokles</title>
+                <title>
+                    <seg xml:lang="en">Funerary inscription for Philokles</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -28,10 +31,15 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic3110</idno>
+                <idno type="mostravoci">3</idno>
                 <idno type="TM">645455</idno>
                 <idno type="EDR"/>
                 <idno type="EDH"/>
@@ -56,14 +64,28 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="grc">Ancient Greek</textLang>
+                        <textLang mainLang="grc">
+                            <seg xml:lang="en">Ancient Greek</seg>
+                            <seg xml:lang="it"></seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">limestone (orange)</material>
-                                    <dimensions><!--Default values and requires editing-->
+                                    <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">
+                                        <seg xml:lang="en">limestone (orange)</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </material>
+                                    <objectType n="" ref="">
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
+                                    <dimensions>
                                         <height unit="cm"/>
                                         <width unit="cm"/>
                                         <depth unit="cm"/>
@@ -72,12 +94,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
+                            <handNote>
+                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -92,15 +121,19 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="GH" notBefore-custom="-0200" notAfter-custom="-0001">C2 BC - C1 BC (Korhonen)</origDate>
+                            <origDate n="GH" notBefore-custom="-0200" notAfter-custom="-0001">
+                                <seg xml:lang="en">Second or first century BC</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found"/>
+                        <provenance type="found">
+                            <seg xml:lang="en"></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 929</acquisition>
                     </history>
@@ -125,7 +158,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -133,6 +169,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag revised the EpiDoc and added translation</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -167,8 +204,14 @@
             <div type="translation" xml:lang="en" resp="#JP">
                 <p>Farewell worthy Philokles!</p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it" resp="#SA">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p>Although the stone is damaged, it seems likely that the text is complete. The formula is a typical one of Greek funerary inscriptions, particularly of the later Hellenistic and early Imperial period, and addresses the deceased directly (compare the bilingual example no.22). The name Philokles is a common one, found elsewhere in Sicily (e.g. at Akrai and Monte San Fratello = ancient Apollonia). The relatively poor quality of the epitaph and the material suggest that this tombstone probably comes from the rural hinterland of Catania, and not from the city itself.</p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

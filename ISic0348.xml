@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bilingual funerary inscription for Quintus Domitius</title>
+                <title>
+                    <seg xml:lang="en">Bilingual funerary inscription for Quintus Domitius</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -28,10 +31,15 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic0348</idno>
+                <idno type="mostravoci">22</idno>
                 <idno type="TM">491557</idno>
                 <idno type="EDR"/>
                 <idno type="EDH"/>
@@ -57,14 +65,28 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la" otherLangs="grc">Latin and Ancient Greek</textLang>
+                        <textLang mainLang="la" otherLangs="grc">
+                            <seg xml:lang="en">Latin and Ancient Greek</seg>
+                            <seg xml:lang="it"></seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">limestone</material>
-                                    <dimensions><!--Default values and requires editing-->
+                                    <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">
+                                        <seg xml:lang="en">limestone</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                                        <seg xml:lang="en">tablet</seg>
+                                        <seg xml:lang="it">lastra</seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
+                                    <dimensions>
                                         <height unit="cm"/>
                                         <width unit="cm"/>
                                         <depth unit="cm"/>
@@ -73,12 +95,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
+                            <handNote>
+                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -93,15 +122,18 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
-                                </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo></placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="HbIa" notBefore-custom="-0050" notAfter-custom="-0050">Second half C1 BC or first half C1 AD (K)</origDate>
+                            <origDate n="HbIa" notBefore-custom="-0050" notAfter-custom="-0050">
+                                <seg xml:lang="en">Second half C1 BC or first half C1 AD</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found"/>
+                        <provenance type="found">
+                            <seg xml:lang="en"></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 939</acquisition>
                     </history>
@@ -127,7 +159,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -135,6 +170,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made initial revision of EpiDoc, edited text, added translation</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -172,10 +208,16 @@
                     Quintus Domitius, pious, farewell!
                 </p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it" resp="#SA">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
           <!--Q.Domitei peie | Salve; repeated in Greek: Kointe Domitie | eusebe chaire - but note that a) Q. in Latin is written out in full in the Greek; b) the vocative forms of Domitius are diff; Lat: Domitei; Gr: Domitie; Pius in Latin (written Peie) is tranlsated into Eusebe in Greek (Mommsen thought it a name, but Korhonen thinks epithet). Salve becomes Chaire. Korhonen notes also the absence therefore of cognomen, and so this should be a freeborn individual; furthermore the palaeography suggests to K that the cutter was inexperienced with Latin letters, and k notes the omission of filiation. The slab was the tympanon of a tomb (IMusCat 2 reused in a similar tomb).-->
                 </p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Funerary inscription for Aphrodito, a mime actress</title>
+                <title>
+                    <seg xml:lang="en">Funerary inscription for Aphrodito, a mime actress</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -28,10 +31,15 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic0330</idno>
+                <idno type="mostravoci">18</idno>
                 <idno type="TM">491539</idno>
                 <idno type="EDR">139551</idno>
                 <idno type="EDH"/>
@@ -56,14 +64,28 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                                    <dimensions><!--Default values and requires editing-->
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble</seg>
+                                        <seg xml:lang="it">marmo</seg>
+                                    </material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                                        <seg xml:lang="en">tablet</seg>
+                                        <seg xml:lang="it">lastra</seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
+                                    <dimensions>
                                         <height unit="cm"/>
                                         <width unit="cm"/>
                                         <depth unit="cm"/>
@@ -72,12 +94,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
+                            <handNote>
+                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -92,15 +121,18 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
-                                </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo></placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="JKa" notBefore-custom="0100" notAfter-custom="0250">C2 AD or beginning of C3 AD (K)</origDate>
+                            <origDate n="JKa" notBefore-custom="0100" notAfter-custom="0250">
+                                <seg xml:lang="en">C2 AD or beginning of C3 AD</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found"/>
+                        <provenance type="found">
+                            <seg xml:lang="en"></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 390</acquisition>
                     </history>
@@ -125,7 +157,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -133,6 +168,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made initial revisions of the EpiDoc</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -154,38 +190,23 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:lang="la"><!-- text imported from EDR, requires revision -->
+            <div type="edition" xml:lang="la">
                 <ab>
                     <lb n="1"/>
-                    <expan>
-                        <abbr>D</abbr>
-                        <ex>is</ex>
-                    </expan>
-                    <expan>
-                        <abbr> M</abbr>
-                        <ex>anibus</ex>
-                    </expan>
-                    <expan>
-                        <abbr> s</abbr>
-                        <ex>acrum</ex>
-                    </expan>
-                    <lb n="2"/>Aphrodito
-                    <lb n="3"/>mimas<expan>
-                        <abbr> vix</abbr>
-                        <ex>it</ex>
-                    </expan>
+                    <expan><abbr>D</abbr><ex>is</ex></expan>
+                    <expan><abbr> M</abbr><ex>anibus</ex></expan>
+                    <expan><abbr> s</abbr><ex>acrum</ex></expan>
+                    <lb n="2"/>
+                    <persName><name>Aphrodito</name></persName>
+                    <lb n="3"/>
+                    mimas <expan><abbr> vix</abbr><ex>it</ex></expan>
                     <lb n="4"/>
-                    <expan>
-                        <abbr>ann</abbr>
-                        <ex>is</ex>
-                    </expan> XXXX
-                    <lb n="5"/>Eutychus con
-                    <lb break="no" n="6"/>iugi merenti<expan>
-                        <abbr> f</abbr>
-                        <ex>ecit</ex>
-                    </expan>
+                    <expan><abbr>ann</abbr><ex>is</ex></expan> <num value="40">XXXX</num>
+                    <lb n="5"/>
+                    <persName><name>Eutychus</name></persName> con
+                    <lb break="no" n="6"/>
+                    iugi merenti<expan><abbr> f</abbr><ex>ecit</ex></expan>
 	</ab>
-            <!--This EDR text 139551 originally came via the Europeana EAGLE project, http://www.eagle-network.eu/-->
             </div>
             <div type="apparatus">
                 <p><!--external apparatus criticus (if applicable)--></p>
@@ -193,10 +214,16 @@
             <div type="translation" xml:lang="en" resp="#JP">
                 <p>Sacred to the spirits of the underworld. Aphrodito the mime lived for 40 years. Eutychus (set this up) for his deserving wife.</p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
           <!--D.M.S. / Aphrodito / mimas vix(it) / ann(is) XXXX / Eutychus con / iugi merenti f(ecit). As K observes, inscr. is notable for recording a mime actress, and the rarity of the profession in inscrs implies that Aphrodite (a rare name in Latin inscrs) probably acquired a certain level of fame.-->
                 </p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

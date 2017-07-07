@@ -82,8 +82,10 @@
                                         <seg xml:lang="en">plaque</seg>
                                         <seg xml:lang="it">lastra</seg>
                                     </objectType>
-                                    <seg xml:lang="en"><p></p></seg><!-- object descriptoin to add-->
-                                    <seg xml:lang="it"><p></p></seg>
+                                   <p>
+                                    <seg xml:lang="en"></seg><!-- object descriptoin to add-->
+                                    <seg xml:lang="it"></seg>
+                                   </p>
                                     <dimensions>
                                         <height unit="cm">20.7</height>
                                         <width unit="cm">18.5</width>
@@ -97,15 +99,15 @@
                                         <seg xml:lang="en">Engraved</seg>
                                         <seg xml:lang="it">Incisa</seg>
                                     </rs>
-                                    <seg xml:lang="en"><p></p></seg><!-- description of epigraphic field to add -->
-                                    <seg xml:lang="it"><p></p></seg>
+                                    <seg xml:lang="en"></seg><!-- description of epigraphic field to add -->
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote><!--handnote to add-->
-                                <seg xml:lang="en"><p></p></seg>
-                                <seg xml:lang="it"><p></p></seg>
+                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line8">Lines 1-8</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">13-20</height>
@@ -222,9 +224,11 @@
             <div type="translation" xml:lang="it" resp="#SA">
                 <p>Qui giace  Eutychios che, per la sua fede, ha ricevuto il suo posto nel grembo di Abramo. Dopo aver vissuto 35 anni, morì sei giorni prima delle Idi di  [---]ber.</p>
             </div>
-            <div type="commentary">
-                <seg xml:lang="en"><p>Eutychios is a fairly common name, but rare in Sicily. The text is Christian, as indicated by the phrase enthade kite and the chi-rho symbol at the end, but the initial phrase is strongly Jewish in form. Some have suggested that Eutychios was Jew who converted to Christianity, but it is simpler to see this as a good example of the extensive interaction and influence between the Christian and Jewish communities in ancient Catania.</p></seg>
-                <seg xml:lang="it"><p>Eutychios è un nome abbastanza comune, ma raro in Sicilia. Il testo è cristiano, come indicato dalla frase enthade kite e dal simbolo chi-rho alla fine, ma la frase iniziale è fortemente ebraica nella forma. Qualcuno ha suggerito che Eutychios fosse un ebreo, convertito al cristianesimo, ma è più semplice vedere questo come un tipico esempio dell'interazione e delle relazioni tra le comunità cristiane ed ebraiche dell'antica Catania.</p></seg>
+            <div type="commentary" xml:lang="en">
+                <p>Eutychios is a fairly common name, but rare in Sicily. The text is Christian, as indicated by the phrase enthade kite and the chi-rho symbol at the end, but the initial phrase is strongly Jewish in form. Some have suggested that Eutychios was Jew who converted to Christianity, but it is simpler to see this as a good example of the extensive interaction and influence between the Christian and Jewish communities in ancient Catania.</p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p>Eutychios è un nome abbastanza comune, ma raro in Sicilia. Il testo è cristiano, come indicato dalla frase enthade kite e dal simbolo chi-rho alla fine, ma la frase iniziale è fortemente ebraica nella forma. Qualcuno ha suggerito che Eutychios fosse un ebreo, convertito al cristianesimo, ma è più semplice vedere questo come un tipico esempio dell'interazione e delle relazioni tra le comunità cristiane ed ebraiche dell'antica Catania.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

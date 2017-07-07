@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fragment of inscription recording building works</title>
+                <title>
+                    <seg xml:lang="en">Fragment of inscription recording building works</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -27,6 +30,10 @@
                 <respStmt>
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -56,14 +63,28 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                                    <dimensions><!--Default values and requires editing-->
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble</seg>
+                                        <seg xml:lang="it">marmo</seg>
+                                    </material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                                        <seg xml:lang="en">tablet</seg>
+                                        <seg xml:lang="it">lastra</seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
+                                    <dimensions>
                                         <height unit="cm"/>
                                         <width unit="cm"/>
                                         <depth unit="cm"/>
@@ -72,12 +93,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
+                            <handNote>
+                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -92,15 +120,19 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="Jb" notBefore-custom="0150" notAfter-custom="0200">164 - 166 AD or similar date (Korhonen)</origDate>
+                            <origDate n="Jb" notBefore-custom="0150" notAfter-custom="0200">
+                                <seg xml:lang="en">164 - 166 AD or similar date</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found"/>
+                        <provenance type="found">
+                            <seg xml:lang="en"></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 632</acquisition>
                     </history>
@@ -125,7 +157,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">building</term>
+                    <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">
+                        <seg xml:lang="en">building</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -133,6 +168,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made preliminary revisions of the EpiDoc</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -211,13 +247,19 @@
             <div type="apparatus">
                 <p><!--external apparatus criticus (if applicable)--></p>
             </div>
-            <div type="translation">
+            <div type="translation" xml:lang="en">
                 <p><!--translation(s) - add @xml:lang for 'en' or 'it' to div--></p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p>Two non-joining fragments which may be part of the letter of Iulius Paternus (ISic0308), or may be part of a separate but similar document</p>
                 <!--commented out pending revision-->
           <!--two non-joining frr., considered by Mommsen and others (e.g. Manganaro 1989) to be part of the letter of Iulius Paternus of CIL 10.7024.i; however Manganaro (1959a), and now Korhonen, consider these two frr. to be part of a separate but contextually similar inscription, recording sums of money and building works linked to the port, and so probably also by Iulius Paternus, or under him; note also the word Augusteum, reference to a temple of the imperial cult (but not necessarily Augustus ipse); cf. Manganaro (1989c) 169 no.34. Libertini (1930) publishes the smaller fragment as if unpublished (misses Mommsen)-->
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>
@@ -240,16 +282,16 @@
                         <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
                     </bibl>
                     <bibl>
-                        <author>Manganaro</author>
-                        <date>1959</date>
-                        <citedRange>156-158 no.A fig.2</citedRange>
-                        <ptr target="https://www.zotero.org/groups/382445/items/Q2Z7V4D6"/>
-                    </bibl>
-                    <bibl>
                         <author>Libertini</author>
                         <date>1930</date>
                         <citedRange>315 no.5</citedRange>
                         <ptr target="https://www.zotero.org/groups/382445/items/SKUU2R8X"/>
+                    </bibl>
+                    <bibl>
+                        <author>Manganaro</author>
+                        <date>1959</date>
+                        <citedRange>156-158 no.A fig.2</citedRange>
+                        <ptr target="https://www.zotero.org/groups/382445/items/Q2Z7V4D6"/>
                     </bibl>
                 </listBibl>
             </div>

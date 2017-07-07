@@ -4,7 +4,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Voci di pietra mostra no.4: Funerary urn of Titus Iunius Festus</title>
+            <title>
+               <seg xml:lang="en">Funerary urn of Titus Iunius Festus</seg>
+               <seg xml:lang="it"></seg>
+            </title>
             <editor ref="#JP">Jonathan Prag</editor>
             <principal ref="#JP">Jonathan Prag</principal>
             <funder>John Fell OUP Research Fund</funder>
@@ -53,11 +56,7 @@
                   <region>Sicily</region>
                   <settlement>Catania</settlement>
                   <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
-<<<<<<< HEAD
-                  <idno type="inventory"></idno>
-=======
-                  <idno type="inventory">841</idno>
->>>>>>> a3dbacb66b2c0503c64472bf17d15d9e26391e05
+                  <idno type="inventory">No inventory number</idno>
                   <altIdentifier>
                      <settlement/>
                      <repository/>
@@ -65,15 +64,27 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la" >Latin</textLang>
+                  <textLang mainLang="la" >
+                     <seg xml:lang="en">Latin</seg>
+                     <seg xml:lang="it">Latino</seg>
+                  </textLang>
                </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78.html">Cinerary urn</objectType>
-                           <p>A marble funerary urn decorated on the sides with cornucopia, and on the front with theatrical masks, from which hang garlands, with birds above and below. The rear is unfinished.</p>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                              <seg xml:lang="en">marble</seg>
+                              <seg xml:lang="it">marmo</seg>
+                           </material>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78.html">
+                              <seg xml:lang="en">Cinerary urn</seg>
+                              <seg xml:lang="it"></seg>
+                           </objectType>
+                           <p>
+                              <seg xml:lang="en">A marble funerary urn decorated on the sides with cornucopia, and on the front with theatrical masks, from which hang garlands, with birds above and below. The rear is unfinished.</seg>
+                              <seg xml:lang="it"></seg>
+                           </p>
                            <dimensions>
                               <height unit="cm">18</height>
                               <width unit="cm">25.5</width>
@@ -83,14 +94,19 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
-                           <p>Latin text engraved over five lines in a framed panel in the upper middle of the front face of the urn. The text is centred and reduces slightly in size over the five lines.</p>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                              <seg xml:lang="en">Engraved</seg>
+                              <seg xml:lang="it"></seg>
+                           </rs>
+                           <seg xml:lang="en">Latin text engraved over five lines in a framed panel in the upper middle of the front face of the urn. The text is centred and reduces slightly in size over the five lines.</seg>
+                           <seg xml:lang="it"></seg>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <p>Wide moderately regular letters of the high imperial period, with basic serifs. R and B are closed. Traces of red paint are preserved in many of the letters.</p>
+                        <seg xml:lang="en">Wide moderately regular letters of the high imperial period, with basic serifs. R and B are closed. Traces of red paint are preserved in many of the letters.</seg>
+                        <seg xml:lang="it"></seg>
                         <locus from="line1" to="line5">Lines 1-5</locus>
                         <dimensions type="letterHeight">
                            <height unit="mm">7-12</height>
@@ -107,14 +123,25 @@
                      <origPlace datingMethod="#julian">
                         <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025">Roma<geo>41.891775, 12.486136</geo>
                         </placeName>
-                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html">Rome<geo></geo>
-                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html">Rome</placeName>
                      </origPlace>
-                     <origDate notBefore-custom="0050" notAfter-custom="0150">Second half of the first or first half of the second century AD</origDate>
+                     <origDate notBefore-custom="0050" notAfter-custom="0150">
+                        <seg xml:lang="en">Second half of the first or first half of the second century AD</seg>
+                        <seg xml:lang="it"></seg>
+                     </origDate>
                   </origin>
-                  <provenance type="found">Unknown</provenance>
-                  <provenance type="observed">First seen in Rome in the 17th century</provenance>
-                  <provenance type="observed">Recorded as acquired and transported to Sicily in 1748 by Scammacca</provenance>
+                  <provenance type="found">
+                     <seg xml:lang="en">Unknown</seg>
+                     <seg xml:lang="it"></seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="en">First seen in Rome in the 17th century</seg>
+                     <seg xml:lang="it"></seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="en">Recorded as acquired and transported to Sicily in 1748 by Scammacca</seg>
+                     <seg xml:lang="it"></seg>
+                  </provenance>
                   <provenance type="observed" subtype="autopsied" resp="#JP">2017.04.04</provenance>
                   <acquisition>Museo Civico di Catania, inv.841</acquisition>
                </history>
@@ -134,13 +161,17 @@
             </langUsage>
          <textClass>
             <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                  <seg xml:lang="en">Funerary</seg>
+                  <seg xml:lang="it"></seg>
+               </term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc status="draft">
          <listChange>
-            <change when="2017.06.28" resp="#JP">Jonathan Prag created the file from a template</change>
+            <change when="2017-6-28" resp="#JP">Jonathan Prag created the file from a template</change>
+            <change when="2017-07-06" resp="#JP">Jonathan Prag added parallel elements to template for Italian</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
@@ -179,10 +210,11 @@
          <div type="translation" xml:lang="it" resp="#SA">
             <p>Alle ombre di sotterra. Per Tito Iunio Festo, che visse 44 anni, Iunia Doris fece per suo marito.</p>
          </div>
-         <div type="commentary">
-            <p>
-               A typical example of a Roman funerary urn (for the ashes of the deceased). The lack of decoration on the rear reflects the fact that it would probably be invisible when placed in a niche in the wall of a tomb or columbarium. The Greek name Doris (Δωρίς) is fairly common, and frequently attested in Rome, principally as the name of a slave. It is likely therefore that Iunia Doris was formerly a slave (cf. H. Solin, Die griechischen Personennamen in Rom (Berlin 2003), vol.1 , p.534): either formerly a slave of Iunius Festus himself, who freed her before marrying her, or else both were slaves of a citizen called Titus Iunius, and once freed were able legally to marry as citizens.
-          </p>
+         <div type="commentary" xml:lang="en">
+            <p>A typical example of a Roman funerary urn (for the ashes of the deceased). The lack of decoration on the rear reflects the fact that it would probably be invisible when placed in a niche in the wall of a tomb or columbarium. The Greek name Doris (Δωρίς) is fairly common, and frequently attested in Rome, principally as the name of a slave. It is likely therefore that Iunia Doris was formerly a slave (cf. H. Solin, Die griechischen Personennamen in Rom (Berlin 2003), vol.1 , p.534): either formerly a slave of Iunius Festus himself, who freed her before marrying her, or else both were slaves of a citizen called Titus Iunius, and once freed were able legally to marry as citizens.</p>
+         </div>
+         <div type="commentary" xml:lang="it">
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>

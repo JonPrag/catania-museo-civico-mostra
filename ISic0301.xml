@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription recording restoration of a nymphaeum</title>
+                <title>
+                    <seg xml:lang="en">Inscription recording restoration of a nymphaeum</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -61,14 +64,23 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">limestone</material>
-                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tablet</objectType>
+                                    <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">
+                                        <seg xml:lang="en">limestone</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                                        <seg xml:lang-="en">tablet</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </objectType>
                                     <dimensions><!--measurements of Manganaro; to be checked-->
                                         <height unit="cm">53</height>
                                         <width unit="cm">72</width>
@@ -78,12 +90,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The form of the letter P is distinctive (found also in the letter of Iulius Paternus, ISic0308) with a horizontal stroke at the base.
+                            <handNote>
+                                <seg xml:lang="en">The form of the letter P is distinctive (found also in the letter of Iulius Paternus, ISic0308) with a horizontal stroke at the base.</seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -102,9 +121,15 @@
                                 </placeName>
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="Lb" notBefore-custom="0350" notAfter-custom="0400">c.370/379 (s.v. Fl.Ambrosius 5 in PLRE I)</origDate>
+                            <origDate n="Lb" notBefore-custom="0350" notAfter-custom="0400">
+                                <seg xml:lang="en">c.370/379 (on the basis of identification of Fl. Ambrosius 5 in PLRE I)</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found">Found in May 1771 in excavations undertaken by the Principe di Biscari on the northern side of Piazza Dante and the church of S. Nicolò<geo>37.504537, 15.080570</geo></provenance>
+                        <provenance type="found">
+                            <seg xml:lang="en">Found in May 1771 in excavations undertaken by the Principe di Biscari on the northern side of Piazza Dante and the church of S. Nicolò<geo>37.504537, 15.080570</geo></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2017.06.29</provenance>
                         <acquisition>Catania, Museo Civico</acquisition>
                     </history>
@@ -129,7 +154,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">building</term>
+                    <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">
+                        <seg xml:lang="en">building</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -137,7 +165,8 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made initial edits of the EpiDoc, added museum data and unconverted text</change>
-                <change when="2017-06-22" who="#JP">Jonathan Prag edited the text division and added further metadata</change>
+                <change when="2017-06-22" who="#JP">Jonathan Prag edited the text division after autopsy and added further metadata</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements to template for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -176,7 +205,7 @@
                     <lb n="7"/>
                     <supplied reason="lost">restitut</supplied>um adque usui populi splendidissi<hi rend="superscript">mae</hi>
                     <lb n="8"/>
-                    <supplied reason="lost" cert="low">urbis(?)</supplied><gap reason="lost" extent="unknown" unit="character"/>m redditum reformatumque est.
+                    <supplied reason="lost" cert="low">urbis Catinae (?)ite</supplied><gap reason="lost" extent="unknown" unit="character"/>m redditum reformatumque est.
                     <lb n="9"/>
                     <supplied reason="lost">Cur</supplied>ante · <persName><name><expan><abbr> Fl</abbr><ex>avio</ex></expan></name> · <name> Ambrosio</name></persName> · <expan><abbr> v</abbr><ex>iro</ex></expan> · <expan><abbr> p</abbr><ex>erfectissimo</ex></expan> ·  d<gap reason="illegible" quantity="2" unit="character"/> · pr<gap reason="illegible" quantity="1" unit="character"/>
                 </ab>
@@ -184,9 +213,9 @@
             <div type="apparatus">
                 <listApp>
                     <app><note>The restorations are those proposed by Manganaro, except for the divergences noted below</note></app>
-                    <app loc="Line7"><note >Manganaro: splendidissimi, but this is incompatible with what is visible on the stone</note></app>
-                    <app loc="Line8"><note>Manganaro: Catinensium, but something like 'urbis' is needed after 'splendidissimae'</note></app>
-                    <app loc="Line9"><note>Manganaro: d(ecurionum) [d(ecreto) a]er(e) p(ublico), but the traces on the stone are most readily resolved as: DẸC̣ PRỊ</note></app>
+                    <app loc="Line7"><note >Manganaro: splendidissimi; lapis: splendidissimae</note></app>
+                    <app loc="Line8"><note>Manganaro: Catinensium</note></app>
+                    <app loc="Line9"><note>Manganaro: d(ecurionum) [d(ecreto) a]er(e) p(ublico)</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#JP">
@@ -195,11 +224,14 @@
             <div type="translation" xml:lang="it" resp="#SA">
             <p>Il ninfeo, rovinato dall'abbandono di molti e disfatto da un grande crollo, e le cui acque, benché fornite da una nuova offerta, erano ancora così inquinate dal decadimento dei tubi che sembravano portare malanni su quelli che le bevevano, per il favore del più nobile Flavius Arsinius, governatore consolare della provincia di Sicilia, è stato restaurato e restituito per l'uso delle più splendide persone di Catania, ed è stato ristrutturato. Il lavoro è stato supervisionato dal  più perfetto Flavius Ambrosius, con decreto dei consiglieri comunali, a spese pubbliche. </p>
             </div>
-            <div type="commentary">
+            <div type="commentary" xml:lang="en">
                 <p>An earlier Greek text on the other side of this stone (ISic0649) records the original construction of the nymphaeum, the repair of which is recorded in this later Latin text. Flavius Ambrosius is mentioned by Symmachus, having been sent as a legate to the imperial court by the provincial council of Sicily (c.377-379 AD). Flavius Arsinius, could be identical with an Arsenius who was praised by Emperor Constantius II in 359 AD, and if so would have been governor of Sicily perhaps in the early 350s AD. It is possible that the collapse of the nymphaeum was connected to the major earthquake and tsunami of 365 AD. The stone bearing the earlier inscription was re-used in order to record the restoration. It is possible that it was displayed in such as way as to show both sides, but this is not common.</p>
                     <!--commented out pending revision-->
           <!--long text; the greek reverse is a verse inscr. of earlier C3 AD (Wilson 1990b: fig.153  = IG 14.453); stone re-used for the lat - i.e. NOT a bilingual - Gr. text is IG 14.453 (note that Manganaro says it's marble). Korhonen 2003, 73 n.305 comments: "IG XIV 453 = CIL X 7017, una lastra con l'epigrafe greca su una faccia, l'epigrafe latina sull'altra. Manganaro ha proposto che l'epigrafe greca sia anteriore a quella latina, e che la prima sia databile al III secolo, la seconda al IV (Manganaro 1993, 553; id. 1994, 96, con fotografia, fig. 15). A mio avviso è verosimile che i due testi siano contemporanei, in base alla somiglianza dell'argomento e al confronto con la siracusana IG XIV 14 = CIL X 7125. Ènotevole la paleografia greca romboidale, con l'epsilon che ha la forma "S", ma non impedisce di datarla nel IV secolo, al quale sembra appartenere l'iscrizione latina (sulle lettere romboidali a Catania, vd. pp. 92 e 112)."  Wilson 1990, p. 186 catpion to fig. 155 provides an approximate translation: 'Through the neglect [?of many citizens], the nymphaeum has been defiled [?by a great stain]. Even its water, although brought in a new channel, has however become so polluted by decay [?of the pipes] that it seemed to bring a certain [?illness] to those who drank it. [Through the agency of] Flavius Arsinius, v(ir) c(larissimus), governor of the province of Sicily (consularis p(rovinciae) S(iciliae)), [the nymphaeum] has been reshaped and restored and given back for the use of the very splendid people of Catania. The work was carried out under the supervision of Flavius Ambrosius v(ir) p(erfectissimus), d(efensor) perp(etuus).' W. goes on to comment: 'Flavius Arsiniusis not otherwise recorded and the date of his governorship is therefore uncertain, but Flavius Ambrosius is known to have been an advocate at the provincial council in the 370s. The defensor, a city ombudsman and judge of minor cases, who received complaints and tried to reduce corruption and extortion, was a comparatively new civic office at this time (Valentinian I was apparently responsible for introducing it to the West): Ambrosius as a top-ranking barrister had just the sort of high official standing sought for the job at this period.' Korhonen thinks the two inscrs. are contemporary, the Greek an accompanying versifying epigram for the work commemorated in the Latin; Wilson and Manganaro consider the Greek to be slightly earlier, and indeed, if Roger's translation is accepted the Greek would appear to make reference to a previous phase of the work.-->
              </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
+            </div>
             <div type="bibliography">
                 <listBibl>
                     <bibl type="CIL">

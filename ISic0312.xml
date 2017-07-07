@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Statue base for Lucius Rubrius Proculus</title>
+                <title>
+                    <seg xml:lang="en">Inscribed statue base for Lucius Rubrius Proculus</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -27,6 +30,10 @@
                 <respStmt>
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -56,13 +63,27 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="volcanic" ref="http://www.eagle-network.eu/voc/material/lod/28.html">volcanic</material>
+                                    <material n="volcanic" ref="http://www.eagle-network.eu/voc/material/lod/28.html">
+                                        <seg xml:lang="en">volcanic</seg>
+                                        <seg xml:lang="it">pietra lavica</seg>
+                                    </material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57.html">
+                                        <seg xml:lang="en">statue base</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
                                     <dimensions><!--Default values and requires editing-->
                                         <height unit="cm"/>
                                         <width unit="cm"/>
@@ -72,12 +93,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
+                            <handNote>
+                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -92,15 +120,18 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
-                                </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo></placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="J (?)" notBefore-custom="0100" notAfter-custom="0200" cert="low">C2 AD (Korhonen, overuling Mole Ventura's C2-3 AD)</origDate>
+                            <origDate n="J (?)" notBefore-custom="0100" notAfter-custom="0200" cert="low">
+                                <seg xml:lang="en">C2 AD (so Korhonen)</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found"/>
+                        <provenance type="found">
+                            <seg xml:lang="en"></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 1335</acquisition>
                     </history>
@@ -125,7 +156,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html">honorific</term>
+                    <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html">
+                        <seg xml:lang="en">honorific</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -133,6 +167,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made initial revisions to the EpiDoc</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -157,9 +192,9 @@
             <div type="edition" xml:lang="la">
                 <ab>
                     <lb n="1"/>
-                    <expan><abbr>L</abbr><ex>ucio</ex></expan> Rubrio
+                    <persName><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Rubrio</name>
                     <lb n="2"/>
-                    Proculo
+                    <name>Proculo</name></persName>
                     <lb n="3"/>
                     <expan><abbr>IIvir</abbr><ex>o</ex></expan>
                     <expan><abbr> quin</abbr><ex>quennali</ex></expan>
@@ -172,10 +207,16 @@
             <div type="translation" xml:lang="en" resp="#JP">
                 <p>To Lucius Rubrius Proculus, quinquennial duumvir, augur</p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
           <!--The gentilicium Rubrius is attested in Catania. The only attestation for Catania of the duumvir quinq.-->
                 </p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

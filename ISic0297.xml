@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dedication to Venus Victrix</title>
+                <title>
+                    <seg xml:lang="en">Inscribed base of a dedication to Venus Victrix</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -61,15 +64,27 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57.html">statue base</objectType>
-                                    <p>A small hexagonal base, with moulding at top and bottom. An oval cavity is visible in the top surface into which the original votive statue will have been inserted</p>
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble</seg>
+                                        <seg xml:lang="it">marmo</seg>
+                                    </material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57.html">
+                                        <seg xml:lang="en">statue base</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en">A small hexagonal base, with moulding at top and bottom. An oval cavity is visible in the top surface into which the original votive statue will have been inserted</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
                                     <dimensions>
                                         <height unit="cm">37.4</height>
                                         <width unit="cm">17.3</width>
@@ -79,14 +94,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
-                                    <p>A Latin text over 10 lines, engraved on the narrow front face of the base. The engraved face is 8cm wide by 27.7 cm high. The majority of the words are run over onto the following line, with the final letters centred, suggesting that the visual effect was prioritised over the sense of the words. The text is large and well spaced in the upper part, becoming compressed towards the end, with the final lines overlapping.</p>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en">A Latin text over 10 lines, engraved on the narrow front face of the base. The engraved face is 8cm wide by 27.7 cm high. The majority of the words are run over onto the following line, with the final letters centred, suggesting that the visual effect was prioritised over the sense of the words. The text is large and well spaced in the upper part, becoming compressed towards the end, with the final lines overlapping.</seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Deeply, but rather irregularly cut letters. Y and T are tall, as is I in line 4; R is closed. Interpuncts in the form of a comma. </p>
+                                <seg xml:lang="en">Deeply, but rather irregularly cut letters. Y and T are tall, as is I in line 4; R is closed. Interpuncts in the form of a comma. </seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line10">Line 1-10</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">12-29</height>
@@ -105,9 +125,15 @@
                                 </placeName>
                                 <placeName type="modern" ref="http://www.geonames.org/2523866/paterno.html">Paternò</placeName>
                             </origPlace>
-                            <origDate n="IbJ" notBefore-custom="0050" notAfter-custom="0200">Korhonen suggests a date between the second half of the first and the end of the second century AD</origDate>
+                            <origDate n="IbJ" notBefore-custom="0050" notAfter-custom="0200">
+                                <seg xml:lang="en">Korhonen suggests a date between the second half of the first and the end of the second century AD</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found">Dug up in 1759 in the territory of Paternò (so Torremuzza)</provenance>
+                        <provenance type="found">
+                            <seg xml:lang="en">Dug up in 1759 in the territory of Paternò (according to Torremuzza)</seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2017.03.20</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 354</acquisition>
                     </history>
@@ -132,7 +158,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="dedication" ref="http://www.eagle-network.eu/voc/typeins/lod/88.html">dedication</term>
+                    <term n="dedication" ref="http://www.eagle-network.eu/voc/typeins/lod/88.html">
+                        <seg xml:lang="en">dedication</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -141,6 +170,7 @@
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2016-12-23" who="#JP">Jonathan Prag checked and made initial revisions to EpiDoc</change>
                 <change when="2017-06-29" who="#JP">Jonathan Prag made further revisions to the file</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -185,8 +215,11 @@
             <div type="translation" xml:lang="it" resp="#SA">
                 <p>Alla Venere Vincitrice ibleense Caio Publicio Donato offrì in dono.</p>
             </div>
-            <div type="commentary" resp="#JP">
+            <div type="commentary" xml:lang="en" resp="#JP">
                 <p>This statue base is the only Latin inscription from Paternò, and is important both for its dedication to Venus Victrix (Venus Victorious) and for the reference to Hybla. This is the only dedication to Venus Victrix from Sicily, although dedications are found across the Roman Empire, especially in the northern and western provinces. The epithet ‘Hyblensis’, ‘of Hybla’ provides important evidence (but not proof) for the identification of Paternò with ancient Hybla Gereatis, although at least two cities in ancient Sicily were called Hybla. The statue was already missing when the base was found, but there is good evidence for the Venus Victrix type, principally from Roman coins from the time of Julius Caesar onwards.</p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

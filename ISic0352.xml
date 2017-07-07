@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Funerary altar for Titus Flavius</title>
+                <title>
+                    <seg xml:lang="en">Funerary altar for Titus Flavius</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -27,6 +30,10 @@
                 <respStmt>
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -56,14 +63,28 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="volcanic" ref="http://www.eagle-network.eu/voc/material/lod/28.html">volcanic</material>
-                                    <dimensions><!--Default values and requires editing-->
+                                    <material n="volcanic" ref="http://www.eagle-network.eu/voc/material/lod/28.html">
+                                        <seg xml:lang="en">volcanic</seg>
+                                        <seg xml:lang="it">pietra lavica</seg>
+                                    </material>
+                                    <objectType n="altar" ref="http://www.eagle-network.eu/voc/objtyp/lod/29.html">
+                                        <seg xml:lang="en">altar</seg>
+                                        <seg xml:lang="it">altare</seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
+                                    <dimensions>
                                         <height unit="cm"/>
                                         <width unit="cm"/>
                                         <depth unit="cm"/>
@@ -72,12 +93,17 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
+                            <handNote>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -92,15 +118,18 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
-                                </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo></placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="IbJa" notBefore-custom="0050" notAfter-custom="0150">Flavian or just after</origDate>
+                            <origDate n="IbJa" notBefore-custom="0050" notAfter-custom="0150">
+                                <seg xml:lang="en">Flavian or shortly after</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found"/>
+                        <provenance type="found">
+                            <seg xml:lang="en"></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 1337</acquisition>
                     </history>
@@ -125,7 +154,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -133,6 +165,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made initial revision of the EpiDoc</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -184,13 +217,19 @@
             <div type="apparatus">
                 <p><!--external apparatus criticus (if applicable)--></p>
             </div>
-            <div type="translation">
+            <div type="translation" xml:lang="en">
                 <p><!--translation(s) - add @xml:lang for 'en' or 'it' to div--></p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
           <!--D[- - - / T.Fl[- - - / Io I[- - -. 'murato al suolo'; 1.27 m high. Manganaro restores as D.M.S. T. Flavio Ionio, quite reasonably, on the basis of a second unpubl'd inscr. on architrave (publ'd in this 1961 article at fig. 20), which comes from the theatre and is part of an honorific to T. Flavio Ionio, in very similar lettering. The man is a freedman, or son of a freedman of the Flavian dynasty. The other inscr. is at Manganaro, SicGymn 14 (1961), p.195-6 (ph). Korhonen essentially follows Manganaro.-->
                 </p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

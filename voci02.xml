@@ -4,7 +4,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Voci di Pietra mostra no.2: a brick of the Oscan Mamertini</title>
+            <title>
+               <seg xml:lang="en">A brick of the Oscan Mamertini</seg>
+               <seg xml:lang="it"></seg>
+            </title>
             <editor ref="#JP">Jonathan Prag</editor>
             <principal ref="#JP">Jonathan Prag</principal>
             <funder>John Fell OUP Research Fund</funder>
@@ -27,6 +30,10 @@
             <respStmt>
                <name xml:id="MM">Michael Metcalfe</name>
                <resp>museum data collection</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SA">Serena Agodi</name>
+               <resp>Italian translation</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -57,7 +64,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="osc-grc">Oscan in Greek script</textLang>
+                  <textLang mainLang="osc-grc">
+                     <seg xml:lang="en">Oscan in Greek script</seg>
+                     <seg xml:lang="it"></seg>
+                  </textLang>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -65,7 +75,10 @@
                         <support>
                            <material ref="https://www.eagle-network.eu/voc/material/lod/131.html">clay</material>
                            <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147.html">brick</objectType>
-                           <p>A rectangular brick of a pink-orange fabric, with a broad rectangular stamp diagonally across one of the wide faces. The edges of the brick are lightly chipped, particularly at the left end, but it is otherwise intact.</p>
+                           <p>
+                              <seg xml:lang="en">A rectangular brick of a pink-orange fabric, with a broad rectangular stamp diagonally across one of the wide faces. The edges of the brick are lightly chipped, particularly at the left end, but it is otherwise intact.</seg>
+                              <seg xml:lang="it"></seg>
+                           </p>
                            <dimensions>
                               <height unit="cm">17.6</height>
                               <width unit="cm">36.3</width>
@@ -75,14 +88,19 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/13">Stamped</rs>
-                           <p>The stamp occupies a rectangular recessed field 2.5-2.6 cm x 19 cm, rounded at the left end, square at the right end, and filled by large regular letters in Greek script.</p>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/13">
+                              <seg xml:lang="en">Stamped</seg>
+                              <seg xml:lang="it"></seg>
+                           </rs>
+                           <seg xml:lang="en">The stamp occupies a rectangular recessed field 2.5-2.6 cm x 19 cm, rounded at the left end, square at the right end, and filled by large regular letters in Greek script.</seg>
+                           <seg xml:lang="it"></seg>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <p>Neat regular wide letters of the third or second century BC. Mu has vertical end strokes, and the middle strokes do not extend down to the bottom of the letter; epsilon has a shorter middle bar; omicron is small and midline.</p>
+                        <seg xml:lang="en">Neat regular wide letters of the third or second century BC. Mu has vertical end strokes, and the middle strokes do not extend down to the bottom of the letter; epsilon has a shorter middle bar; omicron is small and midline.</seg>
+                        <seg xml:lang="it"></seg>
                         <locus from="line1" to="line1">Line 1</locus>
                         <dimensions type="letterHeight">
                            <height unit="mm">10-18</height>
@@ -98,9 +116,15 @@
                         <placeName type="modern" ref="http://www.geonames.org/2524170/messina.html"><geo></geo>
                         </placeName>
                      </origPlace>
-                     <origDate notBefore-custom="-0288" notAfter-custom="-0200">Probably later third century BC</origDate>
+                     <origDate notBefore-custom="-0288" notAfter-custom="-0200">
+                        <seg xml:lang="en">Probably later third century BC</seg>
+                        <seg xml:lang="it"></seg>
+                     </origDate>
                   </origin>
-                  <provenance type="found">Not known</provenance>
+                  <provenance type="found">
+                     <seg xml:lang="en">Not known</seg>
+                     <seg xml:lang="it"></seg>
+                  </provenance>
                   <provenance type="observed" subtype="autopsied" resp="#JP">2017-03-21</provenance>
                   <acquisition>Museo Civico di Catania</acquisition>
                </history>
@@ -120,13 +144,16 @@
             </langUsage>
          <textClass>
             <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-               <term ref="http://www.eagle-network.eu/voc/typeins/lod/118">Stamp</term>
+               <term ref="http://www.eagle-network.eu/voc/typeins/lod/118">
+                  <seg xml:lang="en">Stamp</seg>
+                  <seg xml:lang="it"></seg></term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc status="draft">
          <listChange>
-            <change when="2017=06-28" resp="#JP">Jonathan Prag created the file from template</change>
+            <change when="2017-06-28" resp="#JP">Jonathan Prag created the file from template</change>
+            <change when="2017-07-06" resp="#JP">Jonathan Prag revised template for parallel Italian</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
@@ -158,11 +185,15 @@
          <div type="translation" xml:lang="en" resp="#JP">
             <p>Of the Mamertines</p>
          </div>
-         <div type="commentary">
-            <p>
-               A group of Oscan-speaking Campanian mercenaries, originally employed by the Syrcusan tyrant Agathokles, seized the city of Messana in 289 BC. In the following period (for perhaps the first century of their occupation) they continued to use the Oscan language in inscribed documents, and a number of texts survive. They called themselves the ‘sons of Mamers’ (an Italic equivalent of Mars), and so the Mamertini, and Messana in the Roman period was sometimes called the civitas Mamertina. Oscan was an Italic language, spoken throughout much of central and southern Italy, and remained in use and visible down to the end of the Roman Republican period (first century BC), before being wholly replaced by Latin. Although other groups of Campanian mercenaries settled in Sicily in the Hellenistic period (e.g. at Entella in the fourth century BC), Messana is the only settlement in Sicily which has produced written evidence for Oscan use. All of these texts, although in the Oscan language, use the Greek alphabet: this is the practice across much of southern Italy (Lucania and Bruttium), whereas a distinctive Oscan alphabet was normally used elsewhere (including Campania). There is some linguistic evidence to suggest that the use of the Greek alphabet in Messana was particularly influenced by the surrounding Sicilian use of Greek.
-               The practice of stamping tiles and bricks during production was common in antiquity, whether publicly produced (as in the case) or privately (in which case the name of the owner of the brick works is most common). Greek examples (ΤΑΥΡΟΜΕΝΙΤΑΝ (‘of the Tauromenitani’) are known, for example, from Taormina.
-               </p>
+         <div type="translation" xml:lang="it" resp="#SA">
+            <p></p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>A group of Oscan-speaking Campanian mercenaries, originally employed by the Syrcusan tyrant Agathokles, seized the city of Messana in 289 BC. In the following period (for perhaps the first century of their occupation) they continued to use the Oscan language in inscribed documents, and a number of texts survive. They called themselves the ‘sons of Mamers’ (an Italic equivalent of Mars), and so the Mamertini, and Messana in the Roman period was sometimes called the civitas Mamertina. Oscan was an Italic language, spoken throughout much of central and southern Italy, and remained in use and visible down to the end of the Roman Republican period (first century BC), before being wholly replaced by Latin. Although other groups of Campanian mercenaries settled in Sicily in the Hellenistic period (e.g. at Entella in the fourth century BC), Messana is the only settlement in Sicily which has produced written evidence for Oscan use. All of these texts, although in the Oscan language, use the Greek alphabet: this is the practice across much of southern Italy (Lucania and Bruttium), whereas a distinctive Oscan alphabet was normally used elsewhere (including Campania). There is some linguistic evidence to suggest that the use of the Greek alphabet in Messana was particularly influenced by the surrounding Sicilian use of Greek.</p>
+               <p>The practice of stamping tiles and bricks during production was common in antiquity, whether publicly produced (as in the case) or privately (in which case the name of the owner of the brick works is most common). Greek examples (ΤΑΥΡΟΜΕΝΙΤΑΝ (‘of the Tauromenitani’) are known, for example, from Taormina.</p>
+         </div>
+         <div type="commentary" xml:lang="it">
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>

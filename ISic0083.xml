@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Funerary inscription for Iulia Florentina</title>
+                <title>
+                    <seg xml:lang="en">Funerary inscription for Iulia Florentina</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -60,15 +63,27 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tablet</objectType>
-                                    <p>A slab of Luna marble, partly corroded in the centre. Slighty convex in form (thinner at the edges). Intact on all sides. The rear is unfinished.</p>
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble</seg>
+                                        <seg xml:lang="it">marmo</seg>
+                                    </material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                                        <seg xml:lang="en">tablet</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en">A slab of Luna marble, partly corroded in the centre. Slighty convex in form (thinner at the edges). Intact on all sides. The rear is unfinished.</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
                                     <dimensions>
                                         <height unit="cm">48.5</height>
                                         <width unit="cm">47</width>
@@ -78,14 +93,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
-                                    <p>Thirteen lines of Latin text, filling the available space.</p>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en">Thirteen lines of Latin text, filling the available space.</seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Deeply engraved letters, somewhat irregular.</p>
+                                <seg xml:lang="en">Deeply engraved letters, somewhat irregular.</seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line13">Lines 1-13</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">15-20</height>
@@ -104,7 +124,10 @@
                                 </placeName>
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="La" notBefore-custom="0300" notAfter-custom="0329">First quarter of the C4 AD</origDate>
+                            <origDate n="La" notBefore-custom="0300" notAfter-custom="0329">
+                               <seg xml:lang="en">First quarter of the C4 AD</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
                         <provenance type="found"/>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
@@ -131,7 +154,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -139,6 +165,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made preliminary revisions to EpiDoc</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -160,7 +187,7 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:lang="la"><!-- text needs editing-->
+            <div type="edition" xml:lang="la"><!-- text needs checking against photo and editing into epidoc -->
                 <ab>
                     <lb n="1"/>Iuliae Florentinae infan(t)i dulcissimae atq(ue) in-
                     <lb n="2" break="no"/>nocentissimae fideli factae parens conlocavit
@@ -196,12 +223,15 @@
                     ottobre (= 25 settembre). [...] Il suo corpo [si trova]
                     davanti alle porte dei martiri dove nel proprio loculo
                     è stato inumato per mezzo del presbitero 4 giorni
-                    prima delle none di ottobre (= 3 ottobre).  </p>
+                    prima delle none di ottobre (= 3 ottobre). </p>
             </div>
-            <div type="commentary">
+            <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
           <!--Iulia Florentina epitaph; signif for a) its v.early date (poss. even later C3 AD - tpq is 274 AD and creation of correctores; taq is 320s and change to consulares), but also for its attestation of the martyr cult at Catania; note lapicide made error in recording the date of death; Christian; Long text; summary of Bitto's article in Bivona 1997-98, p..621f. Agnello has nothing new to add to discussions; there's a big bibl. on this stone. Bitto is concerned with a) the overal tone / import of the narrative, b) the expression maiestatis vox in lines 10-11, c) offer a new reading of line 12. Note that Bitto has no photo and no description of the stone, etc.-->
                 </p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

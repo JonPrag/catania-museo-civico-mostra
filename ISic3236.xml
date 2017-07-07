@@ -81,8 +81,10 @@
                                         <seg xml:lang="en">Cinerary urn</seg>
                                         <seg xml:lang="it">urna cineraria</seg>
                                     </objectType>
-                                    <seg xml:lang="en"><p></p></seg><!-- object description to add -->
-                                    <seg xml:lang="it"><p></p></seg>
+                                    <p>
+                                        <seg xml:lang="en"></seg><!-- object description to add -->
+                                        <seg xml:lang="it"></seg>
+                                    </p>
                                     <dimensions>
                                         <height unit="cm">24</height>
                                         <width unit="cm">45.5</width>
@@ -96,15 +98,15 @@
                                         <seg xml:lang="en">Engraved</seg>
                                         <seg xml:lang="it">Incisa</seg>
                                     </rs>
-                                    <seg xml:lang="en"><p></p></seg><!-- epigraphic field descriptino to add -->
-                                    <seg xml:lang="it"><p></p></seg>
-                                </layout>
+                                    <seg xml:lang="en"></seg><!-- epigraphic field description to add -->
+                                    <seg xml:lang="it"></seg>
+                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <seg xml:lang="en"><p></p></seg><!-- handnote to add-->
-                                <seg xml:lang="it"><p></p></seg>
+                                <seg xml:lang="en"></seg><!-- handnote to add-->
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line4">Line 1-4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">15-20</height>
@@ -206,9 +208,11 @@
             <div type="translation" xml:lang="it" resp="#SA">
                 <p>Flaviano, degno e innocente, visse 37 anni, 3 mesi, 10 giorni.</p>
             </div>
-            <div type="commentary">
-                <seg xml:lang="en"><p>According to Paolo Orsi, the urn still contained the deceased’s ashes when it was discovered, and traces of gilding were still visible on some of the letters and the capital of one of the relief columns. The use of the name Flavianus suggests a date after the beginning of the Flavian dynasty (beginning with Vespasian, 69 AD), but Flavianus’ status as slave, freedman, or free remains uncertain. The use of architectural elements in the form of the chest and a tabula ansata to frame the inscription are typical features of ash chests of this period.</p></seg>
-                <seg xml:lang="it"><p>Secondo Paolo Orsi, l'urna conteneva ancora le ceneri del defunto quando venne scoperta, e tracce di doratura erano ancora visibili su alcune delle lettere e sul capitello di una delle colonne a rilievo. L'uso del nome Flaviano suggerisce una data dopo l'inizio della dinastia dei Flavi (a cominciare da Vespasiano, 69 d.C.), ma la condizione di Flaviano se schiavo, liberto, o libero, rimane incerta. L'uso di elementi architettonici nella parte frontale e una tabula ansata per inquadrare la scritta sono caratteristiche tipiche delle urne cinerarie di questo periodo.</p></seg>
+            <div type="commentary" xml:lang="en">
+                <p>According to Paolo Orsi, the urn still contained the deceased’s ashes when it was discovered, and traces of gilding were still visible on some of the letters and the capital of one of the relief columns. The use of the name Flavianus suggests a date after the beginning of the Flavian dynasty (beginning with Vespasian, 69 AD), but Flavianus’ status as slave, freedman, or free remains uncertain. The use of architectural elements in the form of the chest and a tabula ansata to frame the inscription are typical features of ash chests of this period.</p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p>Secondo Paolo Orsi, l'urna conteneva ancora le ceneri del defunto quando venne scoperta, e tracce di doratura erano ancora visibili su alcune delle lettere e sul capitello di una delle colonne a rilievo. L'uso del nome Flaviano suggerisce una data dopo l'inizio della dinastia dei Flavi (a cominciare da Vespasiano, 69 d.C.), ma la condizione di Flaviano se schiavo, liberto, o libero, rimane incerta. L'uso di elementi architettonici nella parte frontale e una tabula ansata per inquadrare la scritta sono caratteristiche tipiche delle urne cinerarie di questo periodo.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

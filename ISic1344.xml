@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Funerary inscription for Agathe</title>
+                <title>
+                    <seg xml:lang="en">Funerary inscription for Agathe</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -28,10 +31,15 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id= "SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic1344</idno>
+                <idno type="mostravoci">30</idno>
                 <idno type="TM">492952</idno>
                 <idno type="EDR"/>
                 <idno type="EDH"/>
@@ -58,15 +66,27 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="grc">Ancient Greek</textLang>
+                        <textLang mainLang="grc">
+                            <seg xml:lang="en">Ancient Greek</seg>
+                            <seg xml:lang="it"></seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                                    <objectType n="cover" ref="http://www.eagle-network.eu/voc/objtyp/lod/84.html">lid or cover (of an urn?)</objectType>
-                                    <p>A circular disc of marble, with the reverse cut to form a lid or cover. It is unclear if this is original, or a sign of later reworking. There is some damage / material lost from the lower right edge.</p>
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble</seg>
+                                        <seg xml:lang="it">marmo</seg>
+                                    </material>
+                                    <objectType n="cover" ref="http://www.eagle-network.eu/voc/objtyp/lod/84.html">
+                                        <seg xml:lang="en">lid or cover (of an urn?)</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en">A circular disc of marble, with the reverse cut to form a lid or cover. It is unclear if this is original, or a sign of later reworking. There is some damage / material lost from the lower right edge.</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
                                     <dimensions>
                                         <height unit="cm">24.5</height>
                                         <width unit="cm">24.5</width>
@@ -76,14 +96,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
-                                    The text is set out over nine lines, complete apart from the very ends of lines 9 and 10. Chi-rho symbols are set to the left of line two and the right of line three, and a star is set in the middle between lines one and two. There is some crowding in the final two lines. The text is approximately centred on the disc and the crowding at the end of line 8 in particular suggests that the stone was cut to this circular shape prior to engraving.
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en">The text is set out over nine lines, complete apart from the very ends of lines 9 and 10. Chi-rho symbols are set to the left of line two and the right of line three, and a star is set in the middle between lines one and two. There is some crowding in the final two lines. The text is approximately centred on the disc and the crowding at the end of line 8 in particular suggests that the stone was cut to this circular shape prior to engraving.</seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                               <p>The letters are neatly but irregularly cut. Lunate epsilon, sigma and omega; alpha has a steeply left sloping cross-bar, the right hasta extended well above the rest of the letter; beta is tall, with two closed eyes, separated from each other. Supralinear lines are used above numerals and also in line 6.</p>
+                               <seg xml:lang="en">The letters are neatly but irregularly cut. Lunate epsilon, sigma and omega; alpha has a steeply left sloping cross-bar, the right hasta extended well above the rest of the letter; beta is tall, with two closed eyes, separated from each other. Supralinear lines are used above numerals and also in line 6.</seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line9">Line 1-9</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">8-21</height>
@@ -98,15 +123,19 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="LM" notBefore-custom="0300" notAfter-custom="0500">C4 AD - C5 AD (Korhonen)</origDate>
+                            <origDate n="LM" notBefore-custom="0300" notAfter-custom="0500">
+                                <seg xml:lang="en">Fourth or Fifth century AD</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found">Found in 1720 during excavation of the foundations of the church of S. Caterina da Siena dei Padri Domenicani<geo>37.503505, 15.088930</geo></provenance>
+                        <provenance type="found">
+                            <seg xml:lang="en">Found in 1720 during excavation of the foundations of the church of S. Caterina da Siena dei Padri Domenicani<geo>37.503505, 15.088930</geo></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2016.10.15</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 719</acquisition>
                     </history>
@@ -131,7 +160,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -141,6 +173,7 @@
                 <change when="2017-01-27" who="#JP">Jonathan Prag revised the EpiDoc and added images and translation</change>
                 <change when="2017-06-02" who="#JP">Jonathan Prag made minor edits</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made minor edits</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -188,8 +221,14 @@
             <div type="translation" xml:lang="en" resp="#JP">
                 <p>Agathe completed sixty years on the Day of Preparation, nine days after the Kalends of September. She was laid out on the Sabbath. May you be pleasing to God and to Christ.</p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it" resp="#SA">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p>Although the text is clearly Christian, the names of the days are those of the Hebrew tradition. Both the vocabulary and the formulae are relatively unusual. Agathe (and Agathon) was a popular name in both Catania and Siracusa in the early Christian period, presumably in part at least because of the cult of Saint Agathe. The stone has been cut to form a cover for an urn; however, while it is possible that the cutting of the reverse is a result of later re-use,  the layout of the text (see above) shows that the face of the stone was already circular before it was engraved.</p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

@@ -4,7 +4,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Voci di pietra mostra no.10: honorific for the Emperor Claudius</title>
+            <title>
+               <seg xml:lang="en">Honorific inscription for the Emperor Claudius</seg>
+               <seg xml:lang="it"></seg>
+            </title>
             <editor ref="#JP">Jonathan Prag</editor>
             <principal ref="#JP">Jonathan Prag</principal>
             <funder>John Fell OUP Research Fund</funder>
@@ -67,9 +70,18 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
-                           <p>A substantial marble slab, broken down the middle but joined together again. Intact on top, left, and below, but broken on the right. The rear is smooth.</p>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                              <seg xml:lang="en">marble</seg>
+                              <seg xml:lang="it">marmo</seg>
+                           </material>
+                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                              <seg xml:lang="en">tabula</seg>
+                              <seg xml:lang="it"></seg>
+                           </objectType>
+                           <p>
+                              <seg xml:lang="en">A substantial marble slab, broken down the middle but joined together again. Intact on top, left, and below, but broken on the right. The rear is smooth.</seg>
+                              <seg xml:lang="it"></seg>
+                           </p>
                            <dimensions>
                               <height unit="cm">51</height>
                               <width unit="cm">55</width>
@@ -79,14 +91,19 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
-                           <p>Latin text over five lines. The text appears to be centred on the stone. The horizontal alignment is very slightly awry in relation to the margins of the stone. Line 1 is in significantly larger letters.</p>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                              <seg xml:lang="en">Engraved</seg>
+                              <seg xml:lang="it"></seg>
+                           </rs>
+                          <seg xml:lang="en">Latin text over five lines. The text appears to be centred on the stone. The horizontal alignment is very slightly awry in relation to the margins of the stone. Line 1 is in significantly larger letters.</seg>
+                           <seg xml:lang="it"></seg>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <p>Regular wide, deeply cut letters of high Imperial form, with very modest serifs. P is open, E and F have equal length horizontal bars. The first and last strokes of the M lean inwards. Numerals are indicated with lines above. Interpuncts are present, but very lightly incised.</p>
+                        <seg xml:lang="en">Regular wide, deeply cut letters of high Imperial form, with very modest serifs. P is open, E and F have equal length horizontal bars. The first and last strokes of the M lean inwards. Numerals are indicated with lines above. Interpuncts are present, but very lightly incised.</seg>
+                        <seg xml:lang="it"></seg>
                         <locus from="line1" to="line1">Line 1</locus>
                         <dimensions type="letterHeight">
                            <height unit="mm">80</height>
@@ -111,13 +128,21 @@
                      <origPlace datingMethod="#julian">
                         <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025" cert="low">Roma (?)<geo>41.891775, 12.486136</geo>
                         </placeName>
-                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html" cert="low">Rome (?)<geo></geo>
-                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html" cert="low">Rome (?)</placeName>
                      </origPlace>
-                     <origDate notBefore-custom="0052" notAfter-custom="0053">Between 25 January 52 AD and 24 January 53 AD.</origDate>
+                     <origDate notBefore-custom="0052" notAfter-custom="0053">
+                        <seg xml:lang="en">Between 25 January 52 AD and 24 January 53 AD.</seg>
+                        <seg xml:lang="it"></seg>
+                     </origDate>
                   </origin>
-                  <provenance type="found">Provenance is uncertain</provenance>
-                  <provenance type="observed">First noted by Mommsen in 1881 in the Museo dei Benedettini in Catania</provenance>
+                  <provenance type="found">
+                     <seg xml:lang="en">Provenance is uncertain</seg>
+                     <seg xml:lang="it"></seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="en">First noted by Mommsen in 1881 in the Museo dei Benedettini in Catania</seg>
+                     <seg xml:lang="it"></seg>
+                  </provenance>
                   <provenance type="observed" subtype="autopsied" resp="#JP">2017.03.22</provenance>
                   <acquisition>Museo Civico di Catania, inv.349</acquisition>
                </history>
@@ -137,13 +162,17 @@
             </langUsage>
          <textClass>
             <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-               <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html"> Honorific</term>
+               <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html">
+                  <seg xml:lang="en">Honorific</seg>
+                  <seg xml:lang="it"></seg>
+               </term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc status="draft">
          <listChange>
-            <change when="2017.06.28" resp="#JP">Jonathan Prag created the file from a template</change>
+            <change when="2017-06-28" resp="#JP">Jonathan Prag created the file from a template</change>
+            <change when="2017-07-06" resp="#JP">Jonathan Prag added parallel elements to the template for Italian</change>
          </listChange>
       </revisionDesc>
    </teiHeader >
@@ -177,8 +206,11 @@
          <div type="translation" xml:lang="it" resp="#SA">
             <p>Per Tiberio Claudio, figlio di Druso, Caesar Augustus Germanico, Pontefice Massimo, nel XII anno della sua potestà tribunizia, imperatore per la XXV volta, console per la V volta, padre della patria, censore.</p>
          </div>
-         <div type="commentary">
+         <div type="commentary" xml:lang="en">
             <p>The stone and the inscription is of the high quality typical of an imperial honorific. There is no room on the surviving stone for the name of the individual or community responsible, but this might have appeared on a separate stone. A marble slab of this sort would be fixed to the base of a statue. Fragments of a colossal statue, probably of the Emperor Claudius, were found in Tindari at the start of the 1800s (now Museo Archeologico Regionale “Antonino Salinas” di Palermo, inv.702), where it was one part of a series of monumental statues of Julio-Claudian emperors (and statues of the Julio-Claudian emperors are attested in several Sicilian cities). The restoration of the Tyndaris statue was modelled on the colossal torso in the Museo Civico, found in 1737 in the area of monumental public buildings in the centre of the Roman colonia of Catania. It is highly likely that the torso in the Museo Civico is that of a Julio-Claudian emperor, possibly Claudius, seated in the style of the god Jupiter. In the absence of specific evidence, this inscription may come from Rome - but it is no less plausible that it does in fact come from Catania, and might possibly even related to this statue, or a similar monument.</p>
+         </div>
+         <div type="commentary" xml:lang="it">
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>

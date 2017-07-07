@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fragmentary public inscription</title>
+                <title>
+                    <seg xml:lang="en">Fragmentary inscription of a civic magistrate</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -28,10 +31,15 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic0315</idno>
+                <idno type="mostravoci">11</idno>
                 <idno type="TM">491522</idno>
                 <idno type="EDR">139969</idno>
                 <idno type="EDH"/>
@@ -48,7 +56,7 @@
                         <region>Sicily</region>
                         <settlement>Catania</settlement>
                         <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
-                  <!--No inventory number found-->
+                        <idno type="inventory">no inventory number</idno>
                         <altIdentifier>
                             <settlement/>
                             <repository/>
@@ -56,13 +64,27 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="it">Latino</seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble</seg>
+                                        <seg xml:lang="it">marmo</seg>
+                                    </material>
+                                    <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                                        <seg xml:lang="en">tablet</seg>
+                                        <seg xml:lang="it">lastra</seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
                                     <dimensions><!--Default values and requires editing-->
                                         <height unit="cm"/>
                                         <width unit="cm"/>
@@ -72,12 +94,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
+                            <handNote>
+                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -92,15 +121,18 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
-                                </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo></placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="IJa" notBefore-custom="0001" notAfter-custom="0150">C1 AD, or beginning C2 AD(Korhone)</origDate>
+                            <origDate n="IJa" notBefore-custom="0001" notAfter-custom="0150">
+                                <seg xml:lang="en">C1 AD, or beginning C2 AD (so Korhonen)</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found"/>
+                        <provenance type="found">
+                            <seg xml:lang="en"></seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania</acquisition>
                     </history>
@@ -125,7 +157,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html">honorific (?)</term>
+                    <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html" cert="medium">
+                        <seg xml:lang="en">honorific (?)</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -133,6 +168,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made initial revision of EpiDoc</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -157,21 +193,27 @@
             <div type="edition" xml:lang="la"><!-- text still needs conversion to EpiDoc -->
                 <ab>
                     [---------]
-                    CLA[---]
-                    II · VIṚ[---]
+                    Cla[---]
+                    II · viṛ[---]
                     [---------]
                  </ab>
             </div>
             <div type="apparatus">
                 <p><!--external apparatus criticus (if applicable)--></p>
             </div>
-            <div type="translation">
+            <div type="translation" xml:lang="en">
                 <p><!--translation(s) - add @xml:lang for 'en' or 'it' to div--></p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
           <!--[L(ucius) Caelius L(uci) f(ilius)?] | Cla(udia) [Macer?] | IIvir [- - -] | - - - - - -. NB part of a series of at least 2, probably 3, possibly 4 inscriptions recording this individual Lucius Caelius Macer; the other certain one is IMusCat 19 = CIL 10.7032; the third probable one is this one, IMusCat 20 = CIL 10.7031; the fourth possible one is an apparently distinct inscription of the same type recorded by Stevenson in the C19, but unpublished and not since recorded (published by Korhonen ap. IMusCat 18 (p.161)). All record the name and can be restored with the duovirate, but what followed is unknown. Several plaques on a single base? multiple bases? or a building project, vel sim. with multiple plaques?-->
                 </p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

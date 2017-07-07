@@ -4,7 +4,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Voci di pietra mostra no.6: Funerary inscription for Polocronia</title>
+            <title>
+               <seg xml:lang="en">Funerary inscription for Polocronia</seg>
+               <seg xml:lang="it"></seg>
+            </title>
             <editor ref="#JP">Jonathan Prag</editor>
             <principal ref="#JP">Jonathan Prag</principal>
             <funder>John Fell OUP Research Fund</funder>
@@ -62,15 +65,27 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la" >Latin</textLang>
+                  <textLang mainLang="la" >
+                     <seg xml:lang="en">Latin</seg>
+                     <seg xml:lang="it"></seg>
+                  </textLang>
                </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble</material>
-                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
-                           <p>A large rectangular marble plaque broken into four pieces. The rear is smooth. To the left of the text is engraved a figure in an attitude of prayer and a chi-rho symbol; to the right a bird perched on a branch.</p>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                              <seg xml:lang="en">marble</seg>
+                              <seg xml:lang="it"></seg>
+                           </material>
+                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                              <seg xml:lang="en">tabula</seg>
+                              <seg xml:lang="it"></seg>
+                           </objectType>
+                           <p>
+                              <seg xml:lang="en">A large rectangular marble plaque broken into four pieces. The rear is smooth. To the left of the text is engraved a figure in an attitude of prayer and a chi-rho symbol; to the right a bird perched on a branch.</seg>
+                              <seg xml:lang="it"></seg>
+                           </p>
                            <dimensions>
                               <height unit="cm">33</height>
                               <width unit="cm">118</width>
@@ -80,14 +95,19 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
-                           <p>Four lines of large regular Latin letters with wide border of empty space all round; images to left and right.</p>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                              <seg xml:lang="en">Engraved</seg>
+                              <seg xml:lang="it"></seg>
+                           </rs>
+                           <seg xml:lang="en">Four lines of large regular Latin letters with wide border of empty space all round; images to left and right.</seg>
+                           <seg xml:lang="it"></seg>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <p>Finely engraved regular laters. F, M and L all show tendencies towards later cursive style. Single letter abbreviations are marked by a horizontal stroke through the letter.</p>
+                        <seg xml:lang="en">Finely engraved regular laters. F, M and L all show tendencies towards later cursive style. Single letter abbreviations are marked by a horizontal stroke through the letter.</seg>
+                        <seg xml:lang="it"></seg>
                         <locus from="line1" to="line4">Lines 1-4</locus>
                         <dimensions type="letterHeight">
                            <height unit="mm">35-48</height>
@@ -107,9 +127,15 @@
                         <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html">Rome<geo></geo>
                         </placeName>
                      </origPlace>
-                     <origDate notBefore-custom="0300" notAfter-custom="0400">Fourth century AD</origDate>
+                     <origDate notBefore-custom="0300" notAfter-custom="0400">
+                        <seg xml:lang="en">Fourth century AD</seg>
+                        <seg xml:lang="it"></seg>
+                     </origDate>
                   </origin>
-                  <provenance type="found">Found c.1740 in the Catacomb of Domitilla, Rome</provenance>
+                  <provenance type="found">
+                     <seg xml:lang="en">Found c.1740 in the Catacomb of Domitilla, Rome</seg>
+                     <seg xml:lang="it"></seg>
+                  </provenance>
                  <provenance type="observed" subtype="autopsied">Details to be added</provenance>
                   <acquisition>Museo Civico di Catania, inv.714</acquisition>
                </history>
@@ -129,13 +155,17 @@
             </langUsage>
          <textClass>
             <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                  <seg xml:lang="en">Funerary</seg>
+                  <seg xml:lang="it"></seg>
+               </term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc status="draft">
          <listChange>
-            <change when="2017.06.28" resp="#JP">Jonathan Prag created the file from a template</change>
+            <change when="2017-06-28" resp="#JP">Jonathan Prag created the file from a template</change>
+            <change when="2017-07-06" resp="#JP">Jonathan Prag added parallel Italian elements to the template</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
@@ -158,7 +188,7 @@
       <body>
          <div type="edition" xml:lang="la" resp="#JP">
             <ab>               
-               <lb n="1"/>fecit · maritus · <persName><name>Polocro
+               <lb n="1"/>Fecit · maritus · <persName><name>Polocro
                <lb n="2" break="no"/>rinae</name></persName> · <choice><reg>uxori</reg><orig>uxxori</orig></choice> <choice><reg>qui</reg><orig>que</orig></choice> · vixit ·
                <lb n="3"/><expan><abbr>ann</abbr><ex>is</ex></expan> · <num value="27">XXVII</num> et · <expan><abbr><hi rend="strikethrough">m</hi></abbr><ex>ensibus</ex></expan> · <num value="8">VIII</num> · <expan><abbr>dec</abbr><ex>essit</ex></expan> ·
                <lb n="4"/>· <num value="5">V</num> · <expan><ex>i</ex><abbr><hi rend="strikethrough">d</hi></abbr><ex>us</ex></expan> · <expan><abbr>Oct</abbr><ex>obres</ex></expan> ·  bene · merenti · in · <expan><abbr><hi rend="strikethrough">p</hi></abbr><ex>ace</ex></expan>
@@ -173,8 +203,11 @@
          <div type="translation" xml:lang="it" resp="#SA">
             <p>Il marito (lo) pose per la moglie Polocronia, che visse 27 anni e 8 mesi; morì il 9 ottobre, benemerita, in pace.</p>
          </div>
-         <div type="commentary">
+         <div type="commentary" xml:lang="en">
             <p>Polocronia is a Greek name (Polychronia) mostly attested at Rome in Christian inscriptions of the third to fifth centuries AD. Both the bird and the praying figure are familiar elements in the attested repertoire of imagery in Christian funerary inscriptions (the bird is the more common). The interpretation of the dating formula is not entirely certain (the use of D only as abbreviation for "Idus" is unusual; but as Korhonen notes, to read "d(ie)" instead, and so 'on the 5th day of October', without reference to the Ides or Kalends would be even more unusual at this date). uxxori (uxori) and que (qui) are typical deviations from ‘classical’ spelling, reflecting pronunciation and formal literacy. The repeated use of a diagonal strikethrough to mark an abbreviation, together with comparison with the chi-rho symbol upper left, suggests that the final letter should be read as 'P(ace)', i.e. 'in peace' and not as a 'chi-rho' symbol and so 'in Christ'  as implied in ICUR.</p>
+         </div>
+         <div type="commentary" xml:lang="it">
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>

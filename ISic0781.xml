@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Funerary inscription of Aurelius Samohil</title>
+                <title>
+                    <seg xml:lang="en">Funerary inscription of Aurelius Samohil</seg>
+                    <seg xml:lang="it"></seg>
+                </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -28,10 +31,15 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic0781</idno>
+                <idno type="mostravoci">32</idno>
                 <idno type="TM">175684</idno>
                 <idno type="EDR"/>
                 <idno type="EDH"/>
@@ -56,15 +64,28 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la" otherLangs="heb">Latin and Hebrew</textLang>
+                        <textLang mainLang="la" otherLangs="heb">
+                            <seg xml:lang="en">Latin and Hebrew</seg>
+                            <seg xml:lang="it"></seg>
+                        </textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble (white)</material>
-                                    <objectType n="plaque" ref="http://www.eagle-network.eu/voc/objtyp/lod/259.html">plaque</objectType>
-                                    <dimensions><!--Default values and requires editing-->
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        <seg xml:lang="en">marble (white)</seg>
+                                        <seg xml:lang="it">marmo (bianco)</seg>
+                                    </material>
+                                    <objectType n="plaque" ref="http://www.eagle-network.eu/voc/objtyp/lod/259.html">
+                                        <seg xml:lang="en">plaque</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </objectType>
+                                    <p>
+                                        <seg xml:lang="en"></seg>
+                                        <seg xml:lang="it"></seg>
+                                    </p>
+                                    <dimensions>
                                         <height unit="cm"/>
                                         <width unit="cm"/>
                                         <depth unit="cm"/>
@@ -73,12 +94,19 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it"></seg>
+                                    </rs>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--Default value and requires editing-->
+                            <handNote>
+                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -93,15 +121,19 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-<geo>37.49223, 15.07041</geo>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina<geo>37.49223, 15.07041</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania
-</placeName>
+                                <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
-                            <origDate n="Lb" notBefore-custom="0383" notAfter-custom="0383">383 AD (cos. date)</origDate>
+                            <origDate n="Lb" notBefore-custom="0383" notAfter-custom="0383">
+                                <seg xml:lang="en">383 AD (consulare date)</seg>
+                                <seg xml:lang="it"></seg>
+                            </origDate>
                         </origin>
-                        <provenance type="found">Nr. Church of S. Teresa</provenance>
+                        <provenance type="found">
+                            <seg xml:lang="en">Near the church of S. Teresa</seg>
+                            <seg xml:lang="it"></seg>
+                        </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 540</acquisition>
                     </history>
@@ -127,7 +159,10 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it"></seg>
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -135,6 +170,7 @@
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made initial revision of the EpiDoc, added translation</change>
+                <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -191,8 +227,14 @@
                     I, Aurelius Samohil (=Samuel), bought the memorial for myself and my wife Lassia Irene, who completed her allotted span on the 12th day before the Kalends of November (21 October), the day of Venus (Friday), in the eighth moon (Jewish month of Heshwan), when Merobaudes for the second time and Saturninus were consuls; she lived for 23 years with peace. I adjure you by the victories (of those) who rule, likewise I adjure you by the honours of the patriarchs, likewise I adjure you by the law which the lord gave the Jews: let no-one open the memorial and put the body of someone else on top of our bones; but if anyone does open it, let them give ten pounds of silver to the treasury.
                 </p>
             </div>
-            <div type="commentary">
+            <div type="translation" xml:lang="it" resp="#SA">
+                <p></p>
+            </div>
+            <div type="commentary" xml:lang="en">
                 <p> </p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>
