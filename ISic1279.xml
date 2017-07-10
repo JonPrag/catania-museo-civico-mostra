@@ -39,7 +39,7 @@
             <publicationStmt>
                 <authority>I.Sicily</authority>
                 <idno type="filename">ISic1279</idno>
-                <idno type="mostravoci">9</idno>
+                <idno type="mostravoci">09</idno>
                 <idno type="TM">492884</idno>
                 <idno type="EDR"/>
                 <idno type="EDH"/>
@@ -88,9 +88,9 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm">29.5-30</height>
-                                        <width unit="cm" precision="low">465</width>
-                                        <depth unit="cm">3.0-4.8</depth>
+                                        <height unit="cm">29.5-30.3</height>
+                                        <width unit="cm">greater than 469.1</width>
+                                        <depth unit="cm">2.3-4.9</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
@@ -100,22 +100,22 @@
                                         <seg xml:lang="en">Engraved</seg>
                                         <seg xml:lang="it"></seg>
                                     </rs>
-                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="en">Greek text over four lines. The fourth line is shorter than the other three and ends with a vacat. The letters are broadly regular and neatly cut, but the sizing and spacing varies considerably across the four lines.</seg>
                                     <seg xml:lang="it"></seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <seg xml:lang="en"></seg>
+                                <seg xml:lang="en">Letters are wide and omicron, phi, sigma, epsilon and theta are, on occasion formed by overlarge circles. Epsilon, sigma and omega are lunate. Xsi is formed in a distinctive, ornate fashion. Interpuncts are used occasionally, and formed of an 's' shape, sometimes forward, sometimes backward facing. Numerals are marked with a supraline.</seg>
                                 <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line4">Line 1-4</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm">50-60</height>
+                                    <height unit="mm">44-62</height>
                                 </dimensions>
-                                <locus from="line1" to="line2">Interlineation not measured</locus>
+                                <locus from="line1" to="line4">Lines 1-4</locus>
                                 <dimensions type="interlinear">
-                                    <height unit="mm"/>
+                                    <height unit="mm">9-27</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -133,7 +133,7 @@
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en">Found c.1702 in the remains of the baths situated under the Duomo of Catania<geo>37.502284, 15.087585</geo></seg>
+                            <seg xml:lang="en">Found c.1702 in the remains of the baths situated under the west end of the Duomo of Catania<geo>37.502284, 15.087585</geo></seg>
                             <seg xml:lang="it"></seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="'#JP">2016.10.15</provenance>
@@ -173,6 +173,7 @@
                 <change when="2017-01-27" who="#JP">Jonathan Prag revised the EpiDoc</change>
                 <change when="2017-06-11" who="#JP">Jonathan Prag made minor revisions</change>
                 <change when="2017-07-06" who="#JP">Jonathan Prag added elements for parallel Italian</change>
+                <change when="2017-07-09" who="#JP">Jonathan Prag made minor revisions</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -197,9 +198,9 @@
             <div type="edition">
                 <ab>
                     <lb n="1"/>
-                    Φλάβιος Φῆλιξ Εὐμάθιος ὁ λαμπρ<supplied reason="lost">ότατος ὑπατικὸς τῆς Σικελῶν ἐπα</supplied>ρχίας εἶπεν · αἱ θερμαὶ αἱ Ἀχιλλιαναὶ ἐξ ἀρ<supplied reason="lost">χ</supplied>αίας διατυπώσεως ἀνήλ<supplied reason="lost" evidence="previouseditor">ω</supplied><supplied reason="lost">σαν πήσας</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">καθ’ ἑκάστην ἡμέραν(?)</supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ιούσης τῆς ἐπισκευῆς ἐ<supplied reason="lost" cert="low">πιμελείᾳ(?) Φλαβίου(?)</supplied>
+                    Φλάβιος Φῆλιξ Εὐμάθιος ὁ λαμπρ<supplied reason="lost">ότατος ὑπατικὸς τῆς Σικελῶν ἐπα</supplied>ρχίας εἶπεν · αἱ θερμαὶ αἱ Ἀχιλλιαναὶ ἐξ ἀρ<supplied reason="lost">χ</supplied>αίας διατυπώσεως ἀνήλ<supplied reason="lost" evidence="previouseditor">ω</supplied><supplied reason="lost">σαν πήσας</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">καθ’ ἑκάστην ἡμέραν</supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ιούσης τῆς ἐπισκευῆς ἐ<supplied reason="lost" cert="low">πιμελείᾳ Φλαβίου</supplied>
                    <lb n="2"/>
-                    Λιβεραλίου τοῦ εὐκαθωσιώτου, ἀνή<supplied reason="lost">λωσαν ἔλαττον. τὸ καπνιστήριον (?)</supplied> καθ’ ἑκάστην ἡμέραν πήσας <hi rend="supraline">λβ</hi> ἔλαττον ἔκαυσεν εἰς τὴν πρόκαυσιν <supplied reason="lost">καὶ εἰς τὴν ὑπόκαυσιν ἔλαττον ἔκαυ</supplied>σεν πήσας <hi rend="supraline">ιη</hi>, ἐ<supplied reason="lost">π</supplied><supplied reason="lost" evidence="previouseditor">ο</supplied>ίει <expan><abbr>νο</abbr><ex>μίσματα</ex></expan><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">. ὅσον τὸ καπνιστήριον(?)</supplied>
+                    Λιβεραλίου τοῦ εὐκαθωσιώτου, ἀνή<supplied reason="lost" cert="low">λωσαν ἔλαττον. τὸ καπνιστήριον</supplied> καθ’ ἑκάστην ἡμέραν πήσας <hi rend="supraline">λβ</hi> ἔλαττον ἔκαυσεν εἰς τὴν πρόκαυσιν <supplied reason="lost">καὶ εἰς τὴν ὑπόκαυσιν ἔλαττον ἔκαυ</supplied>σεν πήσας <hi rend="supraline">ιη</hi>, ἐ<supplied reason="lost">π</supplied><supplied reason="lost" evidence="previouseditor">ο</supplied>ίει <expan><abbr>νο</abbr><ex>μίσματα</ex></expan><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">. ὅσον τὸ καπνιστήριον</supplied>
                     <lb n="3"/>
                     ἔκαυσεν εἰς τὴν πρόκαυσιν καὶ εἰς τ<supplied reason="lost">ὴν ὑπόκαυσιν δι’ ἡμέρας</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">, ἔδωκε</supplied>ν ὁ προγραφὶς εὐκαθοσίωτος τῶν ε<supplied reason="lost">ἰ</supplied>δίων ἀναλωμάτων π<gap reason="illegible" unit="character" quantity="1"/><gap reason="lost" extent="unknown" unit="character"/> το ἐπὶ <expan><abbr>ὑ</abbr><ex>πὲρ</ex></expan> Π <supplied reason="lost">νομισ</supplied>ματ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                         <lb n="4"/>

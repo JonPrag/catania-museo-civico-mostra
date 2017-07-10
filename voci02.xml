@@ -56,7 +56,7 @@
                   <region>Sicily</region>
                   <settlement>Catania</settlement>
                   <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
-                  <idno type="inventory">?</idno>
+                  <idno type="inventory">No inventory number</idno>
                   <altIdentifier>
                      <settlement/>
                      <repository/>
@@ -73,8 +73,13 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <material ref="https://www.eagle-network.eu/voc/material/lod/131.html">clay</material>
-                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147.html">brick</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/131.html">
+                              <seg xml:lang="en">clay</seg>
+                              <seg xml:lang="it"></seg>
+                           </material>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147.html">
+                              <seg xml:lang="en">brick</seg>
+                              <seg xml:lang="it"></seg></objectType>
                            <p>
                               <seg xml:lang="en">A rectangular brick of a pink-orange fabric, with a broad rectangular stamp diagonally across one of the wide faces. The edges of the brick are lightly chipped, particularly at the left end, but it is otherwise intact.</seg>
                               <seg xml:lang="it"></seg>
@@ -113,8 +118,7 @@
                      <origPlace datingMethod="#julian">
                         <placeName type="ancient" ref="http://pleiades.stoa.org/places/462538">Messana<geo>38.19394, 15.55256</geo>
                         </placeName>
-                        <placeName type="modern" ref="http://www.geonames.org/2524170/messina.html"><geo></geo>
-                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/2524170/messina.html">Messina</placeName>
                      </origPlace>
                      <origDate notBefore-custom="-0288" notAfter-custom="-0200">
                         <seg xml:lang="en">Probably later third century BC</seg>
@@ -122,7 +126,7 @@
                      </origDate>
                   </origin>
                   <provenance type="found">
-                     <seg xml:lang="en">Not known</seg>
+                     <seg xml:lang="en">Original provenance unknown</seg>
                      <seg xml:lang="it"></seg>
                   </provenance>
                   <provenance type="observed" subtype="autopsied" resp="#JP">2017-03-21</provenance>
@@ -150,10 +154,11 @@
             </keywords>
          </textClass>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="edited">
          <listChange>
             <change when="2017-06-28" resp="#JP">Jonathan Prag created the file from template</change>
             <change when="2017-07-06" resp="#JP">Jonathan Prag revised template for parallel Italian</change>
+            <change when="2017-07-09" resp="#JP">Jonathan Prag made minor revisions</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
@@ -191,6 +196,7 @@
          <div type="commentary" xml:lang="en">
             <p>A group of Oscan-speaking Campanian mercenaries, originally employed by the Syrcusan tyrant Agathokles, seized the city of Messana in 289 BC. In the following period (for perhaps the first century of their occupation) they continued to use the Oscan language in inscribed documents, and a number of texts survive. They called themselves the ‘sons of Mamers’ (an Italic equivalent of Mars), and so the Mamertini, and Messana in the Roman period was sometimes called the civitas Mamertina. Oscan was an Italic language, spoken throughout much of central and southern Italy, and remained in use and visible down to the end of the Roman Republican period (first century BC), before being wholly replaced by Latin. Although other groups of Campanian mercenaries settled in Sicily in the Hellenistic period (e.g. at Entella in the fourth century BC), Messana is the only settlement in Sicily which has produced written evidence for Oscan use. All of these texts, although in the Oscan language, use the Greek alphabet: this is the practice across much of southern Italy (Lucania and Bruttium), whereas a distinctive Oscan alphabet was normally used elsewhere (including Campania). There is some linguistic evidence to suggest that the use of the Greek alphabet in Messana was particularly influenced by the surrounding Sicilian use of Greek.</p>
                <p>The practice of stamping tiles and bricks during production was common in antiquity, whether publicly produced (as in the case) or privately (in which case the name of the owner of the brick works is most common). Greek examples (ΤΑΥΡΟΜΕΝΙΤΑΝ (‘of the Tauromenitani’) are known, for example, from Taormina.</p>
+            <p>See further: M.H. Crawford, The Oscan Inscriptions of Messana. In C. Ampolo (ed.), Guerra e pace in Sicilia e nel Mediterraneo antico (VIII-III sec. a.C.) (Pisa, 2006), vol. 2, pp.521-525 and M.A. Mastelloni, Messana e i Mamertini. In F. Ghedini, J. Bonetto, A. R. Ghiotto and F. Rinaldi (eds), Lo Stretto di Messina nell'Antichità (Rome 2005), 275-292.</p>
          </div>
          <div type="commentary" xml:lang="it">
             <p></p>
