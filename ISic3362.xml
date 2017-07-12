@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Inscribed stele in the Sikel language</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Stele inscritta i lingua sicula</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -66,7 +66,7 @@
                     <msContents>
                         <textLang mainLang="scx">
                             <seg xml:lang="en">Sikel</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">siculo</seg>
                         </textLang>
                     </msContents>
                     <physDesc>
@@ -75,14 +75,14 @@
                                 <support>
                                     <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">
                                         <seg xml:lang="en">limestone</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">calcare</seg>
                                     </material>
                                     <objectType n="stele" ref="http://www.eagle-network.eu/voc/objtyp/lod/250">
                                         <seg xml:lang="en">stele</seg>
-                                        <seg xml:lang="it"></seg></objectType>
+                                        <seg xml:lang="it">stele</seg></objectType>
                                     <p>
                                         <seg xml:lang="en">A slab of limestone, narrower at the base, and rounded at the top; the bottom edge is roughly straight. The surface is roughly smoothed. There is minor damage to the face in the upper left quarter.</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Una lastra di calcare, più stretta alla base, e arrotondata in alto; Il bordo inferiore è approssimativamente dritto. La superficie è approssimativamente liscia. Nella parte in alto a sinistra c'è un piccolo danno</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">76</height>
@@ -95,17 +95,17 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en">The text is arranged in a clockwise spiral, beginning at the lower left corner, and running right around the outer margin of the face, before proceeding up the left side for a second time.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="it">Il testo è disposto in una spirale in senso orario, a partire dall'angolo inferiore sinistro e girando attorno al margine esterno della faccia, prima di procedere per la seconda volta sul lato sinistro.</seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <seg xml:lang="en">Greek letters, including 'alpha siculum' 𐅢</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">lettere greche, inclusa "alfa sicula"</seg>
                                 <locus from="line1" to="line1">Not measured</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -125,12 +125,12 @@
                             </origPlace>
                             <origDate n="Cb" notBefore-custom="-0550" notAfter-custom="-0450">
                                <seg xml:lang="en"> Second half C6 or first half C5 BC</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Seconda metà del VI sec. o prima metà del V sec. a.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" when="1929-08">
                             <seg xml:lang="en">Found in 1929 in the area of an ancient necropolis in contrada Sciri Sottano<geo>14.60573, 37.11507</geo>, 10km south-west of Licodia Eubea</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Rinvenuto nel 1929 nell’area dell’antica necropoli in contrada Sciri Sottano<geo>14.60573, 37.11507</geo>, 10 km circa a sud-ovest di Licodia Eubea.</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2013.09.30</provenance>
                         <acquisition>Siracusa, Museo Archeologico Regionale Paolo Orsi no. 47071</acquisition>
@@ -159,7 +159,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -224,7 +224,7 @@
                 <p>The text is probably a funerary inscription. The letters do not run left-to-right, but in a spiral, beginning at the bottom left (a feature also found in some early Greek inscriptions). The initial word Nendas is found in other Sikel inscriptions and usually thought to be a personal name. According to ancient authors such as Thucydides, the Sikels were one of three ethnic groups present on the island before the arrival of the Phoenicians and Greeks. A small number of inscriptions from the sixth and fifth centuries BC have been found in the south-east of the island, including this one. These use the Greek alphabet (with the distinctive form of alpha 𐅢 visible here) but appear to be in the Sikel language – in other words, the practice of writing appears to have been adopted from the Greek settlers. The Sikel language is considered to be similar to the Sabellic languages of central Italy.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Il testo è probabilmente una iscrizione funeraria. Le lettere non girano da sinistra a destra, ma a spirale, iniziando dal basso a sinistra ( una caratteristica che si trova anche in alcune iscrizioni greche antiche). La parola iniziale Nendas si rinviene in altre iscrizioni sicule ed usualmente si pensa che sia un nome di persona. Secondo autori antichi come Tucidide, i Siculi erano uno dei tre gruppi etnici presenti nell’isola prima dell’arrivo dei Fenici e dei Greci. Un piccolo numero di iscrizioni dal sesto al quinto secolo a. C. sono state trovate nel sud est dell’isola, inclusa questa. Questa usa l’alfabeto greco (con la tipica forma dell’alfa che qui si vede) ma appare essere in lingua Sicula – in altre parole, la pratica della scrittura appare essere stata tratta dai coloni greci. La lingua sicula è ritenuta essere simile alle lingue sabelliche del centro Italia.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
