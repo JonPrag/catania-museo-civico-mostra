@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Funerary inscription for Tyche</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Epitaffio funebre per Tyche</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -83,7 +83,7 @@
                                     </objectType>
                                     <p>
                                         <seg xml:lang="en">A square plaque of white marble, intact on all four sides, finished smooth on the reverse.</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Una lastra quadrata di marmo bianco, intatta su tutti e quattro i lati, rifinita liscia sul retro.</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">25</height>
@@ -96,17 +96,17 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en">Four lines of Latin text, centred on the upper half of the plaque.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="it">Quattro linee di testo latino, centrate sulla metà superiore della lastra.</seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <seg xml:lang="en">Irregular letters, with M and N cursive in form. Interpuncts in lines 1 and 3.</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Lettere irregolari, con M e N in forma corsiva. Segni di interpunzione nelle linee 1 e 3.</seg>
                                 <locus from="line1" to="line3">Lines 1-3</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">13-18</height>
@@ -126,12 +126,12 @@
                             </origPlace>
                             <origDate n="JbK" notBefore-custom="0150" notAfter-custom="0300">
                                 <seg xml:lang="en">Second half C2 AD or C3 AD (so Korhonen)</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Seconda metà del II secolo d.C. o III secolo d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">Found, together with ISic0330 (inv.568), in 1736 in a Roman tomb in the area of Porta Aci / Porta di Jaci, now Piazza Stesicoro<geo>37.507408, 15.085606</geo></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Rinvenuto insieme alla iscrizione ISic0330 (inv.568), nel 1736 in una tomba romana nella zona di Porta Aci / Porta di Jaci, ora Piazza Stesicoro<geo>37.507408, 15.085606</geo></seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2017.03.20</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 393</acquisition>
@@ -159,7 +159,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrage sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -176,12 +176,11 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
-  </graphic>
+  <graphic n="screen" url="ISic0378" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+       <!--
+ </graphic>
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
@@ -212,13 +211,13 @@
                 <p>Sacred to the spirits of the underworld. Tyche lived for 14 years, 3 months, 21 days. Her parents made this.</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Sacro agli Dei Mani. Tyche visse 14 anni, 3 mesi, 21 giorni. I suoi genitori lo costruirono.</p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p>The name Tyche is a Greek name meaning ‘(good) fortune’. The act of funerary commemoration in an epitaph reflects the values of society: Tyche was approaching the typical age at which young women would be likely to get married (late teens), and so the decision to erect an epitaph makes clear not only the grief but the disappointed hopes of the parents - the precision of age, which may or may not be genuine, serves to emphasise the loss.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Il nome Tyche è un nome greco che significa ‘(buona) fortuna’. L'atto di una commemorazione funebre in un epitaffio riflette i valori della società: Tyche si stava avvicinando all'età tipica in cui le giovani donne sarebbero state in procinto di sposarsi (tarda adolescenza), e quindi la decisione di erigere un epitaffio chiarisce non solo il dolore, ma le speranze deluse dei genitori - la precisione dell’età, che può o non può essere vero, serve ad enfatizzare la perdita.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
