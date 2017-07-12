@@ -181,6 +181,7 @@
   <graphic n="screen" url="ISic0297.jpg" height="5616px" width="3744px">
     <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+        </surface>
  <!--
  <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
@@ -190,7 +191,8 @@
   <graphic n="screen" url="ISic0297_top.jpg" >
     <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
-<surface type="threequarter">
+        </surface>
+        <surface type="threequarter">
   <graphic n="screen" url="ISic0297_3q.jpg" >
     <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
@@ -199,14 +201,17 @@
   <graphic n="screen" url="ISic0297_scale.jpg" >
     <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+             </surface>
  <surface type="bottom">
   <graphic n="screen" url="ISic0297_bottom.jpg" >
     <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+             </surface>
  <surface type="left">
   <graphic n="screen" url="ISic0297_left.jpg" >
     <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+             </surface>
  <surface type="right">
   <graphic n="screen" url="ISic0297_right.jpg" >
     <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
