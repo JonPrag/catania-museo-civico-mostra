@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Funerary inscription for Lucius Cassius Hermes</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Epitaffio funerario per Lucius Cassius Hermes</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -83,7 +83,7 @@
                                     </objectType>
                                     <p>
                                         <seg xml:lang="en">A rectangular marble plaque, intact on all sides (minor chipping to the lower edge), finished on the reverse.</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Una lastra di marmo rettangolare, intatta su tutti i lati (taglio minore al bordo inferiore), rifinita sul retro.</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">37</height>
@@ -96,17 +96,17 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en">Latin text over seven lines. Line 1 is centred, lines 2-7 maintain the left margin. There is some compression of the letters lower right.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="it">Testo latino su sette linee. La linea 1 è centrata, le linee 2-7 mantengono il margine sinistro. C'è una certa compressione delle lettere a destra in basso.</seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <seg xml:lang="en">Letters show a cursive tendency. The foot of P, T, I extends notably to the right; F and R have trailing lower strokes. Simple interpuncts between words. </seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Le lettere mostrano una tendenza corsiva. I piedini di P, T, I si estendono notevolmente a destra; F e R hanno tracce di tratti inferiori. Vi sono semplici segni di interpunzione tra le parole.</seg>
                                 <locus from="line1" to="line7">Lines 1-7</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">24-31</height>
@@ -126,12 +126,12 @@
                             </origPlace>
                             <origDate n="IbJ" notBefore-custom="0050" notAfter-custom="0200">
                                 <seg xml:lang="en">End C1 AD or C2 AD (so Korhonen)</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Tardo I secolo o II secolo d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">Found, together with ISic0378 (inv.393), in 1736 in a Roman tomb in the area of Porta Aci / Porta di Jaci, now Piazza Stesicoro<geo>37.507408, 15.085606</geo></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Trovato insieme alla iscrizione ISic0378 (inv.393), nel 1736 in una tomba romana nell’area della Porta di Aci, oggi piazza Stesicoro<geo>37.507408, 15.085606</geo></seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">2017.03.20</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 568</acquisition>
@@ -159,7 +159,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -176,11 +176,10 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic0340.jpg" height="4272px" width="2856px">
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+      <!--
   </graphic>
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
@@ -225,14 +224,16 @@
                 <p>Sacred to the spirits of the underworld. Lucius Cassius Hermes, best of men, lived for 60 years. His four children set this up for a deserving father.</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Consacrato agli Dei Mani, Lucio Cassio Hermes, ottimo tra gli uomini, visse  60 anni. I quattro figli  posero  per il padre meritevole.</p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p>The deceased is a Roman citizen. The Greek cognomen, ‘Hermes’ suggests that he or one of his ancestors was either a Greek Sicilian or a freed slave. The phrase optimus virorum is unusual and so is the last line: abbreviations are very common in Latin epigraphy, but they are not always easy to resolve - epigraphers solve them by comparing with other texts, but this does not have an exact parallel.</p>
-                    <p>This inscription was found in or near the same tomb as ISic0378. The style of the inscriptions is similar, but the form of the letters is not identical, and the texts were engraved by different people. They could be approximately contemporary. It is impossible to know if Tyche and Hermes were related.</p>
+                <p>This inscription was found in or near the same tomb as ISic0378. The style of the inscriptions is similar, but the form of the letters is not identical, and the texts were engraved by different people. They could be approximately contemporary. It is impossible to know if Tyche and Hermes were related.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Il defunto è un cittadino romano. Il cognomen greco “Hermes” suggerisce che lui, o uno dei suoi antenati, era un greco di Sicilia o uno schiavo liberato. La frase optimus virorum è insolita come lo è l’ultima linea: le abbreviazioni sono molto comuni nelle epigrafi latine, eppure non è molto facile decodificarle - l’epigrafista può risolvere la difficoltà comparandole con altri testi, ma in questo caso non si ha un esatto confronto.</p>
+                <p>Questa iscrizione è stata trovata nella stessa tomba della epigrafe ISic0378. Lo stile dell’iscrizione è simile, ma la forma delle lettere non è identica e i testi sono stati incisi da persone diverse. Le epigrafi potrebbero essere contemporanee. 
+E’ impossibile stabilire se Tyche ed Hermes fossero parenti.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
