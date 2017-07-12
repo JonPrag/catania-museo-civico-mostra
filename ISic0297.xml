@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Inscribed base of a dedication to Venus Victrix</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Dedica a Venere Vincitrice Ibleense</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -79,11 +79,11 @@
                                     </material>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57.html">
                                         <seg xml:lang="en">statue base</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">base di statua</seg>
                                     </objectType>
                                     <p>
                                         <seg xml:lang="en">A small hexagonal base, with moulding at top and bottom. An oval cavity is visible in the top surface into which the original votive statue will have been inserted.</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Una piccola base esagonale, con stampo in alto e in basso. E' visibile sulla superficie superiore una cavità ovale in cui sarebbe stata inserita la statua votiva originale</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">37.4</height>
@@ -96,17 +96,17 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">inciso</seg>
                                     </rs>
-                                    <seg xml:lang="en">A Latin text over 10 lines, engraved on the narrow front face of the base. The engraved face is 8cm wide by 27.7 cm high. The majority of the words are run over onto the following line, with the final letters centred, suggesting that the visual effect was prioritised over the sense of the words. The text is large and well spaced in the upper part, becoming compressed towards the end, with the final lines overlapping.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="en">A Latin text over 10 lines, engraved on the narrow front face of the base. The engraved face is 8 cm wide by 27.7 cm high. The majority of the words are run over onto the following line, with the final letters centred, suggesting that the visual effect was prioritised over the sense of the words. The text is large and well spaced in the upper part, becoming compressed towards the end, with the final lines overlapping.</seg>
+                                    <seg xml:lang="it">Un testo latino di 10 righe, inciso sulla faccia frontale stretta della base. La faccia incisa è larga 8 cm e alta 27,7 cm. La maggior parte delle parole continua sulla linea successiva, con le lettere finali centrate, suggerendo che sia stato privilegiato l'effetto visivo rispetto al senso delle parole. Il testo è grande e ben distanziato nella parte superiore, diventando compresso verso la fine, con le linee finali sovrapposte.</seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <seg xml:lang="en">Deeply, but rather irregularly cut letters. Y and T are tall, as is I in line 4; R is closed. Interpuncts in the form of a comma. </seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Lettere incise profondamente, ma in maniera piuttosto irregolare. Y e T sono alte, come anche I nella linea 4; R è chiusa. I segni di interpunzione sono in forma di virgola.</seg>
                                 <locus from="line1" to="line10">Line 1-10</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">12-29</height>
@@ -127,12 +127,12 @@
                             </origPlace>
                             <origDate n="IbJ" notBefore-custom="0050" notAfter-custom="0200">
                                 <seg xml:lang="en">Korhonen suggests a date between the second half of the first and the end of the second century AD</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Korhonen suggerisce una data tra la seconda metà del I e la fine del II secolo d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">Dug up in 1759 in the territory of Paternò (according to Torremuzza)</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Ritrovata nel 1759 nel territorio di Paternò (secondo Torremuzza)</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2017.03.20</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 354</acquisition>
@@ -160,7 +160,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="dedication" ref="http://www.eagle-network.eu/voc/typeins/lod/88.html">
                         <seg xml:lang="en">dedication</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">dedica</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -176,19 +176,41 @@
     </teiHeader>
     <facsimile>
         <surface/>
-      <!--delete empty surface above and uncomment template below if needed-->
-      <!--
+
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
+  <graphic n="screen" url="ISic0297.jpg" height="5616px" width="3744px">
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+  </graphic>
+ <!--
+ <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
-  <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
-    <desc>Add Description Here</desc>
+-->
+ <surface type="top">
+  <graphic n="screen" url="ISic0297_top.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+  </graphic>
+<surface type="threequarter">
+  <graphic n="screen" url="ISic0297_3q.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
 </surface>
-
-  -->
+ <surface type="scale">
+  <graphic n="screen" url="ISic0297_scale.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+  </graphic>
+ <surface type="bottom">
+  <graphic n="screen" url="ISic0297_bottom.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+  </graphic>
+ <surface type="left">
+  <graphic n="screen" url="ISic0297_left.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+  </graphic>
+ <surface type="right">
+  <graphic n="screen" url="ISic0297_right.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+  </graphic>
     </facsimile>
     <text>
         <body>
@@ -219,7 +241,7 @@
                 <p>This statue base is the only Latin inscription from Paternò, and is important both for its dedication to Venus Victrix (Venus Victorious) and for the reference to Hybla. This is the only dedication to Venus Victrix from Sicily, although dedications are found across the Roman Empire, especially in the northern and western provinces. The epithet ‘Hyblensis’, ‘of Hybla’ provides important evidence (but not proof) for the identification of Paternò with ancient Hybla Gereatis, although at least two cities in ancient Sicily were called Hybla. The statue was already missing when the base was found, but there is good evidence for the Venus Victrix type, principally from Roman coins from the time of Julius Caesar onwards.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Base di statua recante  l’unica iscrizione latina  proveniente da Paternò. Il testo è importante sia per la citazione di Venus Victrix (Venus Victorious)  che per il riferimento ad Hybla. Si tratta infatti dell’unica dedica a Venus Victrix ritrovata in Sicilia, nonostante dediche di questo tipo siano state rinvenute ovunque nei territori dell’Impero romano, e soprattutto nelle provincie settentrionali e occidentali. L’epiteo ‘Hyblensis’, ‘di Hybla’, è un importante indizio (ma non una prova) a sostegno dell’identificazione di Paternò con l’antica Hybla Gereatis, sebbene almeno altri due centri in Sicilia fossero chiamati Hybla. La statua era già andata perduta quando la base fu ritrovata, tuttavia ci sono ipotesi attendibili in merito all’iconografia di Venere Victrix, principalmente da monete romane dal periodo di Giulio Cesare in avanti. </p>
             </div>
             <div type="bibliography">
                 <listBibl>
