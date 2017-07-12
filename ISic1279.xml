@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Edict of Flavius Felix Eumathus regarding the Thermae Achillianae</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Editto di Flavius Felix Eumathus relativo alle terme Achilliane</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -68,7 +68,7 @@
                     <msContents>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Ancient Greek</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">greco antico</seg>
                         </textLang>
                     </msContents>
                     <physDesc>
@@ -77,15 +77,15 @@
                                 <support>
                                     <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
                                         <seg xml:lang="en">marble</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">marmo</seg>
                                     </material>
                                     <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
                                         <seg xml:lang="en">tabula</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">lastra</seg>
                                     </objectType>
                                     <p>
                                         <seg xml:lang="en">A very wide text laid out across multiple marble slabs of differing widths, of which 8 pieces are preserved (originally 6, but two have become further fragmented over time). The slabs were most likely displayed on the facade of the building to which they relate.</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Un testo molto ampio disposto su diverse lastre di marmo di larghezze diverse, di cui 8 pezzi sono conservati (originariamente 6, ma due sono diventati ulteriormente frammentati nel tempo). Le lastre erano probabilmente esposte sulla facciata dell'edificio a cui si riferiscono.</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">29.5-30.3</height>
@@ -98,17 +98,17 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en">Greek text over four lines. The fourth line is shorter than the other three and ends with a vacat. The letters are broadly regular and neatly cut, but the sizing and spacing varies considerably across the four lines.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="it">Testo greco su quattro righe. La quarta linea è più corta delle altre tre e finisce con una lacuna. Le lettere sono generalmente regolari e ben tagliate, ma il dimensionamento e la spaziatura variano notevolmente tra le quattro linee</seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <seg xml:lang="en">Letters are wide and omicron, phi, sigma, epsilon and theta are, on occasion formed by overlarge circles. Epsilon, sigma and omega are lunate. Xsi is formed in a distinctive, ornate fashion. Interpuncts are used occasionally, and formed of an 's' shape, sometimes forward, sometimes backward facing. Numerals are marked with a supraline.</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Le lettere sono ampie e omicron, phi, sigma, epsilon e theta sono a volte formate da cerchi di misura eccessiva. Epsilon, sigma e omega sono a mezzaluna. Xsi è formata in modo distintivo e ornato. I segni di interpunzione vengono usati occasionalmente, sono a forma di "s", e sono talvolta rivolti in avanti, talvolta all'indietro. I numeri sono contrassegnati con una linea sopra.</seg>
                                 <locus from="line1" to="line4">Line 1-4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">44-62</height>
@@ -129,12 +129,12 @@
                             </origPlace>
                             <origDate n="Ma" notBefore-custom="0434" notAfter-custom="0434">
                                <seg xml:lang="en"> 434 AD (reporting an edict from the consuls of 433)</seg>
-                                <seg xml:lang="it"></seg>
+                               <seg xml:lang="it">434 d.C. (resoconto di un editto dei consoli del 433)</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">Found c.1702 in the remains of the baths situated under the west end of the Duomo of Catania<geo>37.502284, 15.087585</geo></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Rinvenuto intorno al 1702 nelle rovine dei bagni sotto la parte ovest del Duomo di Catania<geo>37.502284, 15.087585</geo></seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="'#JP">2016.10.15</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 265</acquisition>
@@ -162,7 +162,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">
                         <seg xml:lang="en">building</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">edificio</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -180,11 +180,10 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
-<surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+ <surface type="front">
+  <graphic n="screen" url="ISic1279" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+     <!--
   </graphic>
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
@@ -216,7 +215,7 @@
                 <p>Flavius Felix Eumathius, the most distinguished consular governor of the province of Sicily decrees: The Achillian Baths, in their old configuration, consumed [x pēsas (of wood) daily (?). ...] following the restoration overseen by (?)Flavius(?) Liberalis, devotissimus, they consumed less. The furnace(?) burned 22 fewer pēsas each day for the heating and 18 fewer pēsas for the hypocaust, at a cost of [...]The amount that the furnace burned for the heating and the hypocaust daily [--?], the aforementioned devotissimus gave at his own expense [---] of the architect [---]. (Decreed) After the consulship of our Emperor Theododius the eternal Augustus, for the fourteenth time, and the most distinguished Maximus.</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Flavius Felix Eumathius, illustrissimo governatore consolare della provincia di Sicilia, decreta: le terme Achilliane secondo il vecchio regolamento consumavano [giornalmente x pesas (di legna) ogni giorno (?) ...] Dopo la ristrutturazione [avviata da  Flavius] Liberalis, devotissimus [consumavano meno. La fornace (?) ...] ogni giorno bruciava 22 pesas in meno per il preriscaldamento e 18 [pesa di meno brucia per il riscaldamento ...] per un costo di [---]. La somma che [il forno] bruciava per il preriscaldamento e per [il riscaldamento giornalmente -----] fornì il soprascritto devotissimus a proprie spese; [---------------------------(lettere non traducibili)  --------------] dell'architetto; (Decretato) dopo [il consolato dell'imperatore Teodosio] l'eterno Augustus per la quattordicesima volta e dell’illustrissimo Massimus.</p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p>The word πήσας is a hapax. It is plausibly explained by Manganaro (1958-1959: 28 n.94) as being a calque in Greek of the Latin word pensum, signifying a weight of a fixed quantity. Manganaro additionally observes that in Sicilian dialect the word 'pisa' signifies a specific weight (4 kg) of flour or salt, and suggests that in this text a 'pesa' would be a cord of wood of approx. 5 kg.</p>
@@ -225,7 +224,7 @@
           <!--Commemorates the work of restructuring the Terme Achilliane, dated post-cos. 433; ref. to the (reduced) quantities of fuel burnt; transl. in Korhonen, p.155. Note Korhonen's remarks on the use of Greek in Catania public inscrs, also p.155: 'Nello spazio pubblico catanese e notevole l'uso della lingua greca, usata altrimenti soprattutto negli epigrammi che "decoravano" iscrizioni latine in prosa. Mi pare opportuna l'interpretazione di Cracco Ruggini, secondo la quale "l'uso del greco sembra interpretabile come volonta di renderne la lettura accessibile a un pubblico locale piu largo". Translation of Korhonen: Flavius Felix Eumathius, v. c., consularis della provincia di Sicilia, disse: Secondo il vecchio regolamento, le Terme Achilliane consumavano … [ogni giorno]. Dopo la ristrutturazione, avviata dal notabile Liberalis, consumavano [meno. Il forno] bruciava 22 pise di meno per il preriscaldamento e 18 pise [di meno per il riscaldamento], con il valore totale di [- -. La somma che il forno] bruciava per il preriscaldamento e per [il riscaldamento], fu compensata dal medesimo Liberalis dalle sue spese; [della ristrutturazione se ne occupò] l'architetto [- -]; dato dopo il consolato dell'imperatore Teodosio e di Maximus, v. c." There is debate over the positionof Liberalis, but the term to describe him is perhaps best linked to an imperial position (so Korhonen after Manganaro), rather than anything ecclesiastical / local. Perhaps best understood as a distinguished local individual who has risen in imperial service and here assists in the governor's act of euergetism. (Korhonen 2003: 154 writes: 'Manganaro (1958-59, 27) ha avvicinato il significato del termine eÈkayos¤vtow, attestato nella letteratura soltanto in alcuni Padri della Chiesa, a quella di kayosivm°now. Quest'ultimo, che corrisponde al latino devotus o devotissimus, si riferisce nella tarda antichità ai militari in stretto rapporto con l'imperatore e ad alcuni ufficiali imperiali.').-->
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p><!--Il testo proviene probabilmente dalla facciata dei bagni situati sotto l'estremità ovest del Duomo. L'uso del greco in una pubblica iscrizione del periodo romano è inusuale e forse era destinato a rendere il testo più accessibile al popolo di Catania. La parola pesas è altrimenti sconosciuta, ma è probabilmente una parola latina per una misura di legno, conservata nella parola dialettale siciliana pisa (un fascio di legno di 5 kg). Le Terme Achilliane furono forse costruite nel III secolo d.C. (le ragioni di questo nome sono sconosciute); questo testo registra lavori di restauro successivi. Né il governatore responsabile, Eumathius, né Liberalis (forse un precedente governatore della Sicilia) sono altrimenti conosciuti. Ridurre la quantità di legno richiesto avrebbe significativamente ridotto i costi di gestione dei bagni, rendendo questo un doppio vantaggio per la città. Sono conservate altre terme notevoli dalla Catania romana - le Terme della Rotonda e le Terme dell'Indirizzo.--></p>
             </div>
             <div type="bibliography">
                 <listBibl>
