@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Inscribed base of statue group of the Pii Fratres</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Base per un gruppo statuario dei fratelli Pii</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -79,11 +79,10 @@
                                     </material>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57.html">
                                         <seg xml:lang="en">statue base</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">base di statua</seg>
                                     </objectType>
-                                    <p>
-                                        <seg xml:lang="en">Two joining fragments from a statue base, extensively damaged on all sides. Parts of each original surface are preserved, such that it is possible to estimate the overall original dimensions. A substantial part of the front face is preserved, but the face is damaged on all sides except the lower edge. On the rear face four Latin letters over two lines and a part of the right marginal moulding are preserved from an earlier inscription (ISic3206).</seg>
-                                        <seg xml:lang="it"></seg>
+                                    <p><seg xml:lang="en">Two joining fragments from a statue base, extensively damaged on all sides. Parts of each original surface are preserved, such that it is possible to estimate the overall original dimensions. A substantial part of the front face is preserved, but the face is damaged on all sides except the lower edge. On the rear face four Latin letters over two lines and a part of the right marginal moulding are preserved from an earlier inscription (ISic3206).</seg>
+                                        <seg xml:lang="it">Due frammenti di giunzione da una base di statua, danneggiati su tutti i lati. Le parti di ogni superficie originale sono conservate, in modo tale da poter valutare le dimensioni originali complessive. Una parte sostanziale della faccia anteriore è preservata, ma la faccia è danneggiata su tutti i lati tranne il bordo inferiore. Sulla faccia posteriore sono conservati quattro lettere latine su due righe e una parte della modanatura marginale a destra da una precedente iscrizione (ISic3206).</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">31</height>
@@ -96,17 +95,17 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en">Latin text preserved over six lines. Despite the extensive damage around the edges, almost all of the text appears to be preserved, with only a few letters lost from the right margin and at the top corners.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="it">Il testo latino è conservato su sei righe. Nonostante i notevoli danni intorno ai lati, quasi tutto il testo sembra essere conservato, con solo poche lettere perse dal margine destro e negli angoli superiori.</seg>
                         </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <seg xml:lang="en">The letters show characteristic features of the more cursive style of late antiquity, with V having the large rounded U form.</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Le lettere mostrano caratteristiche peculiari dello stile più corsivo della tarda antichità, con la lettera V che ha la forma arrotondata a U.</seg>
                         <locus from="line1" to="line6">Line 1-6</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">25-35</height>
@@ -126,12 +125,12 @@
                             </origPlace>
                             <origDate n="Mb" notBefore-custom="0450" notAfter-custom="0500">
                                 <seg xml:lang="en">The inscription cannot be later than the end of the fifth century, due to the archaeological evidence for the cessation of use of the theatre by that date</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">L'iscrizione non può essere successiva alla fine del V secolo, a causa delle evidenze archeologiche relative alla fine dell'uso del teatro da tale data</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">Found near the lowest seats of the central part of the Roman theatre<geo>37.502748, 15.083639</geo> during excavation by G. Libertini in 1951</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Rinvenuto presso i sedili inferiori della parte centrale del teatro romano <geo> 37.502748, 15.083639 </ geo> durante lo scavo di G. Libertini nel 1951</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2016.10.13</provenance>
                         <acquisition>Catania, Museo Civico di Catania</acquisition>
@@ -159,7 +158,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="dedication" ref="http://www.eagle-network.eu/voc/typeins/lod/88.html">
                         <seg xml:lang="en">dedication</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">dedica</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -177,11 +176,10 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic0631.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+      <!--
   </graphic>
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
@@ -215,14 +213,15 @@
                 <p>The flame-fleeing brothers, the greatest gifts of pietas, whom conflict carried off – these Merulus has returned, vir clarissimus et spectabilis (most noble and respectable), consular governor of the province of Sicily.</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>I fratelli in fuga dalle fiamme, i più grandi doni di pietas, che il conflitto portò via, questi restaurò Merulus, uomo nobilissimo e rispettabile, governatore consolare della provincia di Sicilia.</p>
             </div>
             <div type="commentary" xml:lang="en" resp="#JP">
                 <p>The inscription records the restoration of the famous statue group of the pii fratres by the Roman governor, Merulus, after their removal in a period of conflict. It is unknown whether this was a new statue group, or simply the restoration of the old one. Merulus is not otherwise known; his titles suggest a date after 434 AD. The conflict may have been the Vandal invasions of Sicily in 440-442, 455-468 and 491 AD. Archaeological research shows that the theatre was no longer in use by the very end of the fifth century AD, so the inscription probably dates shortly after either 442 or 468 AD.</p>
                     <p>The inscription on the reverse preserves the ends of two words, probably names, in letters of the high imperial period. It is possible that the text belongs to an earlier dedication of the same statue group, but it may have been something completely different, reused by Merulus. It is possible that this earlier base was originally in the nearby Roman forum.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>L'iscrizione ricorda il ripristino del famoso gruppo statuario dei Pii fratres da parte del governatore romano Merulus, dopo la sua rimozione in un periodo di conflitto. Non è noto se questo fosse un nuovo gruppo scultoreo, o si tratti semplicemente del restauro del vecchio. Merulus non è altrimenti noto; i suoi titoli suggeriscono una data successiva al 434 d.C. Il conflitto potrebbe essere stato una delle invasioni dei Vandali di Sicilia nel 440-442, 455-468 e 491 d.C.. La ricerca archeologica dimostra che il teatro non era più in uso alla fine del V secolo d.C., quindi l'iscrizione risale probabilmente o poco dopo il 442 o poco dopo il 468 d.C.</p>
+                    <p>L'iscrizione sul retro conserva le estremità di due parole, probabilmente nomi, in lettere d'alta epoca imperiale. È possibile che il testo appartenga a una dedica precedente dello stesso gruppo scultoreo, ma potrebbe essere stato qualcosa di completamente diverso, riutilizzato da Merulus. È possibile che questa base in precedenza si trovasse in origine nel vicino foro romano.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
