@@ -6,7 +6,7 @@
          <titleStmt>
             <title>
                <seg xml:lang="en">A brick of the Oscan Mamertini</seg>
-               <seg xml:lang="it"></seg>
+               <seg xml:lang="it">Mattone dei Mamertini in lingua osca</seg>
             </title>
             <editor ref="#JP">Jonathan Prag</editor>
             <principal ref="#JP">Jonathan Prag</principal>
@@ -66,7 +66,7 @@
                <msContents>
                   <textLang mainLang="osc-grc">
                      <seg xml:lang="en">Oscan in Greek script</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">Osco in grafia greca</seg>
                   </textLang>
                </msContents>
                <physDesc>
@@ -75,14 +75,14 @@
                         <support>
                            <material ref="https://www.eagle-network.eu/voc/material/lod/131.html">
                               <seg xml:lang="en">clay</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">argilla</seg>
                            </material>
                            <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147.html">
                               <seg xml:lang="en">brick</seg>
-                              <seg xml:lang="it"></seg></objectType>
+                              <seg xml:lang="it">mattone</seg></objectType>
                            <p>
                               <seg xml:lang="en">A rectangular brick of a pink-orange fabric, with a broad rectangular stamp diagonally across one of the wide faces. The edges of the brick are lightly chipped, particularly at the left end, but it is otherwise intact.</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">Un mattone rettangolare rosa-arancio, con un ampio timbro rettangolare diagonale su una delle facce larghe. I bordi del mattone sono leggermente tagliati, soprattutto all'estremità sinistra, ma è altrimenti intatto.</seg>
                            </p>
                            <dimensions>
                               <height unit="cm">17.6</height>
@@ -95,17 +95,17 @@
                         <layout>
                            <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/13">
                               <seg xml:lang="en">Stamped</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">a matrice</seg>
                            </rs>
                            <seg xml:lang="en">The stamp occupies a rectangular recessed field 2.5-2.6 cm x 19 cm, rounded at the left end, square at the right end, and filled by large regular letters in Greek script.</seg>
-                           <seg xml:lang="it"></seg>
+                           <seg xml:lang="it">Il timbro occupa un campo incassato rettangolare 2,5-2,6 cm x 19 cm, arrotondato all'estremità sinistra, quadrato a destra e riempito da grandi lettere regolari in scrittura greca</seg>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
                         <seg xml:lang="en">Neat regular wide letters of the third or second century BC. Mu has vertical end strokes, and the middle strokes do not extend down to the bottom of the letter; epsilon has a shorter middle bar; omicron is small and midline.</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">Ampie curate lettere regolari del III o IV secolo a.C. Mu presenta i tratti finali verticali, e i tratti centrali che non si estendono fino al fondo della lettera; epsilon ha una barra intermedia più corta; omicron è piccolo e centrale.</seg>
                         <locus from="line1" to="line1">Line 1</locus>
                         <dimensions type="letterHeight">
                            <height unit="mm">10-18</height>
@@ -122,12 +122,12 @@
                      </origPlace>
                      <origDate notBefore-custom="-0288" notAfter-custom="-0200">
                         <seg xml:lang="en">Probably later third century BC</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">Forse fine del III secolo a.C.</seg>
                      </origDate>
                   </origin>
                   <provenance type="found">
                      <seg xml:lang="en">Original provenance unknown</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">Provenienza originale sconosciuta</seg>
                   </provenance>
                   <provenance type="observed" subtype="autopsied" resp="#JP">2017-03-21</provenance>
                   <acquisition>Museo Civico di Catania</acquisition>
@@ -150,7 +150,7 @@
             <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                <term ref="http://www.eagle-network.eu/voc/typeins/lod/118">
                   <seg xml:lang="en">Stamp</seg>
-                  <seg xml:lang="it"></seg></term>
+                  <seg xml:lang="it">timbro</seg></term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -162,21 +162,18 @@
          </listChange>
       </revisionDesc>
    </teiHeader>
-   <!-- images to add
    <facsimile>   
    <surface type="front">
-         <graphic n="screen"
-                  url="ISic0000_tiled.tif"
-                  height="4912px"
-                  width="7360px">
-            <desc>Add Description Here</desc>
+         <graphic n="screen" url="voci02.jpg">  
+            <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
          </graphic>
-         <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
+  <!--       <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
             <desc>Add Description Here</desc>
          </graphic>
       </surface>
+     -->
       </facsimile>
-      -->
+   
    <text>
       <body>
          <div type="edition" xml:lang="osc-grc">
@@ -191,15 +188,17 @@
             <p>Of the Mamertines</p>
          </div>
          <div type="translation" xml:lang="it" resp="#SA">
-            <p></p>
+            <p>Dei mamertini</p>
          </div>
          <div type="commentary" xml:lang="en">
             <p>A group of Oscan-speaking Campanian mercenaries, originally employed by the Syrcusan tyrant Agathokles, seized the city of Messana in 289 BC. In the following period (for perhaps the first century of their occupation) they continued to use the Oscan language in inscribed documents, and a number of texts survive. They called themselves the ‘sons of Mamers’ (an Italic equivalent of Mars), and so the Mamertini, and Messana in the Roman period was sometimes called the civitas Mamertina. Oscan was an Italic language, spoken throughout much of central and southern Italy, and remained in use and visible down to the end of the Roman Republican period (first century BC), before being wholly replaced by Latin. Although other groups of Campanian mercenaries settled in Sicily in the Hellenistic period (e.g. at Entella in the fourth century BC), Messana is the only settlement in Sicily which has produced written evidence for Oscan use. All of these texts, although in the Oscan language, use the Greek alphabet: this is the practice across much of southern Italy (Lucania and Bruttium), whereas a distinctive Oscan alphabet was normally used elsewhere (including Campania). There is some linguistic evidence to suggest that the use of the Greek alphabet in Messana was particularly influenced by the surrounding Sicilian use of Greek.</p>
-               <p>The practice of stamping tiles and bricks during production was common in antiquity, whether publicly produced (as in the case) or privately (in which case the name of the owner of the brick works is most common). Greek examples (ΤΑΥΡΟΜΕΝΙΤΑΝ (‘of the Tauromenitani’) are known, for example, from Taormina.</p>
+               <p>The practice of stamping tiles and bricks during production was common in antiquity, whether publicly produced (as in the case) or privately (in which case the name of the owner of the brick works is most common). Greek examples (ΤΑΥΡΟΜΕΝΙΤΑΝ ‘of the Tauromenitani’) are known, for example, from Taormina.</p>
             <p>See further: M.H. Crawford, The Oscan Inscriptions of Messana. In C. Ampolo (ed.), Guerra e pace in Sicilia e nel Mediterraneo antico (VIII-III sec. a.C.) (Pisa, 2006), vol. 2, pp.521-525 and M.A. Mastelloni, Messana e i Mamertini. In F. Ghedini, J. Bonetto, A. R. Ghiotto and F. Rinaldi (eds), Lo Stretto di Messina nell'Antichità (Rome 2005), 275-292.</p>
          </div>
          <div type="commentary" xml:lang="it">
-            <p></p>
+            <p>Un gruppo di mercenari campaniche parlavano la lingua osca, impiegati in origine da Agatocle, tiranno di Siracusa, occupò la città di Messina nel 289 a.C. Successivamente (per circa il primo secolo della loro occupazione) continuarono a usare la lingua osca nei documenti iscritti, e sopravvivono un numero di testi. Loro stessi si appellavano i “figli di Mamerte”  (l'equivalente italico del dio Marte) e da lì i Mamertini, e Messana nel periodo romano era talvolta chiamata la civitas mamertina. L'osco era una lingua italica parlata nella maggior parte del Centro e del Sud di Italia e adoperata fino alla fine della Repubblica romana (I secolo a.C.), prima di venire interamente soppiantata dal latino. Anche se altri gruppi di mercenari campani si stabilirono in Sicilia nel periodo ellenistico (ad esempio a Entella nel IV secolo a.C.), Messana è l'unico insediamento in Sicilia che ha prodotto prove scritte dell'uso dell'Osco. Tutti questi testi, anche se in lingua osca, utilizzano l'alfabeto greco: questa è la pratica adottata in gran parte dell'Italia meridionale (Lucania e Bruttium), mentre un caratteristico alfabeto Osco veniva normalmente utilizzato altrove (inclusa la Campania). Esistono alcune evidenze linguistiche che suggeriscono che l'uso dell'alfabeto greco a Messana fosse particolarmente influenzato dall'uso siciliano della lingua greca in Sicilia.</p>
+          <p>La pratica di timbrare tegole e mattoni durante la produzione era comune nell'antichità, sia per pubblicazioni pubbliche (come in questo caso) sia in privato (in tal caso il nome del proprietario delle opere in mattoni è più comune). Casi greci sono noti (ΤΑΥΡΟΜΕΝΙΤΑΝ 'dei Tauromenitani'), ad esempio, da Taormina.</p>
+            <p> Si veda inoltre:  M.H. Crawford, The Oscan Inscriptions of Messana. In C. Ampolo (ed.), Guerra e pace in Sicilia e nel Mediterraneo antico (VIII-III sec. a.C.) (Pisa, 2006), vol. 2, pp.521-525 e M.A. Mastelloni, Messana e i Mamertini. In F. Ghedini, J. Bonetto, A. R. Ghiotto and F. Rinaldi (eds), Lo Stretto di Messina nell'Antichità (Rome 2005), 275-292.</p>
          </div>
          <div type="bibliography">
             <listBibl>
