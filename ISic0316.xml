@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Fragment of an inscription for a civic magistrate</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Frammento di iscrizione di un magistrato di Catania</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -82,8 +82,8 @@
                                         <seg xml:lang="it">lastra</seg>
                                     </objectType>
                                     <p>
-                                        <seg xml:lang="en">Fragment of cream coloured marble with blue veining. Broken top, right and below, intact on left. Moulding preserved on left side. The rear is finished and smooth, as is the left edge. The moulding is 3.8cm wide, set 5cm in from the left edge.</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="en">Fragment of cream coloured marble with blue veining. Broken top, right and below, intact on left. Moulding preserved on left side. The rear is finished and smooth, as is the left edge. The moulding is 3.8 cm wide, set 5cm in from the left edge.</seg>
+                                        <seg xml:lang="it">Frammento di marmo color crema con venatura blu. I margini superiore, destro e inferiore sono rotti, mentre è intatto il alto sinistro. E' conservata una modanatura sul lato sinistro. La parte posteriore è finita e liscia. La modanatura, larga 3,8 cm, inizia da 5 cm dal bordo sinistro.</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">27.1</height>
@@ -96,17 +96,17 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en">Beginning of two lines of Latin letters; the space below line 2 at 58-62mm leaves open the possibility of letters below.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="it">Inizio di due linee di lettere latine; lo spazio sotto la linea 2 di 58-62 mm lascia aperta la possibilità di altre lettere al di sotto.</seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <seg xml:lang="en">Regular letters engraved in a neat, wide v-cut, with light serifs. Interpunct formed by a dot, supraline above numerals.</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Lettere regolari incise in un taglio preciso, largo, a v, con leggere grazie. Il segno di interpunzione è formato da un punto; è presente la sopralineatura sui numerali.</seg>
                                 <locus from="line1" to="line2">Lines 1-2</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">42-45</height>
@@ -126,12 +126,12 @@
                             </origPlace>
                             <origDate n="IJa" notBefore-custom="0001" notAfter-custom="0150">
                                 <seg xml:lang="en">C1 AD, or beginning C2 AD (Korhonen)</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">I secolo o inizio del II secolo d.C.(Korhonen)</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">Probably from Catania; seen by Mommsen in the Museo Biscari.</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Proviene probabilmente da Catania; fu descritta da Mommsen presso il Museo Biscari.</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2017.03.21</provenance>
                         <acquisition>Catania, Museo Civico di Catania</acquisition>
@@ -159,7 +159,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html" cert="medium">
                         <seg xml:lang="en">honorific (?)</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">onoraria (?)</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -176,13 +176,13 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
+
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic0316.tif" height="565px" width="828px">
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
-  <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
+<!--
+    <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
 </surface>
@@ -218,14 +218,15 @@
                 <p>Lucius Caelius Macer, son of Lucius, of the Claudian tribe, duumvir... .</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p></p>
+                <p>Lucio Celio Macro, figlio di Lucio, della tribù Claudia, duumviro... .</p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p>Although none of the texts of ISic0337, 0315 or 0316 join together, and all show minor differences in form or material (e.g. compare the moulding on each), the text presented on each appears to be the same. A manuscript in the Vatican library records a fourth, similar fragment seen in the Museo dei Benedettini by C. Stevenson in the 1880s. The text, which may be common to all these fragmentary inscriptions, can be restored as it has been here.</p>
                     <p>The texts are probably honorific inscriptions. Marble slabs of this sort are commonly attached to a statue base or similar monument. The base itself would be made out of a different, cheaper, local stone (e.g. volcanic stone), the more expensive imported marble reserved for the inscription. The existence of multiple texts, apparently for the same person, has two possible explanations: either the same honorific inscription was repeated on all four(?) sides of the statue base or other monument; or else there were multiple honorific statues or monuments in Catania for this one individual (both possibilities are attested elsewhere). The remainder of the inscription will have included details of the rest of his career (compare the inscriptions for Quintus Atilius Severus (also of the Claudian tribe) and Lucius Rubrius Proculus). Lucius Caelius Macer is one of five duumviri known from Roman Catania.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Sebbene nessuno dei testi di ISic0337, 0315 o 0316 combaci e ognuno mostri qualche differenza di forma o materiale (ad esempio la presenza della modanatura in ognuna), il testo presente in ciascuno di essi appare il medesimo. Un manoscritto conservato nella Biblioteca Vaticana registra un quarto frammento simile, descritto anche presso il Museo dei Benedettini da C. Stevenson intorno al 1880. Il testo, che dovrebbe essere identico in tutti i frammenti delle epigrafi, può essere reso come indicato qui.</p>
+                <p>I testi in questione erano probabilmente iscrizioni onorifiche. Le lastre di marmo di questo genere erano di solito poste alla base di una statua o di un monumento simile. La base stessa sarebbe stata fatta da una pietra locale diversa, più economica (ad esempio pietra lavica), mentre il maggiormente prezioso marmo importato veniva riservato all'iscrizione. L'esistenza di testi ripetuti, in apparenza per la stessa persona, ha due possibili spiegazioni: sia che la stessa iscrizione fosse ripetuta in ognuno dei quattro (?) lati della base della statua o di un altro monumento, oppure, altra ipotesi, che ci fossero a Catania diverse statue onorifiche o monumenti per lo stesso individuo (entrambe le possibilità sono attestate in altri luoghi). Il resto dell'iscrizione avrebbe dovuto includere dettagli sulla successiva carriera del magistrato in questione (si confrontino le iscrizioni per Quintus Atilius Severus (anch'egli della tribù Claudia) e Lucius Ribrius Proculus). Lucius Caelius Macer è uno dei cinque duumviri noti della  Catania romana.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
