@@ -178,15 +178,14 @@
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
 <surface type="front">
-  <graphic n="screen" url="ISic3236.jpg" >
+  <graphic n="screen" url="ISic3236.jpg">
     <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
-      <!--
-  </graphic>
-  <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
+    </graphic>
+    <!--  <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
-  -->
   </graphic>
-      </surface>
+  -->
+        </surface>
     </facsimile>
     <text>
         <body>
