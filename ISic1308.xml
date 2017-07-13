@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Funerary inscription for Kornelios Agathemeros</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Iscrizione funeraria per Kornelios Agathemeros</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -67,7 +67,7 @@
                     <msContents>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Ancient Greek</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">greco antico</seg>
                         </textLang>
                     </msContents>
                     <physDesc>
@@ -87,17 +87,17 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
-                                    </dimensions>
+                                        <height unit="cm">19.5</height>
+                                        <width unit="cm">29</width>
+                                        <depth unit="cm"></depth>
+                                   </dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -110,7 +110,7 @@
                                 <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
+                                    <height unit="mm">12-25</height>
                                 </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
@@ -128,12 +128,12 @@
                             </origPlace>
                             <origDate n="JKa" notBefore-custom="0100" notAfter-custom="0250">
                                 <seg xml:lang="en">C2 AD or first half C3 AD</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">II secolo d.C. o inizio del III secolo</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en"></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">Found in the mid-eighteenth century during foundation works for the Collegio di Maria (founded in 1752), outside the Porta Stesicorea (Porta di Aci), on the eastern side of Piazza Stesicoro. Found with the inscription no.27, set up by the same man.</seg>
+                            <seg xml:lang="it">Trovato a metà del XVIII secolo  durante lo scavo di fondazione per il Collegio di Maria (fondato nel 1752), fuori dalla Porta Stesicorea (Porta di Aci), sul versante orientale di Piazza Stesicoro. Il testo è stato trovato nello stesso sito della iscrizione 27, che fa riferimento alla stessa persona.</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 287</acquisition>
@@ -161,7 +161,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -177,17 +177,17 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
+
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
+  <graphic n="screen" url="ISic1308.tif">
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+  </graphic>
+<!--
+    <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
-  <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
-    <desc>Add Description Here</desc>
-  </graphic>
-</surface>
   -->
+</surface>
     </facsimile>
     <text>
         <body>
@@ -244,15 +244,15 @@
                 <p>To the gods of the underworld. Kornelios Agathemeros lived 38 years.  Euphrosyne (set this up) as a memorial for her own partner in life.</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Agli dèi del mondo sotterraneo. Kornelios Agathemeros ha vissuto 38 anni. Eufrosia (lo pose) a ricordo del proprio compagno di vita.</p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
           <!--Th.K. heading; hederae; Kornelios (Cornelius) Agathemeros, erected by his wife Euphrosyne; age in years, in roman numerals, cf. . IG 14.337, 338,409, 484, 485; also, 443.1; use of idios as poss.pron. Cf. IG 14.492 (IMusCat 111) for the father or son of this man on another tombstone from the same place/monument (so Kaibel); Korhonen rather thinks it the same man erecting an inscr. in honour of his (previous) wife.-->
-                </p>
+              This epitaph was found together with ISic1314 (inv. no.272), which was apparently erected by the same man as is commemorated in this text (although it is also possible that they are father and son). The implication is that Euphrosyne was his second wife, who outlived him. The use of Latin numerals in the middle of the Greek text is a clear indication of the co-existence of the two languages in Catania at this date and the ‘interference’ between them (just as the name Cornelius Agathemeros combines Latin and Greek names also).  </p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Questo epitaffio è stato trovato insieme all'iscrizione ISic1314 (inv. 272), apparentemente eretto dallo stesso uomo commemorato in questo testo (anche se è anche possibile che siano padre e figlio). L'implicazione è che Eufrosine fosse la sua seconda moglie, che gli sopravvive. L'uso di numeri latini all’interno del testo greco è una chiara indicazione della coesistenza delle due lingue a Catania in questo periodo e della "interferenza" tra loro (proprio come il nome Cornelius Agathemeros combina un  nome latino e uno greco).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
