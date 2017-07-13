@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Funerary inscription of Aurelius Samohil</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Iscrizione funeraria di Aurelius Samohil</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -66,7 +66,7 @@
                     <msContents>
                         <textLang mainLang="la" otherLangs="heb">
                             <seg xml:lang="en">Latin and Hebrew</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">latino ed ebraico</seg>
                         </textLang>
                     </msContents>
                     <physDesc>
@@ -79,16 +79,16 @@
                                     </material>
                                     <objectType n="plaque" ref="http://www.eagle-network.eu/voc/objtyp/lod/259.html">
                                         <seg xml:lang="en">plaque</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">lapide</seg>
                                     </objectType>
                                     <p>
                                         <seg xml:lang="en"></seg>
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
+                                       <height unit="cm">29.5</height>
+                                        <width unit="cm">46</width>
+                                        <depth unit="cm">1.6-2</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
@@ -96,7 +96,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -109,7 +109,7 @@
                                 <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
+                                    <height unit="mm">7-19</height>
                                 </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
@@ -126,13 +126,13 @@
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
                             <origDate n="Lb" notBefore-custom="0383" notAfter-custom="0383">
-                                <seg xml:lang="en">383 AD (consulare date)</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">383 AD</seg>
+                                <seg xml:lang="it">383 d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en">Near the church of S. Teresa</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">Found in the vicinity of the Chiesa S. Teresa, on via Antonino Di Sangiuliano, during works for installation of telecoms in May 1928.</seg>
+                            <seg xml:lang="it">Rinvenuta nei pressi della Chiesa di S. Teresa, in via Antonino Di Sangiuliano, nel maggio del 1928 durante i lavori per l’istallazione di cavi.</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 540</acquisition>
@@ -161,7 +161,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -177,19 +177,17 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic0781.jpg"    >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+      <!--
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
-</surface>
-
   -->
-    </facsimile>
+</surface>
+  </facsimile>
     <text>
         <body>
             <div type="edition" subtype="PHI" n="PHI178069"><!-- automated import from PHI, requires re-editing/replacing -->
@@ -228,13 +226,15 @@
                 </p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>
+Pace su Israele. Amen, amen pace. Samuel.
+Io, Aurelius Samohil (=Samuel), acquistai una tomba per me e mia moglie Lassia Irene, che completò il suo percorso assegnato dal Fato dodici giorni prima delle calende di novembre (=21 ottobre), giorno di Venere (=venerdì), nell'ottava luna (nel mese ebraico di Heshwan), consoli Merobaudes per la seconda volta e Saturnino (=383 d.C.); visse ventitre anni con pace. Vi scongiuro per le vittorie di coloro che governano, parimenti vi scongiuro per gli onori dei patriarchi, parimenti vi scongiuro per la legge che il signore ha dato agli ebrei: nessuno apra la tomba e metta il corpo di qualcun altro sopra le nostre ossa; ma se qualcuno dovesse aprirlo, possa egli dare al fisco il peso di dieci libbre di argento.</p>
             </div>
             <div type="commentary" xml:lang="en">
-                <p> </p>
+                <p> This is the only Latin (and Hebrew) inscription from the Jewish community in Sicily, and it is the longest Latin text from the Jewish diaspora in this period; it also provides the earliest datable evidence for the Jewish community in Catania. The Latin is marked by phonological and syntactical errors (e.g. mi(mihi) et osxoris (uxori)), and it is likely that Latin was chosen not because it was familiar but because it was the high status language of public documents - the inscription aims to present Aurelius as a member of the local élite. The Hebrew is very formulaic and does not prove good knowledge of the language. Lassia is a rare name found otherwise in Campania in the early Imperial period. Threats of this sort against damage to the tomb are common in pagan and Christian inscriptions also. It is notable that Aurelius appeals equally to Roman, Jewish, and divine authority for protection.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Questa è l’unica iscrizione latina (e ebraica) proveniente dalla comunità giudaica di Sicilia, ed è il più ungo testo latino attribuibile ai giudei della diaspora in questo periodo. Esso inoltre fornisce la più antica prova databile della presenza di questa comunità a Catania. Il latino è contrassegnato da errori fonetici e sintattici (ad es. mi(mihi) et osxoris (uxori)) ed è probabile che fu scelto non per familiarità, ma perché si trattava della lingua ufficiale dei documenti pubblici – l’iscrizione mira infatti a presentare Aurelius come un membro della élite locale. Anche l’ebraico è molto stereotipato e non dimostra una buona conoscenza di questa lingua. Lassia è un nome raro trovato altre volte in Campania nella prima età imperiale. Il tipo di minacce che compaiono contro chi danneggia la tomba sono usuali anche nelle iscrizioni pagane e cristiane. É degno di nota che Aurelius si appelli in ugual modo all’autorità romana, giudaica e divina per avere protezione.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
