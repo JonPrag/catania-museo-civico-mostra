@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Funerary inscription for Vipsanius Atticus</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Iscrizione funeraria per Vipsanius Atticus</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -86,9 +86,9 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
+                                        <height unit="cm">30</height>
+                                        <width unit="cm">29</width>
+                                        <depth unit="cm">4</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
