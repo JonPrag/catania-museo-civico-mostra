@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Verse inscription recording building of a nymphaeum</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Iscrizione bifronte riguardante la costruzione di un ninfeo</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -76,7 +76,7 @@
                                 <support>
                                     <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">
                                         <seg xml:lang="en">limestone</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">calcare</seg>
                                     </material>
                                     <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
                                         <seg xml:lang="en">tablet</seg>
@@ -93,7 +93,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -120,13 +120,13 @@
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
                             <origDate n="K" notBefore-custom="0200" notAfter-custom="0300" cert="medium">
-                                <seg xml:lang="en">Third century AD (?)</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">Third or possibly early fourth century AD. Perhaps middle/later fourth century AD</seg>
+                                <seg xml:lang="it">III o inizio del IV secolo d.C. Forse metà o fine IV secolo d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">Found in May 1771 in excavations undertaken by the Prince of Biscari on the northern side of Piazza Dante and the church of S. Nicolò<geo>37.504537, 15.080570</geo></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Trovato nel maggio del 1771 negli scavi eseguiti dal Principe di Biscari sul lato nord di Piazza Dante e la chiesa di S. Nicolò<geo>37.504537, 15.080570</geo></seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania inv.539</acquisition>
@@ -154,7 +154,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">
                         <seg xml:lang="en">building</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">edificio</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -171,19 +171,16 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
-<surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
+ <surface type="front">
+  <graphic n="screen" url="ISic0649">
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+  </graphic>
+ <!-- <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
-  <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
-    <desc>Add Description Here</desc>
-  </graphic>
+-->
 </surface>
-
-  -->
-    </facsimile>
+   </facsimile>
     <text>
         <body>
             <div type="edition" xml:lang="grc">
@@ -225,7 +222,7 @@
                 <p>The name of the individual who carried out the work, and is honoured in the text, is lost at the end of line 1. Traces of the acqueduct which brought water into this part of Catania from the south side of Etna survive. Biscari uncovered remains of a complex which it has been suggested is identical with the nymphaeum (fountain house) mentioned in the later Latin text. The fragmentary mosaic of the months preserved in the museum appears to come from the same location. It is possible that this text commemorates the completion/extension of one branch of the acqueduct, and the construction of a nymphaeum at its terminus. Although Latin was the language of public documents, Greek was used occasionally for highly literary texts of this sort, and the two texts provide another illustration of the bilingualism present in Catania at this time.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Il nome di colui che ha eseguito l'opera, ed è onorato nel testo, è perso alla fine della linea 1. Rimangono tracce dell'acquedotto che  portava l’acqua in questa parte di Catania dal lato sud dell'Etna. Biscari scoprì resti di un complesso identificabile con il nymphaeum (fontana) menzionato nel testo latino successivo. Il mosaico frammentario dei mesi conservato nel museo sembra provenire dalla stessa località. È possibile che questo testo commemorasse il completamento / estensione di un ramo dell'acquedotto e la costruzione di un ninfeo nella parte  terminale. Anche se il latino era il linguaggio dei documenti pubblici, il greco è stato usato occasionalmente per testi altamente letterari di questo genere, e i due testi forniscono un'altra testimonianza del bilinguismo presente a Catania in quel tempo.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
