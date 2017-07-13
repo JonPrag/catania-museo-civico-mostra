@@ -127,7 +127,7 @@
                   <origin>
                      <origPlace datingMethod="#julian">
                         <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025" cert="low">Roma (?)<geo>41.891775, 12.486136</geo>              </placeName>
-                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html" cert="low">Rome (?)geo>41.891775, 12.486136</geo></placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html" cert="low">Rome (?)<geo>41.891775, 12.486136</geo></placeName>
                      </origPlace>
                      <origDate notBefore-custom="0052" notAfter-custom="0053">
                         <seg xml:lang="en">Between 25 January 52 AD and 24 January 53 AD.</seg>
