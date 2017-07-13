@@ -128,7 +128,7 @@
                             </origPlace>
                             <origDate n="LMa" notBefore-custom="0300" notAfter-custom="0450">
                                 <seg xml:lang="en">C4 AD or first half C5 AD</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it"> IV secolo o prima metà del V secolo d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
@@ -178,19 +178,17 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic1355.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+      <!--
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
-</surface>
-
   -->
-    </facsimile>
+ </surface>
+</facsimile>
     <text>
         <body>
             <div type="edition" xml:lang="grc"><!-- checked against photo; proper autopsy still required -->
