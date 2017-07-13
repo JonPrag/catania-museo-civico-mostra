@@ -6,7 +6,7 @@
          <titleStmt>
             <title>
                <seg xml:lang="en">Funerary inscription for Polocronia</seg>
-               <seg xml:lang="it"></seg>
+               <seg xml:lang="it">Iscrizione funeraria per Polocroniae</seg>
             </title>
             <editor ref="#JP">Jonathan Prag</editor>
             <principal ref="#JP">Jonathan Prag</principal>
@@ -67,7 +67,7 @@
                <msContents>
                   <textLang mainLang="la" >
                      <seg xml:lang="en">Latin</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">latino</seg>
                   </textLang>
                </msContents>
                <physDesc>
@@ -76,15 +76,15 @@
                         <support>
                            <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
                               <seg xml:lang="en">marble</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">marmo</seg>
                            </material>
                            <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
                               <seg xml:lang="en">tabula</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">lastra</seg>
                            </objectType>
                            <p>
                               <seg xml:lang="en">A large rectangular marble plaque broken into four pieces. The rear is smooth. To the left of the text is engraved a figure in an attitude of prayer and a chi-rho symbol; to the right a bird perched on a branch.</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">Una grande targa di marmo rettangolare suddivisa in quattro pezzi. La parte posteriore è liscia. A sinistra del testo è incisa una figura in un atteggiamento di preghiera e di un simbolo chi-rho; a destra un uccello appollaiato su un ramo.</seg>
                            </p>
                            <dimensions>
                               <height unit="cm">33</height>
@@ -97,17 +97,17 @@
                         <layout>
                            <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                               <seg xml:lang="en">Engraved</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">Inciso</seg>
                            </rs>
                            <seg xml:lang="en">Four lines of large regular Latin letters with wide border of empty space all round; images to left and right.</seg>
-                           <seg xml:lang="it"></seg>
+                           <seg xml:lang="it">Quattro linee di grandi lettere latine regolari, con ampio margine di spazio vuoto intorno; immagini a sinistra e a destra.</seg>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
                         <seg xml:lang="en">Finely engraved regular laters. F, M and L all show tendencies towards later cursive style. Single letter abbreviations are marked by a horizontal stroke through the letter.</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">Laterali regolari finemente incisi. Le lettere F, M e L mostrano tendenze verso il tardo stile corsivo. Le abbreviazioni a singola lettera sono segnate da una incisione orizzontale trasversale alla lettera stessa.</seg>
                         <locus from="line1" to="line4">Lines 1-4</locus>
                         <dimensions type="letterHeight">
                            <height unit="mm">35-48</height>
@@ -129,12 +129,12 @@
                      </origPlace>
                      <origDate notBefore-custom="0300" notAfter-custom="0400">
                         <seg xml:lang="en">Fourth century AD</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">IV secolo d.C.</seg>
                      </origDate>
                   </origin>
                   <provenance type="found">
                      <seg xml:lang="en">Found c.1740 in the Catacomb of Domitilla, Rome</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">Rinvenuta nel 1740 c.a nella Catacomba di Domitilla a Roma</seg>
                   </provenance>
                  <provenance type="observed" subtype="autopsied">Details to be added</provenance>
                   <acquisition>Museo Civico di Catania, inv.714</acquisition>
@@ -157,7 +157,7 @@
             <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                   <seg xml:lang="en">Funerary</seg>
-                  <seg xml:lang="it"></seg>
+                  <seg xml:lang="it">epigrafe sepolcrale</seg>
                </term>
             </keywords>
          </textClass>
@@ -169,21 +169,19 @@
          </listChange>
       </revisionDesc>
    </teiHeader>
-   <!-- Image data to add
       <facsimile>
       <surface type="front">
-         <graphic n="screen"
-                  url="ISic0000_tiled.tif"
-                  height="4912px"
-                  width="7360px">
+         <graphic n="screen" url="voci06.jpg">
+             <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+         </graphic>
+     <!--    <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
             <desc>Add Description Here</desc>
          </graphic>
-         <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
-            <desc>Add Description Here</desc>
-         </graphic>
-      </surface>
+      -->
+   </surface>
+
    </facsimile>
-   -->
+
    <text>
       <body>
          <div type="edition" xml:lang="la" resp="#JP">
@@ -204,10 +202,10 @@
             <p>Il marito (lo) pose per la moglie Polocronia, che visse 27 anni e 8 mesi; morì il 9 ottobre, benemerita, in pace.</p>
          </div>
          <div type="commentary" xml:lang="en">
-            <p>Polocronia is a Greek name (Polychronia) mostly attested at Rome in Christian inscriptions of the third to fifth centuries AD. Both the bird and the praying figure are familiar elements in the attested repertoire of imagery in Christian funerary inscriptions (the bird is the more common). The interpretation of the dating formula is not entirely certain (the use of D only as abbreviation for "Idus" is unusual; but as Korhonen notes, to read "d(ie)" instead, and so 'on the 5th day of October', without reference to the Ides or Kalends would be even more unusual at this date). uxxori (uxori) and que (qui) are typical deviations from ‘classical’ spelling, reflecting pronunciation and formal literacy. The repeated use of a diagonal strikethrough to mark an abbreviation, together with comparison with the chi-rho symbol upper left, suggests that the final letter should be read as 'P(ace)', i.e. 'in peace' and not as a 'chi-rho' symbol and so 'in Christ'  as implied in ICUR.</p>
+            <p>Polocronia is a Greek name (Polychronia) mostly attested at Rome in Christian inscriptions of the third to fifth centuries AD. Both the bird and the praying figure are familiar elements in the attested repertoire of imagery in Christian funerary inscriptions (the bird is the more common). The interpretation of the dating formula is not entirely certain (the use of D only as abbreviation for "Idus" is unusual; but as Korhonen notes, to read "d(ie)" instead, and so 'on the 5th day of October', without reference to the Ides or Kalends would be even more unusual at this date). uxxori (uxori) and que (qui) are typical deviations from ‘classical’ spelling, reflecting pronunciation and formal literacy. The repeated use of a diagonal strike through to mark an abbreviation, together with comparison with the chi-rho symbol upper left, suggests that the final letter should be read as 'P(ace)', i.e. 'in peace' and not as a 'chi-rho' symbol and so 'in Christ'  as implied in ICUR.</p>
          </div>
          <div type="commentary" xml:lang="it">
-            <p></p>
+            <p>Polocronia è un nome greco (Polychronia) in gran parte attestato a Roma nelle iscrizioni cristiane dal terzo al quinto secolo dopo Cristo. Sia l'uccello che l'orante sono elementi familiari del repertorio di immagini attestato nelle  iscrizioni funerarie cristiane (l'uccello è il più comune). L'interpretazione della formula di datazione non è del tutto certa. Uxxori (uxori) e que (qui) sono tipiche deviazioni dalla ortografia ‘classica’, riflettendo la pronuncia e l’alfabetizzazione formale. L'uso ripetuto di una incisione diagonale per indicare un'abbreviazione, insieme con il confronto con il simbolo chi-rho in alto a sinistra, suggerisce che la lettera finale debba essere interpretata come "P(ace)", vale a dire "in pace" e non come simbolo "chi-rho'e cioè 'in Cristo' come sottinteso in ICUR</p>
          </div>
          <div type="bibliography">
             <listBibl>
