@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Fragmentary funerary inscription of Marcus Vipsanius Phoebus</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Iscrizione funeraria frammentaria (greca) di Marco Vipsanio Febo</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -66,7 +66,7 @@
                     <msContents>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Ancient Greek</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">greco antico</seg>
                         </textLang>
                     </msContents>
                     <physDesc>
@@ -86,17 +86,17 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
-                                    </dimensions>
+                                        <height unit="cm">30.5</height>
+                                        <width unit="cm">40</width>
+                                        <depth unit="cm">4</depth>
+                                   </dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -109,7 +109,7 @@
                                 <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
+                                        <height unit="mm">25-40</height>
                                 </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
@@ -126,13 +126,16 @@
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
                             <origDate n="J" notBefore-custom="0100" notAfter-custom="0200">
-                            <seg xml:lang="en">Second century AD</seg>
-                             <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">Second century AD (?)</seg>
+                             <seg xml:lang="it">II secolo d.C. (?)</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en"></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">The provenance is unknown, but its early presence in the civic collection and the name Vipsanius suggest that it is probably from Catania.
+</seg>
+                            <seg xml:lang="it">La provenienza è ignota, ma la sua presenza in antica data nella collezione civica ed il nome di Vipsanio
+indicano che probabilmente fosse di Catania.
+</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 232</acquisition>
@@ -160,7 +163,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -176,18 +179,17 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic3263.jpg" >
+        <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+      <!--
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
-</surface>
 
   -->
+</surface>
     </facsimile>
     <text>
         <body>
@@ -212,13 +214,14 @@
                 <p>To the gods of the underworld. Markos Beipsanios Phoibos (= Marcus Vipsanius Phoebus) lived for 26 years. His father and mother (set this up) for their devoted son.</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Agli dei sotterranei. Marco Vipsanio Febo visse 26 anni. Il padre e la madre (lo costruirono) per il loro figlio devoto.
+</p>
             </div>
             <div type="commentary" xml:lang="en">
-                <p>The style of the inscription is quite particular, with variety in letter forms (e.g. the change in the letter E), the frequent use of ligatures (letters joined together), and hedera (ivy leaves) to separate words. Although written in Greek, the text echoes Latin practices, such as the abbreviation Θ Κ (= D M) and also the abbreviation of the Latin praenomen. The spelling of Vipsanius as Beipsanios reflects the common practice from at least the first century AD of transcribing the Latin v as Greek β (although the precise phonetic sound of both letters at this date remains uncertain). On the name Vipsanius, see no.23. </p>
+                <p>The style of the inscription is quite particular, with variety in letter forms (e.g. the change in the letter E), the frequent use of ligatures (letters joined together), and hedera (ivy leaves) to separate words. Although written in Greek, the text echoes Latin practices, such as the abbreviation Θ Κ (= D M) and also the abbreviation of the Latin praenomen. The spelling of Vipsanius as Beipsanios reflects the common practice from at least the first century AD of transcribing the Latin v as Greek β (although the precise phonetic sound of both letters at this date remains uncertain). On the name Vipsanius, see ISic0383 (inv. no.350). </p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Lo stile dell’iscrizione è piuttosto particolare, con variazioni nella forma delle lettere (per es. la differenza nella lettera E), il frequente uso di legature ( lettere unite insieme) ed Haedera (foglie di edera) per separare le parole. Benchè scritto in greco, il testo richiama le pratiche latine, come l’abbreviazione Θ Κ (= D M) ed anche l’abbreviazione del praenomen latino. La trascrizione di Vipsanios  come Beipsanios rispecchia la pratica comune almeno dal I secolo d.C. di trascrivere la lettera latina V con la greca β (sebbene il preciso suono fonetico di entrambe lle lettere in quella data rimanga incerto). Per il nome Vipsanios vedi ISic0383 (inv.350).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
