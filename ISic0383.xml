@@ -96,7 +96,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -105,11 +105,11 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <seg xml:lang="en"></seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">The letters are written in a fluid cursive style which recalls painted letters (good examples at Pompeii). </seg>
+                                <seg xml:lang="it">Le lettere sono scritte in uno stile corsivo fluido che ricorda lettere dipinte (buoni esempi visibili a Pompei).</seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
+                                    <height unit="cm">3.5-4 <height>
                                 </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
@@ -125,13 +125,13 @@
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
                             <origDate n="IbJa" notBefore-custom="0050" notAfter-custom="0150">
-                                <seg xml:lang="en">Second half C1 AD or first half C2 AD (so Korhonen)</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">Later first or earlier second century AD</seg>
+                                <seg xml:lang="it">Fine del I o inizio II secolo d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en"></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">Found in 1849 during excavation of the foundations of the Hospital of S. Marco (Palazzo Tezzano), on the north side of Piazza Stesicoro.</seg>
+                            <seg xml:lang="it">Rinvenuta nel 1849 durante lo scavo delle fondamenta dell'Ospedale di S. Marco (Palazzo Tezzano), sul lato nord di Piazza Stesicoro.</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 350</acquisition>
@@ -159,7 +159,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -175,19 +175,15 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
+  <graphic n="screen" url="ISic0383.jpg">
     <desc>Add Description Here</desc>
   </graphic>
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
-    <desc>Add Description Here</desc>
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
 </surface>
-
-  -->
-    </facsimile>
+</facsimile>
     <text>
         <body>
             <div type="edition" xml:lang="la" resp="#JP"><!-- requires further editing -->
@@ -213,15 +209,15 @@
                 <p>Sacred to the spirits of the underworld. Vispanius Atticus (set this up) while living for himself and his family.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p></p>
+                <p>Consacrato agli Dei Mani. Vispanius Atticus (lo costruì) mentre era in vita per se stesso e la sua famiglia.</p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
           <!--DMS header; Vipsanius Atticus vivos sibi et suis. K observes that this prob. one of the liberti of M. Agrippa or his descendants (A had Sicilian property); f. IMusCat 148, 149 and IG 14.495 for others (?also IMusCat 146). Manganaro cp's this to his no. 37 in the Epig. article cited and also to CIL 10.7097 = ILLPa 3.-->
-                </p>
+                The formula vivus sibi et suis is common, reflecting the fact that Vipsanius set up a family funerary monument. The name Vipsanius is common in Catania, and it is likely that these are descendants of freedmen of Marcus Vipsanius Agrippa, the right-hand man of Octavian, who gained property in Sicily after his victory over Sextus Pompeius in 36 BC. The form vivos, instead of the normal vivus, is more common in earlier Latin.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>La formula vivus sibi et suis è comune, per indicare che Vipsanius aveva fatto costruire un monumento funerario per la propria famiglia. Il nome Vipsanio è comune a Catania, ed è probabile che coloro che portavano questo nome fossero i discendenti di liberti di Marcus Vipsanius Agrippa, il braccio destro di Ottaviano, che acquisì proprietà in Sicilia, dopo la sua vittoria su Sextus Pompeius nel 36 aC. La forma vivos, al posto del normale vivus, è più comune nel latino antico.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
