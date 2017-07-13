@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                    <seg xml:lang="en">Funerary inscription for Kailia Heorte</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Epitaffio funebre di Kailia Heorte</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -66,7 +66,7 @@
                     <msContents>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Ancient Greek</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">greco antico</seg>
                         </textLang>
                     </msContents>
                     <physDesc>
@@ -86,9 +86,9 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
+                                        <height unit="cm">25.5</height>
+                                        <width unit="cm">24</width>
+                                        <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
@@ -96,7 +96,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -113,7 +113,7 @@
                                 </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
-                                    <height unit="mm"/>
+                                    <height unit="mm">12-28</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -127,12 +127,12 @@
                             </origPlace>
                             <origDate n="IbJa" notBefore-custom="0050" notAfter-custom="0150">
                                 <seg xml:lang="en">Second half C1 AD / first half C2 AD</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">Seconda metà del I o prima metà del II secolo d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en"></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">Found before 1931 on the site of the demolished church and convent of the Cappuccini Vecchi (now Palazzo della Borsa), in the area of the Roman amphitheatre, within a Roman tomb containing c.30 burials.</seg>
+                            <seg xml:lang="it">Rinvenuto prima del 1931 nel sito della demolita chiesa e del convento dei Cappuccini Vecchi (ora Palazzo della Borsa), nella zona dell'anfiteatro romano, all'interno di una tomba romana contenente circa 30 sepolture.</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 235</acquisition>
@@ -160,7 +160,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -176,19 +176,16 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic3223.tif">
+    <desc></desc>
   </graphic>
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
-    <desc>Add Description Here</desc>
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
 </surface>
 
-  -->
-    </facsimile>
+</facsimile>
     <text>
         <body>
             <div type="edition" xml:lang="grc" resp="#JP">
@@ -209,13 +206,13 @@
                 <p>To the underworld spirits. Kailia Heorte lived for 70 years. Blaste, her daughter, made this for a devoted mother.</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Agli Spiriti sotterranei. Kailia Heorte ha vissuto per 70 anni. Blaste, sua figlia, ha fatto questo per la madre devota.</p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p>The phrasing of this text, with the unusual Δαίμοσι χθονίοις (one other Sicilian instance, IG XIV.294, from Alcamo), instead of the more normal Θεοῖς Καταχθονίοις (both imitating the Latin Dis Manibus), the uncommon ἐβίωσε instead of ἔζησε (‘she lived’, Latin vixit), and the unusual form ἔποισε (‘she made’, usually ἐποίησε, Latin fecit) all suggest the influence of typical Latin formulaic construction (compare nos. 18-21). Both Heorte and Blaste are rare names, mostly found in the eastern Mediterranean in the imperial period, but each is attested once also in Siracusa. Given that Kailia is the Latin Caelia, it is possible that Heorte is intended as a translation of the Latin Festa.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Il linguaggio di questo testo, con l'insolito Δαίμοσι χθονίοις (un altro esempio di Sicilia, IG XIV.294, da Alcamo), al posto del più normale Θεοῖς Καταχθονίοις (entrambe formule che imitano il latino Dis Manibus), il raro uso di ἐβίωσε invece di ἔζησε ('ha vissuto', il vixit latino), e la forma insolita ἔποισε ( 'ha fatto', di solito ἐποίησε, il  fecit latino) tutto suggerisce l'influenza della tipica costruzione formulare Latina (confrontare nn. 18-21). Sia Heorte che Blaste sono nomi rari, presenti soprattutto nel Mediterraneo orientale nel periodo imperiale, ma ciascuno  è attestato una volta anche a Siracusa. Dato che Kailia è il latino Caelia, è possibile che Heorte sia intesa come traduzione del latino Festa.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
