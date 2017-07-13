@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Funerary inscription for Agathon</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Iscrizione funeraria per Agathon</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -68,7 +68,7 @@
                     <msContents>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Ancient Greek</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">greco antico</seg>
                         </textLang>
                     </msContents>
                     <physDesc>
@@ -88,9 +88,9 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
+                                       <height unit="cm">19.7</height>
+                                        <width unit="cm">38.9</width>
+                                        <depth unit="cm">1.8-2.3</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
@@ -98,7 +98,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -111,7 +111,7 @@
                                 <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
+                                    <height unit="mm">5-22</height>
                                 </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
@@ -128,13 +128,13 @@
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
                             <origDate n="L" notBefore-custom="0300" notAfter-custom="0400">
-                                <seg xml:lang="en">Fourth century AD</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">Probably fourth century AD</seg>
+                                <seg xml:lang="it">Probabilmente del IV secolo d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en"></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">Probably from Catania: it was in the Museo dei Benedettini before 1769 and the form and content make a Catania provenance most likely.</seg>
+                            <seg xml:lang="it">Verosimilmente da Catania: era nel Museo dei Benedettini prima del 1769 e sia forma che contenuto rendono molto plausibile una provenienza da Catania.</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 231</acquisition>
@@ -162,7 +162,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -178,18 +178,16 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic0964.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+      <!--
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
-</surface>
-
   -->
+</surface>
     </facsimile>
     <text>
         <body> <!-- two unchecked imported texts from PHI, revision required against Prag autopsy -->
@@ -279,19 +277,17 @@
                 <p><!--external apparatus criticus (if applicable)--></p>
             </div>
             <div type="translation" xml:lang="en" resp="#JP">
-                <p>All the earth and the air in its wide expanses begets you, o Death. On a sudden, you snatched away my babe – or was there some necessity, for if he had grown old, would he not still have been yours?
-                    Master Agathon was born the 15th day before the Kalends of November (= 18th October), on the day of Kronos; he lived 11 months; he died the tenth day before the Kalends of September (= 23rd August), on the day of the Sun. Lady Agatha, (grant) peace for Agathon!</p>
+                <p>All the earth and the air in its wide expanses begets you, o Death. On a sudden, you snatched away my babe – or was there some necessity, for if he had grown old, would he not still have been yours? Master Agathon was born the 15th day before the Kalends of November (= 18th October), on the day of Kronos; he lived 11 months; he died the tenth day before the Kalends of September (= 23rd August), on the day of the Sun. Lady Agatha, (grant) peace for Agathon!</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Tutta la terra e il vasto etere generano per te, o Morte. All'improvviso mi hai strappato via il bambino, che necessità c’era? Infatti se fosse invecchiato, non sarebbe stato pur sempre tuo? Il signore Agathon nacque quindici giorni prima delle calende di novembre (= 18 Ottobre) nel giorno di Kronos. Visse undici mesi; morì dieci giorni prima delle calende di settembre (= 23 agosto) nel giorno del Sole. Signora Agatha, (conceda) la pace a Agathon.</p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p><!--commented out pending revision-->
-          <!--Ref. to Sunday as Hemera Heliou is unusual - cf. IG 14.0235; 0165. Agathon is the deceased; Note birthday is recorded as well as death and age, which is unique in Gr. epig. in Sic, rare generally; parallel in Agnello, Sill. n.85, the Latin epitaph of Iulia Florentina; extensive discussion by Feissel. He thinks this also has ref to St.Agatha, the martyr of Catania; cf. IGPalermo pp.142-3 no.112.-->
-                </p>
+          <!--Ref. to Sunday as Hemera Heliou is unusual - cf. IG 14.0235; 0165. Agathon is the deceased; Note birthday is recorded as well as death and age, which is unique in Gr. epig. in Sic, rare generally; parallel in Agnello, Sill. n.85, the Latin epitaph of Iulia Florentina; extensive discussion by Feissel. He thinks this also has ref to St.Agatha, the martyr of Catania; cf. IGPalermo pp.142-3 no.112.--> The first four lines are in verse, and express ideas typical in pagan funerary inscriptions; the chi-rho symbols and the latter part of the text show that this is clearly a Christian epitaph. It is rare to mention the date of birth, especially in Greek Christian texts, and most parallels are for infants, as here. The closest parallel is the famous epitaph of Julia Florentina from Catania (now in the Louvre, Paris: Ma2994), an infant who was buried before the shrine of the martyrs, perhaps including St. Agatha. The significance of the final line of the text is debated, but it appears to be a prayer to Saint Agatha, in which case this provides the earliest contemporary evidence for the cult of St. Agatha at Catania, of similar date to that for St. Lucia at Siracusa in the epitaph for Euskia (Museo Archeologico Regionale Paolo Orsi, inv.14600). </p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Le prime quattro righe sono in versi e idee espresse tipiche delle iscrizioni funerarie pagane; i simboli chi-rho e la seconda parte del testo mostrano che questa è chiaramente un'epitaffio cristiano. È raro menzionare la data di nascita, soprattutto nei testi greci cristiani, e la maggior parte dei paralleli sono per i neonati, come qui. Il parallelo più vicino è il famoso epitaffio di Julia Florentina di Catania (ora al Louvre, Parigi: Ma2994), un neonato che è stato sepolto presso un santuario dei martiri, tra cui forse era anche Sant’Agata. La questione della linea finale del testo è discussa, ma sembrerebbe essere una preghiera per Sant’Agata, nel qual caso ciò fornisce la prima testimonianza contemporanea per il culto di Sant'Agata a Catania, di data simile a quella di S. Lucia a Siracusa nell'epitaffio di Euskia (Museo Archeologico Regionale Paolo Orsi, inv.14600).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
