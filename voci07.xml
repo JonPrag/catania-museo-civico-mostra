@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <seg xml:lang="en">Funerary inscription for Agape</seg>
+               <seg xml:lang="it">Iscrizione funeraria per Agape</seg>
+            </title>
+            <editor ref="#JP">Jonathan Prag</editor>
+            <principal ref="#JP">Jonathan Prag</principal>
+            <funder>John Fell OUP Research Fund</funder>
+            <respStmt>
+               <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+               <resp>original data collection and editing</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+               <resp>conversion to EpiDoc</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+               <resp>site construction and encoding</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+               <resp>editing of geo data</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="MM">Michael Metcalfe</name>
+               <resp>museum data collection</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SA">Serena Agodi</name>
+               <resp>Italian translation</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>I.Sicily</authority>
+            <idno type="filename"></idno>
+            <idno type="mostravoci">07</idno>
+            <idno type="TM"/>
+            <idno type="EDR"/>
+            <idno type="EDB">20991</idno>
+            <idno type="EDH"/>
+            <idno type="EDCS"/>
+            <idno type="PHI"/>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <region>Sicily</region>
+                  <settlement>Catania</settlement>
+                  <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                  <idno type="inventory">584</idno>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno type="old"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la" >
+                     <seg xml:lang="en">Latin</seg>
+                     <seg xml:lang="it">latino</seg>
+                  </textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                              <seg xml:lang="en">marble</seg>
+                              <seg xml:lang="it">marmo</seg>
+                           </material>
+                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                              <seg xml:lang="en">tabula</seg>
+                              <seg xml:lang="it">lastra</seg>
+                           </objectType>
+                           <p>
+                              <seg xml:lang="en"></seg>
+                              <seg xml:lang="it"></seg>
+                           </p>
+                           <dimensions>
+                              <height unit="cm">28</height>
+                              <width unit="cm">30</width>
+                              <depth unit="cm">3.8</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                              <seg xml:lang="en">Engraved</seg>
+                              <seg xml:lang="it">Inciso</seg>
+                           </rs>
+                           <seg xml:lang="en"></seg>
+                           <seg xml:lang="it"></seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="en"></seg>
+                        <seg xml:lang="it"></seg>
+                        <locus from="line1" to="line4">Lines 1-4</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">29-37</height>
+                        </dimensions>
+                        <locus from="line1" to="line2">Not measured</locus>
+                        <dimensions type="interlinear">
+                           <height unit="mm"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace datingMethod="#julian">
+                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025">Roma<geo>41.891775, 12.486136</geo>
+                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html">Rome<geo></geo>
+                        </placeName>
+                     </origPlace>
+                     <origDate notBefore-custom="0300" notAfter-custom="0400">
+                        <seg xml:lang="en">366 AD</seg>
+                        <seg xml:lang="it">366 d.C.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="en">Found in the Catacomb of Domitilla, Rome before 1720. The right half was sent to Sicily in 1748.
+</seg>
+                     <seg xml:lang="it">Rinvenuta nella Catacomba di Domitilla a Roma prima del 1720. La metà di destra fu inviata in Sicilia nel 1748.
+</seg>
+                  </provenance>
+                 <provenance type="observed" subtype="autopsied">Details to be added</provenance>
+                  <acquisition>Museo Civico di Catania, inv.584</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="julian">
+               <p>Julian Calendar</p>
+            </calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            </langUsage>
+         <textClass>
+            <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                  <seg xml:lang="en">Funerary</seg>
+                  <seg xml:lang="it">epigrafe sepolcrale</seg>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+      <facsimile>
+      <surface type="front">
+         <graphic n="screen" url="voci07.jpg">
+             <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+         </graphic>
+     <!--    <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
+            <desc>Add Description Here</desc>
+         </graphic>
+      -->
+   </surface>
+
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="edition" xml:lang="la">
+            <ab>  
+            <!-- controllare la codifica in EpiDoc del testo -->
+             <lb n="1"/>
+             <supplied reason="undefined" evidence="previouseditor">Bene meren</supplied>ti filiae <g type="chrismon">☧</g>
+             <lb n="2"/>
+             <supplied reason="undefined" evidence="previouseditor"><persName><name>Agapeni</name><persName>virc</supplied>ini in pace.
+             <lb n="3"/>
+             <supplied reason="undefined" evidence="previouseditor"><expan><abbr>Dep</abbr><ex>osita</ex></expan> <num value="3">III</num> <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Dec</abbr><ex>embres</ex></expan></supplied> <persName><name>Gratiano</name><persName> et
+             <lb n="4"/>
+             <supplied reason="undefined" evidence="previouseditor"><persName><name>Degalaifo</name><persName></supplied><expan><abbr>co</abbr> <ex>n</ex><abbr>s</abbr><ex>ulibu</ex><abbr>s</abbr></expan><g type="interpunct"> · </g><expan><abbr>v</abbr><ex>ixit</ex></expan>g type="interpunct"> · </g><expan><abbr>a</abbr><ex>nnis</ex></expan>g type="interpunct"> · </g><num value="21">XXI</num>
+                     
+            </ab>
+         </div>
+         <div type="apparatus">
+            <p><!--external apparatus criticus (if applicable)--></p>
+         </div>
+         <div type="translation" xml:lang="en" resp="#JP">
+            <p>For our well-deserving daughter Agape, a virgin in peace. Laid to rest on 29 November in the consulship of Gratian and Dagalaifus (366 AD). She lived 21 years.</p>
+         </div>
+         <div type="translation" xml:lang="it" resp="#SA">
+            <p>Per la nostra meritevole figlia Agape, vergine, in pace. Sepolta il 29 novembre sotto il consolato di Graziano e Dagalaifus (366 d.C.). Visse 21 anni.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Agape is a Greek name, principally attested in Christian inscriptions. The left half of the text is lost, but was recorded by Boldetti in 1720.</p>
+         </div>
+         <div type="commentary" xml:lang="it">
+            <p>Agape è un nome greco, principalmente attestato nelle iscrizioni cristiane. La metà sinistra del testo è perduta, ma è stata registrata da Boldetti nel 1720.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl type="IMusCatania">
+                  <citedRange>360</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <seg xml:lang="en">Funerary inscription for Martyra</seg>
+               <seg xml:lang="it">Iscrizione funeraria per Martyra </seg>
+            </title>
+            <editor ref="#JP">Jonathan Prag</editor>
+            <principal ref="#JP">Jonathan Prag</principal>
+            <funder>John Fell OUP Research Fund</funder>
+            <respStmt>
+               <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+               <resp>original data collection and editing</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+               <resp>conversion to EpiDoc</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+               <resp>site construction and encoding</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+               <resp>editing of geo data</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="MM">Michael Metcalfe</name>
+               <resp>museum data collection</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="SA">Serena Agodi</name>
+               <resp>Italian translation</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>I.Sicily</authority>
+            <idno type="filename"></idno>
+            <idno type="mostravoci">08</idno>
+            <idno type="TM"/>
+            <idno type="EDR"/>
+            <idno type="EDB">25850</idno>
+            <idno type="EDH"/>
+            <idno type="EDCS"/>
+            <idno type="PHI"/>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italy</country>
+                  <region>Sicily</region>
+                  <settlement>Catania</settlement>
+                  <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                  <idno type="inventory">899</idno>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno type="old"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la" >
+                     <seg xml:lang="en">Latin</seg>
+                     <seg xml:lang="it">latino</seg>
+                  </textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                              <seg xml:lang="en">marble</seg>
+                              <seg xml:lang="it">marmo</seg>
+                           </material>
+                           <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
+                              <seg xml:lang="en">tabula</seg>
+                              <seg xml:lang="it">lastra</seg>
+                           </objectType>
+                           <p>
+                              <seg xml:lang="en"></seg>
+                              <seg xml:lang="it"></seg>
+                           </p>
+                           <dimensions>
+                              <height unit="cm">21.5</height>
+                              <width unit="cm">42</width>
+                              <depth unit="cm">2.5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                              <seg xml:lang="en">Engraved</seg>
+                              <seg xml:lang="it">Inciso</seg>
+                           </rs>
+                           <seg xml:lang="en"></seg>
+                           <seg xml:lang="it"></seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="en"></seg>
+                        <seg xml:lang="it"></seg>
+                        <locus from="line1" to="line2">Lines 1-2</locus>
+                        <dimensions type="letterHeight">
+                           <height unit="mm">30-38</height>
+                        </dimensions>
+                        <locus from="line1" to="line2">Not measured</locus>
+                        <dimensions type="interlinear">
+                           <height unit="mm"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace datingMethod="#julian">
+                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025">Roma<geo>41.891775, 12.486136</geo>
+                        </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html">Rome<geo></geo>
+                        </placeName>
+                     </origPlace>
+                     <origDate notBefore-custom="0200" notAfter-custom="0400">
+                        <seg xml:lang="en">290-325 AD</seg>
+                        <seg xml:lang="it">290-325 d.C.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="en">Found in the Catacaomb of Domitilla, Rome, in 1733, and transported to Sicily in the eighteenth century, and part of the Museo Biscari.</seg>
+                     <seg xml:lang="it">Rinvenuta nella Catacomba di Domitilla a Roma nel 1733 e trasportata in Sicilia nel Settecento, faceva parte del Museo Biscari. </seg>
+                  </provenance>
+                 <provenance type="observed" subtype="autopsied">Details to be added</provenance>
+                  <acquisition>Museo Civico di Catania, inv.899</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="julian">
+               <p>Julian Calendar</p>
+            </calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            </langUsage>
+         <textClass>
+            <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+               <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                  <seg xml:lang="en">Funerary</seg>
+                  <seg xml:lang="it">epigrafe sepolcrale</seg>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+      <facsimile>
+      <surface type="front">
+         <graphic n="screen" url="voci08.jpg">
+             <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
+         </graphic>
+     <!--    <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
+            <desc>Add Description Here</desc>
+         </graphic>
+      -->
+   </surface>
+
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="edition" xml:lang="la">
+            <ab>  
+            <!-- controllare la codifica in EpiDoc del testo -->
+             
+             <lb n="1"/><persName><name>Martur</name><persName>
+             <lb n="2" break="no"/>a</name><persName> in pace <g type="orans">((orans))</g> <g type="avis in mensa">((avis in mensa))</g>
+          
+            </ab>
+         </div>
+         <div type="apparatus">
+            <p><!--external apparatus criticus (if applicable)--></p>
+         </div>
+         <div type="translation" xml:lang="en" resp="#JP">
+            <p>Martyra, in peace</p>
+         </div>
+         <div type="translation" xml:lang="it" resp="#SA">
+            <p>Martira, in pace </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Martyra is a common Christian name (from the Greek, meaning ‘witness’). The praying figure and the bird are both common in Christian funerary imagery, although the interpretation of the object beneath the bird is uncertain.</p>
+         </div>
+         <div type="commentary" xml:lang="it">
+            <p>Martyra è un nome cristiano comune (dal greco, che significa "testimone"). La figura orante e l'uccello sono entrambi comuni nelle immagini funerarie cristiane, anche se l'interpretazione dell'oggetto sotto l'uccello è incerta.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl type="IMusCatania">
+                  <citedRange>352</citedRange>
+                  <ptr target="https://www.zotero.org/groups/382445/items/2EUC82DH"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
