@@ -6,7 +6,7 @@
          <titleStmt>
             <title>
                <seg xml:lang="en">Funerary urn of Titus Iunius Festus</seg>
-               <seg xml:lang="it"></seg>
+               <seg xml:lang="it">Urna funeraria di Tito Iunio Festo</seg>
             </title>
             <editor ref="#JP">Jonathan Prag</editor>
             <principal ref="#JP">Jonathan Prag</principal>
@@ -79,11 +79,11 @@
                            </material>
                            <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78.html">
                               <seg xml:lang="en">Cinerary urn</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">Urna cineraria</seg>
                            </objectType>
                            <p>
                               <seg xml:lang="en">A marble funerary urn decorated on the sides with cornucopia, and on the front with theatrical masks, from which hang garlands, with birds above and below. The rear is unfinished.</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">Un'urna funeraria in marmo decorata ai lati con cornucopia, e sul davanti con maschere teatrali, da cui cadono ghirlande, con uccelli sopra e sotto. La parte posteriore è incompiuta.</seg>
                            </p>
                            <dimensions>
                               <height unit="cm">18</height>
@@ -96,17 +96,17 @@
                         <layout>
                            <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                               <seg xml:lang="en">Engraved</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">Inciso</seg>
                            </rs>
                            <seg xml:lang="en">Latin text engraved over five lines in a framed panel in the upper middle of the front face of the urn. The text is centred and reduces slightly in size over the five lines.</seg>
-                           <seg xml:lang="it"></seg>
+                           <seg xml:lang="it">Testo latino inciso su cinque linee in un pannello incorniciato nella parte superiore  della faccia anteriore dell'urna. Il testo è centrato e riduce leggermente in dimensioni linea per linea sulle cinque linee</seg>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
                         <seg xml:lang="en">Wide moderately regular letters of the high imperial period, with basic serifs. R and B are closed. Traces of red paint are preserved in many of the letters.</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">Ampie lettere moderatamente regolari dell'alto periodo imperiale, con grazie di base. R e B sono chiuse. In molte delle lettere sono conservate tracce di vernice rossa.</seg>
                         <locus from="line1" to="line5">Lines 1-5</locus>
                         <dimensions type="letterHeight">
                            <height unit="mm">7-12</height>
@@ -127,20 +127,20 @@
                      </origPlace>
                      <origDate notBefore-custom="0050" notAfter-custom="0150">
                         <seg xml:lang="en">Second half of the first or first half of the second century AD</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">Seconda metà del I o prima metà del II sec. d.C.</seg>
                      </origDate>
                   </origin>
                   <provenance type="found">
                      <seg xml:lang="en">Unknown</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">Sconosciuta</seg>
                   </provenance>
                   <provenance type="observed">
                      <seg xml:lang="en">First seen in Rome in the 17th century</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">Per la prima volta vista a Roma nel XVII sec</seg>
                   </provenance>
                   <provenance type="observed">
                      <seg xml:lang="en">Recorded as acquired and transported to Sicily in 1748 by Scammacca</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">Registrato come acquisito e trasportato in Sicilia nel 1748 da Scammacca</seg>
                   </provenance>
                   <provenance type="observed" subtype="autopsied" resp="#JP">2017.04.04</provenance>
                   <acquisition>Museo Civico di Catania, inv.841</acquisition>
@@ -163,7 +163,7 @@
             <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                   <seg xml:lang="en">Funerary</seg>
-                  <seg xml:lang="it"></seg>
+                  <seg xml:lang="it">Epigrefe sepolcrale</seg>
                </term>
             </keywords>
          </textClass>
@@ -175,21 +175,17 @@
          </listChange>
       </revisionDesc>
    </teiHeader>
-   <!-- Image data to add
-      <facsimile>
+ <facsimile>
       <surface type="front">
-         <graphic n="screen"
-                  url="ISic0000_tiled.tif"
-                  height="4912px"
-                  width="7360px">
+         <graphic n="screen" url="voci04.jpg"
+                 >
             <desc>Add Description Here</desc>
          </graphic>
          <graphic n="print" url="ISic0000.jpg" height="3680px" width="5520px">
-            <desc>Add Description Here</desc>
+            <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
          </graphic>
       </surface>
    </facsimile>
-   -->
    <text>
       <body>
          <div type="edition" xml:lang="la" resp="#JP">
@@ -208,13 +204,13 @@
             <p>To the shades of the underworld. For Titus Iunius Festus, who lived 44 years, Iunia Doris (made it) for her husband.</p>
          </div>
          <div type="translation" xml:lang="it" resp="#SA">
-            <p>Alle ombre di sotterra. Per Tito Iunio Festo, che visse 44 anni, Iunia Doris fece per suo marito.</p>
+            <p>Agli Dei Mani. Per Tito Iunio Festo, che visse 44 anni, Iunia Doris fece per suo marito.</p>
          </div>
          <div type="commentary" xml:lang="en">
             <p>A typical example of a Roman funerary urn (for the ashes of the deceased). The lack of decoration on the rear reflects the fact that it would probably be invisible when placed in a niche in the wall of a tomb or columbarium. The Greek name Doris (Δωρίς) is fairly common, and frequently attested in Rome, principally as the name of a slave. It is likely therefore that Iunia Doris was formerly a slave (cf. H. Solin, Die griechischen Personennamen in Rom (Berlin 2003), vol.1 , p.534): either formerly a slave of Iunius Festus himself, who freed her before marrying her, or else both were slaves of a citizen called Titus Iunius, and once freed were able legally to marry as citizens.</p>
          </div>
          <div type="commentary" xml:lang="it">
-            <p></p>
+            <p>Un tipico esempio di urna funeraria romana (per le ceneri del defunto), decorata sui fianchi con cornucopie e sul fronte con maschere teatrali, da cui pende una ghirlanda, con uccelli sopra e sotto. Il restro  non è finito, poiché probabilmente non era visibile quando era collocato nella nicchia di una tomba. Il nome greco Doris (Δωρίς) è abbastanza commune e frequentemente attestato a Roma, principalmente come un nome di schiava. E’ probavile quindi che Iunia Doris fosse formalmente una schiava: o formalmente una schiava dello stesso Iunio Festo, che la liberò prima di sposarla, oppure essi stessi erano schiavi di un cittadino chiamato Titus Iunius ed una volta liberi furono in grado di sposarsi come cittadini.</p>
          </div>
          <div type="bibliography">
             <listBibl>
