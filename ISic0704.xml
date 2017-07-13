@@ -86,9 +86,9 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm">25<height>
-                                        <width unit="cm">32<width>
-                                        <depth unit="cm">4<depth>
+                                        <height unit="cm">25</height>
+                                        <width unit="cm">32</width>
+                                        <depth unit="cm">4</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
