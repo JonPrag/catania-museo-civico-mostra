@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Letter of Iulius Paternus to the Emperors Marcus Aurelius and Lucius Verus</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Lettera di Iulio Paterno agli Imperatori Marco Aurelio e Lucio Vero, che riferisce di lavori in città e di una disputa</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -79,11 +79,11 @@
                                     </material>
                                     <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
                                         <seg xml:lang="en">tabula</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">lastra</seg>
                                     </objectType>
                                     <p>
-                                        <seg xml:lang="en">Two joining fragments of a white marble tablet. The larger fragment is intact along the upper edge, but broken left and right. The lower edge is uneven and corroded. The smaller fragment is broken or eroded on all sides, but preserves part of the right margin. Both fragments are highly finished on the reverse. The larger fragment preserves a raised margin along the upper edge of the reverse. Faint traces of a similar raised margin on the lower right corner of the reverse of the smaller fragment suggest the stone is more or less complete bottom right, but the text could have continued on a second stone below.  If the restoration of the Emperors' titles in line 1 is correct, then approximately half the stone is missing on the left side. Some letters are lost from the right margin over the first few lines.</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="en">Two joining fragments of a white marble tablet. The larger fragment is intact along the upper edge, but broken left and right. The lower edge is uneven and corroded. The smaller fragment is broken or eroded on all sides, but preserves part of the right margin. Both fragments are highly finished on the reverse. The larger fragment preserves a raised margin along the upper edge of the reverse. Faint traces of a similar raised margin on the lower right corner of the reverse of the smaller fragment suggest the stone is more or less complete bottom right, but the text could have continued on a second stone below. If the restoration of the Emperors' titles in line 1 is correct, then approximately half the stone is missing on the left side. Some letters are lost from the right margin over the first few lines.</seg>
+                                        <seg xml:lang="it">Due frammenti uniti di una tavoletta di marmo bianco. Il frammento più grande è intatto lungo il bordo superiore, ma rotto a sinistra e a destra. Il bordo inferiore è irregolare e corroso. Il frammento più piccolo è rotto o eroso su tutti i lati, ma conserva parte del margine destro. Entrambi i frammenti sono molto rifiniti sul retro. Il frammento più grande conserva un margine sopraelevato lungo il bordo superiore della parte posteriore. Tracce fini di un simile margine sopraelevato sull'angolo inferiore destro del retro del frammento più piccolo suggeriscono che la pietra è più o meno completa in basso a destra, ma il testo potrebbe continuare sotto su una seconda pietra. Se il restauro dei titoli degli imperatori nella linea 1 è corretto, allora mancherebbe sul lato sinistro circa metà della pietra. Alcune lettere sono perse dal margine destro sulle prime righe.</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">30.5</height>
@@ -96,10 +96,10 @@
                                 <layout>
                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                        <seg xml:lang="en">Engraved</seg>
-                                       <seg xml:lang="it"></seg>
+                                       <seg xml:lang="it">Inciso</seg>
                                    </rs>
                                     <seg xml:lang="en">Latin text preserved over 12 lines. The first line is in slightly larger and more widely spaced letters. The text closes up over lines 2 and 3, with a more or less regular size and spacing over the rest of the stone. Interpuncts are used sparingly in the text, and their placing appears deliberately intended to emphasise certain elements. The letters are neatly cut, with limited serifs (but sometimes substantial feet to vertical strokes), and a tendency towards the taller narrower letters common from the second/third centuries AD onwards; this is particularly noticeable with the letter E, which is not always easy to distinguish when corroded. Tall 'I' is employed. P is generally open.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="it">Testo latino conservato su 12 linee. La prima linea è in lettere leggermente più grandi e più distanziate. Il testo alla fine delle linee 2 e 3 presenta una dimensione più o meno regolare e distribuita sul resto della pietra. I segni di interpunzione vengono usati con parsimonia nel testo e la loro collocazione appare deliberatamente intesa a sottolineare alcuni elementi. Le lettere sono ben tagliate, con grazie limitate (ma talvolta sostanziosi piedi incisi verticali) e una tendenza verso le lettere più alte e strette comuni dal II / III secondo d.C. in poi; questo è particolarmente evidente con la lettera E, che non è sempre facile distinguere quando è corrosa. E' utilizzata la lettera 'I' maiuscola. P è generalmente aperta.</seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -126,12 +126,12 @@
                             </origPlace>
                             <origDate n="Jb" notBefore-custom="0164" notAfter-custom="0166">
                                 <seg xml:lang="en">164 -166 AD, on basis of restoration of first word as Armeniacis when Aurelius and Verus both held this title</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">164 -166 d.C., sulla base del restauro della prima parola come Armeniacis quando Aurelius e Verus detenevano entrambi questo titolo</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">The main fragment was found in 1741 in the area of the Duomo<geo>37.502351, 15.087629</geo>, and given by Giuseppe Paternò to Ignazio Paternò Castello, Prince of Biscari, shortly afterwards. The smaller fragment was first recorded in 1769.</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Il frammento principale fu rinvenuto nel 1741 nell’area del Duomo<geo>37.502351, 15.087629</geo>, e dato da Giuseppe Paternò a Ignazio Paternò Castello, Principe di Biscari, poco dopo. Il frammento più piccolo è attestato nel 1769.</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2017.03.23</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 538</acquisition>
@@ -159,7 +159,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">
                         <seg xml:lang="en">building</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">edificio</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -176,18 +176,18 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
-<surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+ <surface type="front">
+  <graphic n="screen" url="ISic0308.jpg">
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+     <!--
+
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
-</surface>
 
   -->
+</surface>
     </facsimile>
     <text>
         <body>
@@ -234,7 +234,8 @@
                 <p>Iulius Paternus was appointed by the Emperors as a curator operis (overseer of public works) for Catania. This letter reports his efforts to complete the works and to resolve a crisis over the funding. The works may have been connected with the harbour (portus, line 2, or porticus? one of the similar fragments describes harbour works). The Catania senators refused to pay their part and the work was completed by Paternus with imperial funds. The imperial procurator (called Seius? the financial officer for the island) subsequently tried to put arrangements in place to ensure the city repaid Paternus for the work. This proposal was resisted by the city duumvirs and a small group of senators (acting ‘irreverently’ towards the procurator). Paternus intervened further to resolve the dispute. The letter’s publication – probably attached to the building works -  will have confirmed that resolution and publicised Paternus’s actions.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Tre altri frammenti di una iscrizione molto simile (forse persino parte dello stesso testo) ci sono pervenuti (uno fu trovato in via Dusmet nel 1958), ma la correlazione tra i diversi frammenti rimane ancora incerta. </p>
+ <p>Iulio Paterno fu nominato dagli imperatori curator operis (sovrintendente delle opere pubbliche) per Catania. Questa lettera riporta i suoi sforzi per completare le opere e per risolvere una crisi sul finanziamento. Le opere potevano essere relative al porto (portus, in linea 2 o porticus (?); uno dei frammenti simili descrive lavori portuali). I senatori di Catania rifiutarono di pagare la loro parte e il lavoro venne completato da Paterno con fondi imperiali. Il procuratore imperiale (di nome Seius (?), il funzionario finanziario dell'isola) cercò poi di mettere in atto disposizioni per garantire che la città rimborsasse Paterno per il lavoro. Questa proposta fu osteggiata dai duumviri della città e da un piccolo gruppo di senatori (che agiscono "irriverentemente" verso il procuratore). Paterno intervenne ulteriormente per risolvere la controversia. La pubblicazione della lettera, probabilmente affissa presso il cantiere di costruzione, serviva a confermare quella risoluzione e a rendere pubbliche le azioni di Paterno.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
