@@ -183,9 +183,7 @@
   </graphic>
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
-  </graphic>
-
--->
+-->  </graphic>
 </surface>
     </facsimile>
     <text>
