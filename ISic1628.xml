@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Funerary inscription for Jason the Elder</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Iscrizione funeraria di Jason il presbitero</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -67,7 +67,7 @@
                     <msContents>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Ancient Greek</seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">greco antico</seg>
                         </textLang>
                     </msContents>
                     <physDesc>
@@ -87,9 +87,9 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
+                                       <height unit="cm">14.5</height>
+                                        <width unit="cm">16.5</width>
+                                        <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
@@ -97,7 +97,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -110,7 +110,7 @@
                                 <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
+                                    <height unit="mm">5-20</height>
                                 </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
@@ -127,13 +127,13 @@
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
                             <origDate n="LMN" notBefore-custom="0300" notAfter-custom="0600">
-                                <seg xml:lang="en">Late C4 AD to early C6 AD</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">Fourth or fifth century AD</seg>
+                                <seg xml:lang="it">IV o V sec. d.C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en"></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">Probably from Catania: the text is similar to another inscription found on via Antonino di Sangiuliano, and now in the Museo di Archeologia of Università di Catania (inv. 05/136 = I.Sicily 3149).</seg>
+                            <seg xml:lang="it">Probabilmente da Catania; il testo è simile ad un’altra iscrizione trovata in via Antonino di Sangiuliano e adesso nel  Museo di Archeologia dell'Università di Catania (inv. 05/136 = I.Sicily 3149).</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 268</acquisition>
@@ -161,7 +161,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -177,18 +177,17 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic1628.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+      <!--
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
+  -->
 </surface>
 
-  -->
     </facsimile>
     <text>
         <body>
@@ -225,13 +224,14 @@
                 <p>Jason the Elder, in no way infringing the law, bought for himself and his children this burial place.</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Jason il presbitero, non violando la legge in alcun modo, ha acquistato per sé e per i suoi figli questo luogo di sepoltura.
+</p>
             </div>
             <div type="commentary" xml:lang="en">
-                <p></p>
+                <p>Jason is a common Jewish name. Presbyter simply means ‘elder’, but in this context signifies membership of a council of elders. It is not certain that this text is Jewish, but the word entole is a distinctively Jewish term in epitaphs, signifying the Mosaic law. The word koupa is very rare in Greek (two out of three other instances also from Catania), transliterating the Latin cupa, which generally describes a tomb in the shape of a half-barrel (cut lengthways). It is common to record the purchase of the burial space in this way.</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Jason è un nome ebraico comune. Presbyter indica semplicemente più anziano, ma in questo contesto allude all’appartenenza ad un consiglio di anziani. Non è sicuro che questo testo sia giudaico, tuttavia il termine entole, che indica la legge mosaica, è tipico degli epitaffi ebraici. La parola koupa è molto rara in greco (due su altre tre occorrenze provenienti sempre da Catania) ed è la traslitterazione dal latino cupa, che di solito indica le tombe semicilindriche (tagliate per lunghezza). È usuale la registrazione dell’acquisto di uno spazio sepolcrale in questo modo.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
