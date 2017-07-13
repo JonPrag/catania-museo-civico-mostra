@@ -88,8 +88,7 @@
                                     <dimensions>
                                         <height unit="cm">25</height>
                                         <width unit="cm">32</width>
-                                        <depth unit="cm">4</depth>
-                                    </dimensions>
+					    <depth unit="cm">4</depth></dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
