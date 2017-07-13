@@ -6,7 +6,7 @@
          <titleStmt>
             <title>
                <seg xml:lang="en">Honorific inscription for the Emperor Claudius</seg>
-               <seg xml:lang="it"></seg>
+               <seg xml:lang="it">Iscrizione onoraria per l'imperatore Claudio</seg>
             </title>
             <editor ref="#JP">Jonathan Prag</editor>
             <principal ref="#JP">Jonathan Prag</principal>
@@ -76,11 +76,11 @@
                            </material>
                            <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
                               <seg xml:lang="en">tabula</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">lastra</seg>
                            </objectType>
                            <p>
                               <seg xml:lang="en">A substantial marble slab, broken down the middle but joined together again. Intact on top, left, and below, but broken on the right. The rear is smooth.</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">Una notevole lastra di marmo, rotta nel mezzo, ma nuovamente unita. Intatta in alto, a sinistra e sotto, ma rotta a destra. La parte posteriore è liscia.</seg>
                            </p>
                            <dimensions>
                               <height unit="cm">51</height>
@@ -93,17 +93,17 @@
                         <layout>
                            <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                               <seg xml:lang="en">Engraved</seg>
-                              <seg xml:lang="it"></seg>
+                              <seg xml:lang="it">Inciso</seg>
                            </rs>
                           <seg xml:lang="en">Latin text over five lines. The text appears to be centred on the stone. The horizontal alignment is very slightly awry in relation to the margins of the stone. Line 1 is in significantly larger letters.</seg>
-                           <seg xml:lang="it"></seg>
+                           <seg xml:lang="it">Testo latino su cinque linee. Il testo sembra essere centrato sulla pietra. L'allineamento orizzontale è leggermente improbabile rispetto ai margini della pietra. La linea 1 è in lettere significativamente più grandi.</seg>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
                         <seg xml:lang="en">Regular wide, deeply cut letters of high Imperial form, with very modest serifs. P is open, E and F have equal length horizontal bars. The first and last strokes of the M lean inwards. Numerals are indicated with lines above. Interpuncts are present, but very lightly incised.</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">Lettere regolari, di alta forma imperiale profondamente tagliate, con grazie molto modeste. P è aperta, E e F hanno barre orizzontali uguali. I primi e gli ultimi tratti della M si appoggiano verso l'interno. I numeri sono soprasegnati. I segni di interpunzione sono presenti, ma incisi solo leggermente.</seg>
                         <locus from="line1" to="line1">Line 1</locus>
                         <dimensions type="letterHeight">
                            <height unit="mm">80</height>
@@ -126,22 +126,21 @@
                <history>
                   <origin>
                      <origPlace datingMethod="#julian">
-                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025" cert="low">Roma (?)<geo>41.891775, 12.486136</geo>
-                        </placeName>
-                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html" cert="low">Rome (?)</placeName>
+                        <placeName type="ancient" ref="http://pleiades.stoa.org/places/423025" cert="low">Roma (?)<geo>41.891775, 12.486136</geo>              </placeName>
+                        <placeName type="modern" ref="http://www.geonames.org/3169071/roma-capitale.html" cert="low">Rome (?)geo>41.891775, 12.486136</geo></placeName>
                      </origPlace>
                      <origDate notBefore-custom="0052" notAfter-custom="0053">
                         <seg xml:lang="en">Between 25 January 52 AD and 24 January 53 AD.</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">Tra il 25 gennaio 52 d.C. e il 24 gennaio 53 d.C.</seg>
                      </origDate>
                   </origin>
                   <provenance type="found">
                      <seg xml:lang="en">Provenance is uncertain</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">Provenienza incerta</seg>
                   </provenance>
                   <provenance type="observed">
                      <seg xml:lang="en">First noted by Mommsen in 1881 in the Museo dei Benedettini in Catania</seg>
-                     <seg xml:lang="it"></seg>
+                     <seg xml:lang="it">La prima menzione della lastra è del 1881 da parte di Mommsen che la vide nel Museo dei Benedettini di Catania</seg>
                   </provenance>
                   <provenance type="observed" subtype="autopsied" resp="#JP">2017.03.22</provenance>
                   <acquisition>Museo Civico di Catania, inv.349</acquisition>
@@ -164,7 +163,7 @@
             <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                <term n="honorific" ref="http://www.eagle-network.eu/voc/typeins/lod/69.html">
                   <seg xml:lang="en">Honorific</seg>
-                  <seg xml:lang="it"></seg>
+                  <seg xml:lang="it">onoraria</seg>
                </term>
             </keywords>
          </textClass>
@@ -178,12 +177,13 @@
    </teiHeader >
    <facsimile>
       <surface type="front">
-         <graphic n="screen" url="mostravoci10_tiled.tif" height="3744px" width="5616px">
+         <graphic n="screen" url="voci10.jpg" >
             <desc>Photo Liceo Artistico Statale "M.M. Lazzaro"</desc>
          </graphic>
-         <graphic n="print" url="mostravoci10.jpg" height="3744px" width="5616px">
+<!--         <graphic n="print" url="mostravoci10.jpg" height="3744px" width="5616px">
             <desc>Photo Liceo Artistico Statale "M.M. Lazzaro"</desc>
          </graphic>
+-->
       </surface>
    </facsimile>
    <text>
@@ -210,7 +210,7 @@
             <p>The stone and the inscription is of the high quality typical of an imperial honorific. There is no room on the surviving stone for the name of the individual or community responsible, but this might have appeared on a separate stone. A marble slab of this sort would be fixed to the base of a statue. Fragments of a colossal statue, probably of the Emperor Claudius, were found in Tindari at the start of the 1800s (now Museo Archeologico Regionale “Antonino Salinas” di Palermo, inv.702), where it was one part of a series of monumental statues of Julio-Claudian emperors (and statues of the Julio-Claudian emperors are attested in several Sicilian cities). The restoration of the Tyndaris statue was modelled on the colossal torso in the Museo Civico, found in 1737 in the area of monumental public buildings in the centre of the Roman colonia of Catania. It is highly likely that the torso in the Museo Civico is that of a Julio-Claudian emperor, possibly Claudius, seated in the style of the god Jupiter. In the absence of specific evidence, this inscription may come from Rome - but it is no less plausible that it does in fact come from Catania, and might possibly even related to this statue, or a similar monument.</p>
          </div>
          <div type="commentary" xml:lang="it">
-            <p></p>
+            <p>Non c'è spazio nella pietra per il nome della persona o della comunità responsabile della dedica, ipoteticamente presente in altra iscrizione. Una lastra di marmo di questo tipo potrebbe essere stata collocata alla base di una statua. Frammenti di una statua colossale, probabilmente dell'imperatore Claudio, sono stati trovati a Tindari all'inizio del 1800 (oggi al Museo Archeologico Regionale “Antonino Salinas” di Palermo, inv. 702), che faceva parte di una serie di statue monumentali di imperatori giulio-claudi (e statue degli imperatori giulio-claudi sono attestate in diverse città siciliane). Il restauro della statua di Tindari è stato modellato sul torso colossale nel Museo Civico (Percorso romano n. 18), trovato nel 1737 nella zona di edifici monumentali pubblici nel centro della colonia romana di Catania. è molto probabile che il torso nel Museo Civico sia quello di un imperatore giulio-claudio, forse Claudio, seduto nello stile del dio Giove. Poiché non esistono prove specifiche, questa iscrizione potrebbe anche provenire da Roma - ma non è meno plausibile che essa provenga da Catania e potrebbe forse anche far riferimento a questa statua, o a un monumento simile.</p>
          </div>
          <div type="bibliography">
             <listBibl>
