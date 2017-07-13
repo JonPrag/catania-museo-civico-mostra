@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Funerary inscription for Zosime</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Epitaffio funebre per Zosime</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -86,17 +86,17 @@
                                         <seg xml:lang="it"></seg>
                                     </p>
                                     <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
-                                    </dimensions>
+                                       <height unit="cm">23.4</height>
+                                        <width unit="cm">31.6</width>
+                                        <depth unit="cm">3.2-3.8</depth>
+                                   </dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -109,8 +109,8 @@
                                 <seg xml:lang="it"></seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"/>
-                                </dimensions>
+                                    <height unit="mm">14-29</height>
+				    </dimensions>
                                 <locus from="line1" to="line2">Interlineation line 1 to 2</locus>
                                 <dimensions type="interlinear">
                                     <height unit="mm"/>
@@ -131,8 +131,10 @@
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="en"></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="en">One of several inscriptions found c.1930 in Via Androne (prop. Calderaro) during building works.
+</seg>
+                            <seg xml:lang="it">Una delle numerose iscrizioni trovate circa nel 1930 in Via Androne (prop. Calderaro) durante lavori di scavi edilizi.
+</seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
                         <acquisition>Catania, Museo Civico di Catania no. 531</acquisition>
@@ -160,7 +162,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
                         <seg xml:lang="en">funerary</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -176,18 +178,17 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
 <surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+  <graphic n="screen" url="ISic1649.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+      <!--
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
+  -->
 </surface>
 
-  -->
     </facsimile>
     <text>
         <body>
@@ -237,13 +238,14 @@
                 <p>For my most holy wife, Zosime, strong in faith, who lived for 26 years and departed 11 days before the Kalends of October, in the consulship of Amantius and Albinus (= 21 September 345 AD)</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p></p>
+                <p>Per la mia santissima moglie, Zosime, forte nella fede, che ha vissuto per 26 anni e se ne andò 11 giorni prima delle calende di ottobre, sotto il consolato di Amantius e Albino (21 settembre 345 d.C.). 
+</p>
             </div>
             <div type="commentary" xml:lang="en">
-                <p></p>
+                <p>This is one of relatively few Christian epitaphs in Latin from Catania. The name Zosime is a common Greek one, found several times in eastern Sicily. Giving a date by referring to the consuls in office during that year reflects standard Roman dating practice, but giving the precise date of death in a funerary inscription is a distinctive feature of Christian funerary epigraphy, and this is one of the earliest Sicilian examples to use a consular date. The misspelling of vixit as bixsit reflects a common confusion of ‘B’ and ‘V’ (due to a merging of the sound represented by each letter in Latin). This is more common in southern than northern Italy, and in this case may well represent the influence of Greek (where use of β for a Latin V is commonplace; see no.24).</p>
             </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Questo epitffio cristiano in latino è uno dei relativamente pochi rinvenuti a Catania. Zosima è un nome greco comune, rinvenuto più volte nella Sicilia orientale. Dare una data facendo riferimento ai consoli in carica durante l'anno riflette la normale pratica romana di datazione, ma dare la data precisa della morte in un'iscrizione funeraria è una caratteristica distintiva dell'epigrafia funeraria cristiana, e questo è uno dei primi esempi siciliani ad utilizzare una data consolare. L'errore della vixit come bixsit riflette una confusione comune tra ‘B’ e ‘V’ (a causa di una fusione del suono rappresentato da ogni lettera in latino). Questo è più comune più nel Sud Italia che nel Nord, e in questo caso può ben rappresentare l'influenza del greco (dove l'uso di β per il latino V è un fatto comune, vedere No.24).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
