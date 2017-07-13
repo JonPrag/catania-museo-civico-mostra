@@ -83,7 +83,7 @@
                                     </objectType>
                                     <p>
                                         <seg xml:lang="en">A tablet of white marble, smooth on the sides and the reverse, with the remains of a raised border (a moulding?) on the right side. The front face is lightly convex.</seg>
-                                    <seg xml:lang="it"></seg>
+                                    <seg xml:lang="it">Una lastra di marmo bianco, liscia ai lati e nel retro, con i resti di un bordo sollevato (una modanatura?) sul lato destro. La faccia frontale è leggermente convessa.</seg>
                                     </p>
                                     <dimensions>
                                         <height unit="cm">62</height>
@@ -98,15 +98,15 @@
                                         <seg xml:lang="en">Engraved</seg>
                                         <seg xml:lang="it">Inciso</seg>
                                     </rs>
-                                    <seg xml:lang="en">the text is preserved intact, over seven lines, although the edge of the surviving stone clips the tops of the letters of the first line. The letters diminish in size over the first four lines, with a vacat in the second half of line four; the final three lines are larger again. The left margin of the text is maintained regularly, the right margin varies from line to line.</seg>
-                                   <seg xml:lang="it"></seg>
+                                    <seg xml:lang="en">The text is preserved intact, over seven lines, although the edge of the surviving stone clips the tops of the letters of the first line. The letters diminish in size over the first four lines, with a vacat in the second half of line four; the final three lines are larger again. The left margin of the text is maintained regularly, the right margin varies from line to line.</seg>
+                                   <seg xml:lang="it">Il testo è conservato intatto, su sette linee, sebbene il bordo della pietra sopravvissuta taglia le prime lettere della prima linea. Le lettere diminuiscono in dimensioni nelle prime quattro linee, con una lacuna nella seconda metà della linea quattro; le ultime tre linee sono ancora più grandi. Il margine sinistro del testo è mantenuto regolare, mentre il margine destro varia da linea a linea.</seg>
                         </layout>
                        </layoutDesc>
                       </objectDesc>
                         <handDesc>
                             <handNote>
-                                <seg xml:lang="en">The letters are deeply but somewhat irregularly cut, with some internal variation (e.g. A appears with both broken and straight bar; E appears both as a tall narrow standard E and and as a vertical stroke with a single horizontal bar across the middle; V appears both as V and as Y). Interpuncts are mostly absent, except after VC and CONS in the final two lines.</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">The letters are deeply but somewhat irregularly cut, with some internal variation (e.g. A appears with both broken and straight bar; E appears both as a tall narrow standard E and as a vertical stroke with a single horizontal bar across the middle; V appears both as V and as Y). Interpuncts are mostly absent, except after VC and CONS in the final two lines.</seg>
+                                <seg xml:lang="it">Le lettere sono incise profondamente, ma in qualche modo irregolarmente, con alcune variazioni interne (es. A si presenta con entrambe le barre rotte e dritte; E appare sia come una standard E alta stretta sia con una incisione verticale con una sola barra orizzontale in mezzo; V appare sia come V che come Y). In genere i segni di interpunzione sono assenti, tranne che dopo VC e CONS nelle ultime due linee.</seg>
                         <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">60-80</height>
@@ -134,8 +134,8 @@
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
                             <origDate n="Lb" notBefore-custom="0337" notAfter-custom="0421">
-                                <seg xml:lang="en">Munatidius is not otherwise known; the mention of three Domini requires one of the periods  337-340, 367-378, 379-383, 388-395, 402-408, and 421. A precise choice is not possible, but the consensus amongst scholars is for a date in the fourth century rather than later</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">Munatidius is not otherwise known; the mention of three Domini requires one of the periods  337-340, 367-378, 379-383, 388-395, 402-408, and 421. A precise choice is not possible, but the consensus amongst scholars is for a date in the fourth century rather than later.</seg>
+                                <seg xml:lang="it">Munatidius non è altrimenti conosciuto; la menzione di tre Domini implica uno dei periodi 337-340, 367-378, 379-383, 388-395, 402-408 e 421. Una scelta precisa non è possibile, ma il consenso tra gli studiosi prevale per una data nel IV secolo piuttosto che una più tarda.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
@@ -183,24 +183,17 @@
     </teiHeader>
     <facsimile>
         <surface type="front">
-            <graphic n="screen" url="ISic0298_tiled.tif" height="4192px" width="3680px">
-                <desc>Photograph of front face by J. Prag</desc>
-            </graphic>
-            <graphic n="print" url="ISic0298.jpg" height="4192px" width="3680px">
-                <desc>Photograph of front face by J. Prag</desc>
-            </graphic>
-            <graphic n="screen" url="ISic0298_alt_tiled.tif" height="2856px" width="4272px">
-                <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
-            </graphic>
-            <graphic n="print" url="ISic0298_alt.jpg" height="2856px" width="4272px">
+            <graphic n="screen" url="ISic0298.jpg">
                 <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
             </graphic>
         </surface>
         <surface type="threequarter">
-            <graphic n="screen" url="ISic0298_threequarter_tiled.tif" height="2856px" width="4272px">
+            <graphic n="screen" url="ISic0298_3q.jpg"">
                 <desc>Photograph by Liceo M.M. Lazzaro</desc>
             </graphic>
-            <graphic n="print" url="ISic0298_threequarter.jpg" height="2856px" width="4272px">
+        </surface>
+        <surface type="scale">
+            <graphic n="screen" url="ISic0298_scale.jpg"">
                 <desc>Photograph by Liceo M.M. Lazzaro</desc>
             </graphic>
         </surface>
@@ -225,14 +218,13 @@
                 <p>At the dawn of the new age of our threefold lordship, (dedicated) to the Genius of the splendid city of Catania. Facundus Porfyrius Mynatidius, vir clarissimus, consular governor of the same (city?) (set this up).</p>
             </div>
             <div type="translation" xml:lang="it" resp="#SA">
-                <p>Nel rifiorire dell'era dei nostri tre signori, al genio della splendida città di Catania (dedicò) Facundio Porfirio Munatidio, uomo di grande fama (vir clarissimus) Governatore Consolare della stessa (città?).
-                </p>
+                <p>Nel rifiorire dell'era dei nostri tre signori, al genio della splendida città di Catania Facundio Porfirio Munatidio, senatore (vir clarissimus) governatore consolare della stessa (città?) (dedicò).  </p>
             </div>
             <div type="commentary" xml:lang="en">
                 <p>The text (on imported marble) would have been fixed to the base of a statue of the Genius of the city of Catania, probably erected on the stage-building of the theatre. The Genius was the protective spirit of a person or a thing. Dedications to the Genius of the Emperor were common, but also to cities (e.g. both a statue and temple of the Genius of the city of Lilybaeum = Marsala are mentioned in other inscriptions). Facundus Porfyrius is not otherwise known. The precise significance of 'cons eiusdem' in line 7 is extensively debated and several alternatives have been suggested: the most likely interpretation is 'consularis eiusdem', signifying consularis of the same city, i.e. Catania, and so by extension / implication the province of Sicily.</p>
             </div>
                 <div type="commentary" xml:lang="it">
-                    <p>Il testo ( su marmo di importazione) potrebbe essere stato fissato alla base di una  statua del Genio della città di Catania, probabilmente eretta nel palcoscenico del teatro. Il Genius era lo spirito protettivo di una persona o di una cosa. Dediche al Genius dell’Imperatore  erano comuni, così come quelle al Genio delle città ( ad esempio una statua e un tempio dedicati al Genio della città di Lilibeo/ Marsala sono citati in altre iscrizioni). Facundus Porfyrius non è altrimenti conosciuto. Sebbene l’ interpretazione dell’ultima riga sia incerta, l’ipotesi migliore è che si riferisca al governatore consolare della Sicilia</p>
+                    <p>Il testo (su marmo di importazione) potrebbe essere stato fissato alla base di una  statua del Genio della città di Catania, probabilmente eretta nel palcoscenico del teatro. Il Genius era lo spirito protettivo di una persona o di una cosa. Dediche al Genius dell’Imperatore  erano comuni, così come quelle al Genio delle città (ad esempio una statua e un tempio dedicati al Genio della città di Lilibeo/ Marsala sono citati in altre iscrizioni). Facundus Porfyrius non è altrimenti conosciuto. Sebbene l’interpretazione dell’ultima riga sia incerta, l’ipotesi migliore è che si riferisca al governatore consolare della Sicilia.</p>
                 </div>
                <div type="bibliography">
                 <listBibl>
