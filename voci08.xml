@@ -186,8 +186,8 @@
             <ab>  
             <!-- controllare la codifica in EpiDoc del testo -->
              
-             <lb n="1"/><persName><name>Martur</name><persName>
-             <lb n="2" break="no"/>a</name><persName> in pace <g type="orans">((orans))</g> <g type="avis in mensa">((avis in mensa))</g>
+             <lb n="1"/><persName><name>Martur
+             <lb n="2" break="no"/>a</name></persName> in pace <g type="orans">((orans))</g> <g type="avis in mensa">((avis in mensa))</g>
           
             </ab>
          </div>

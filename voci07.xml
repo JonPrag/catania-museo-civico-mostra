@@ -190,11 +190,15 @@
              <lb n="1"/>
              <supplied reason="undefined" evidence="previouseditor">Bene meren</supplied>ti filiae <g type="chrismon">☧</g>
              <lb n="2"/>
-             <supplied reason="undefined" evidence="previouseditor"><persName><name>Agapeni</name><persName>virc</supplied>ini in pace.
+             <supplied reason="undefined" evidence="previouseditor"><persName><name>Agapeni</name></persName>virc</supplied>ini in pace.
              <lb n="3"/>
-             <supplied reason="undefined" evidence="previouseditor"><expan><abbr>Dep</abbr><ex>osita</ex></expan> <num value="3">III</num> <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Dec</abbr><ex>embres</ex></expan></supplied> <persName><name>Gratiano</name><persName> et
+             <supplied reason="undefined" evidence="previouseditor"><expan><abbr>Dep</abbr><ex>osita</ex></expan> <num value="3">III</num> <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Dec</abbr><ex>embres</ex></expan></supplied> <persName><name>Gratiano</name></persName> et
              <lb n="4"/>
-             <supplied reason="undefined" evidence="previouseditor"><persName><name>Degalaifo</name><persName></supplied><expan><abbr>co</abbr> <ex>n</ex><abbr>s</abbr><ex>ulibu</ex><abbr>s</abbr></expan><g type="interpunct"> · </g><expan><abbr>v</abbr><ex>ixit</ex></expan>g type="interpunct"> · </g><expan><abbr>a</abbr><ex>nnis</ex></expan>g type="interpunct"> · </g><num value="21">XXI</num>
+             <supplied reason="undefined" evidence="previouseditor"><persName><name>Degalaifo</name></persName></supplied>
+             <expan><abbr>co</abbr> <ex>n</ex><abbr>s</abbr><ex>ulibu</ex><abbr>s</abbr></expan>
+             <g type="interpunct"> · </g><expan><abbr>v</abbr><ex>ixit</ex></expan>
+             <g type="interpunct"> · </g><expan><abbr>a</abbr><ex>nnis</ex></expan>
+             <g type="interpunct"> · </g><num value="21">XXI</num>
                      
             </ab>
          </div>

@@ -194,9 +194,8 @@
             <div type="edition" xml:lang="grc">
                 <ab>
   <lb n="1"/>
-
 ἐν
-<lb "n="2" break="no"/>
+<lb n="2" break="no"/>
 θάδε
 <lb n="3"/>
 κῖτε Λε
@@ -218,7 +217,6 @@
    </expan>
 
    <lb n="9"/>
-
 <g type="menorah">((menorah))</g>  ιηʹ. <g type="menorah">((menorah))</g>  <g type="etrog">((etrog?))</g>   
                 </ab>
             </div>
@@ -262,12 +260,12 @@
                         <citedRange>4.9494</citedRange>
                         <ptr target="https://www.zotero.org/groups/382445/items/HTUDQBXS"/>
                     </bibl>
-                    <bibl>
+                   
                     <bibl type="CIJ2">
                         <citedRange>1(2).650</citedRange>
                         <ptr target="https://www.zotero.org/groups/382445/items/2MBRZ952"/>
                     </bibl>
-                    <bibl>
+                 
                     <bibl type="Noy">
                                <date>1993</date>
 
