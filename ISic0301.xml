@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <seg xml:lang="en">Inscription recording restoration of a nymphaeum</seg>
-                    <seg xml:lang="it"></seg>
+                    <seg xml:lang="it">Iscrizione riguardante riparazioni di epoca più tarda</seg>
                 </title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
@@ -75,11 +75,11 @@
                                 <support>
                                     <material n="limestone" ref="http://www.eagle-network.eu/voc/material/lod/66.html">
                                         <seg xml:lang="en">limestone</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">calcare</seg>
                                     </material>
                                     <objectType n="tabula" ref="http://www.eagle-network.eu/voc/objtyp/lod/257">
                                         <seg xml:lang-="en">tablet</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">lastra</seg>
                                     </objectType>
                                     <dimensions><!--measurements of Manganaro; to be checked-->
                                         <height unit="cm">53</height>
@@ -92,7 +92,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
                                         <seg xml:lang="en">Engraved</seg>
-                                        <seg xml:lang="it"></seg>
+                                        <seg xml:lang="it">Inciso</seg>
                                     </rs>
                                     <seg xml:lang="en"></seg>
                                     <seg xml:lang="it"></seg>
@@ -102,7 +102,7 @@
                         <handDesc>
                             <handNote>
                                 <seg xml:lang="en">The form of the letter P is distinctive (found also in the letter of Iulius Paternus, ISic0308) with a horizontal stroke at the base.</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="it">La forma della lettera P è particolare (ritrovata anche nella lettera di Iulius Paternus ISic0308 - inv. 538 con una barra orizzontale alla base.</seg>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"/>
@@ -122,13 +122,13 @@
                                 <placeName type="modern" ref="http://www.geonames.org/2525068/catania.html">Catania</placeName>
                             </origPlace>
                             <origDate n="Lb" notBefore-custom="0350" notAfter-custom="0400">
-                                <seg xml:lang="en">c.370/379 (on the basis of identification of Fl. Ambrosius 5 in PLRE I)</seg>
-                                <seg xml:lang="it"></seg>
+                                <seg xml:lang="en">Perhaps middle/later fourth century AD</seg>
+                                <seg xml:lang="it">Forse metà o fine IV secolo d.C./seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="en">Found in May 1771 in excavations undertaken by the Principe di Biscari on the northern side of Piazza Dante and the church of S. Nicolò<geo>37.504537, 15.080570</geo></seg>
-                            <seg xml:lang="it"></seg>
+                            <seg xml:lang="it">Trovato nel maggio del 1771 durante gli scavi del Principe di Biscari sul lato nord di piazza Dante nei pressi della chiesa di San Nicolò.<geo>37.504537, 15.080570</geo></seg>
                         </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#JP">2017.06.29</provenance>
                         <acquisition>Catania, Museo Civico</acquisition>
@@ -156,7 +156,7 @@
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term n="building" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">
                         <seg xml:lang="en">building</seg>
-                        <seg xml:lang="it"></seg>
+                        <seg xml:lang="it">edificio</seg>
                     </term>
                 </keywords>
             </textClass>
@@ -173,18 +173,17 @@
     <facsimile>
         <surface/>
       <!--delete empty surface above and uncomment template below if needed-->
-      <!--
-<surface type="front">
-  <graphic n="screen" url="{concat('ISic', $num, '_tiled.tif')}" 
-    height="4912px" width="7360px">
-    <desc>Add Description Here</desc>
+ <surface type="front">
+  <graphic n="screen" url="ISic0301.jpg" >
+    <desc>Photograph of front face by Liceo M.M. Lazzaro</desc>
   </graphic>
+     <!--
   <graphic n="print" url="{concat('ISic', $num, '.jpg')}" height="3680px" width="5520px">
     <desc>Add Description Here</desc>
   </graphic>
+-->
 </surface>
 
-  -->
     </facsimile>
     <text>
         <body>
@@ -230,7 +229,7 @@
           <!--long text; the greek reverse is a verse inscr. of earlier C3 AD (Wilson 1990b: fig.153  = IG 14.453); stone re-used for the lat - i.e. NOT a bilingual - Gr. text is IG 14.453 (note that Manganaro says it's marble). Korhonen 2003, 73 n.305 comments: "IG XIV 453 = CIL X 7017, una lastra con l'epigrafe greca su una faccia, l'epigrafe latina sull'altra. Manganaro ha proposto che l'epigrafe greca sia anteriore a quella latina, e che la prima sia databile al III secolo, la seconda al IV (Manganaro 1993, 553; id. 1994, 96, con fotografia, fig. 15). A mio avviso è verosimile che i due testi siano contemporanei, in base alla somiglianza dell'argomento e al confronto con la siracusana IG XIV 14 = CIL X 7125. Ènotevole la paleografia greca romboidale, con l'epsilon che ha la forma "S", ma non impedisce di datarla nel IV secolo, al quale sembra appartenere l'iscrizione latina (sulle lettere romboidali a Catania, vd. pp. 92 e 112)."  Wilson 1990, p. 186 catpion to fig. 155 provides an approximate translation: 'Through the neglect [?of many citizens], the nymphaeum has been defiled [?by a great stain]. Even its water, although brought in a new channel, has however become so polluted by decay [?of the pipes] that it seemed to bring a certain [?illness] to those who drank it. [Through the agency of] Flavius Arsinius, v(ir) c(larissimus), governor of the province of Sicily (consularis p(rovinciae) S(iciliae)), [the nymphaeum] has been reshaped and restored and given back for the use of the very splendid people of Catania. The work was carried out under the supervision of Flavius Ambrosius v(ir) p(erfectissimus), d(efensor) perp(etuus).' W. goes on to comment: 'Flavius Arsiniusis not otherwise recorded and the date of his governorship is therefore uncertain, but Flavius Ambrosius is known to have been an advocate at the provincial council in the 370s. The defensor, a city ombudsman and judge of minor cases, who received complaints and tried to reduce corruption and extortion, was a comparatively new civic office at this time (Valentinian I was apparently responsible for introducing it to the West): Ambrosius as a top-ranking barrister had just the sort of high official standing sought for the job at this period.' Korhonen thinks the two inscrs. are contemporary, the Greek an accompanying versifying epigram for the work commemorated in the Latin; Wilson and Manganaro consider the Greek to be slightly earlier, and indeed, if Roger's translation is accepted the Greek would appear to make reference to a previous phase of the work.-->
              </div>
             <div type="commentary" xml:lang="it">
-                <p></p>
+                <p>Un più antico testo greco sull'altro lato della stessa pietra (ISic0649) dà notizia dell'originale costruzione di un ninfeo, il restauro del quale è ricordato in questo succssivo testo latino. Flavio Ambrosio è menzionato da Simmaco, mandato come legato della  corte imperiale del consiglio provinciale della Sicilia (c.377-379 d.C). Flavio Arsinio, potrebbe essere identificato con un Arsenius che è stato lodato dall'imperatore Constantius II nel 359 d.C, e che potrebbe essere stato governatore di Sicilia forse intorno al 350 d.C. È possibile che il crollo del ninfeo sia collegato al grande terremoto e allo tsunami (maremoto) del 365 d.C. La pietra che portava la precedente iscrizione fu riutilizzata per testimoniare il restauro. E’ possibile che fosse disposta in maniera tale da mostrare entrambi i lati, ma questo non è comune.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
