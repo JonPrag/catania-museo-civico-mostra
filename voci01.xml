@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <seg xml:lang="en">Inscribed stele in the Sikel language</seg>
+                    <seg xml:lang="it">Stele inscritta in lingua sicula</seg>
+                </title>
+                <editor ref="#JP">Jonathan Prag</editor>
+                <principal ref="#JP">Jonathan Prag</principal>
+                <funder>John Fell OUP Research Fund</funder>
+                <respStmt>
+                    <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+                    <resp>original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+                    <resp>conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+                    <resp>site construction and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+                    <resp>editing of geo data</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MM">Michael Metcalfe</name>
+                    <resp>museum data collection</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="SA">Serena Agodi</name>
+                    <resp>Italian translation</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>I.Sicily</authority>
+                <idno type="filename"></idno>
+                <idno type="mostravoci">01</idno>
+                <idno type="TM">644867</idno>
+                <idno type="EDR"/>
+                <idno type="EDH"/>
+                <idno type="EDCS"/>
+                <idno type="PHI"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Sicily</region>
+                        <settlement>Catania</settlement>
+                        <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di Catania</repository>
+                        <idno type="inventory">No inventory number</idno>
+                        <altIdentifier>
+                            <settlement/>
+                            <repository/>
+                            <idno type="old"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="scx">
+                            <seg xml:lang="en">Sikel</seg>
+                            <seg xml:lang="it">siculo</seg>
+                        </textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material n="plaster" ref="http://www.eagle-network.eu/voc/material/lod/126.html">
+                                        <seg xml:lang="en">plaster</seg>
+                                        <seg xml:lang="it">gesso</seg>
+                                    </material>
+                                    <objectType n="stele" ref="http://www.eagle-network.eu/voc/objtyp/lod/250">
+                                        <seg xml:lang="en">stele</seg>
+                                        <seg xml:lang="it">stele</seg></objectType>
+                                    <p>
+                                        <seg xml:lang="en">Plaster cast of a limestone stele, narrower at the base, and rounded at the top; the bottom edge is roughly straight. The surface is roughly smoothed. There is minor damage to the face in the upper left quarter.</seg>
+                                        <seg xml:lang="it">Calco in gesso di una lastra di calcare, più stretta alla base, e arrotondata in alto; Il bordo inferiore è approssimativamente dritto. La superficie è approssimativamente liscia. Nella parte in alto a sinistra c'è un piccolo danno.</seg>
+                                    </p>
+                                    <dimensions>
+                                        <height unit="cm">76</height>
+                                        <width unit="cm">46</width>
+                                        <depth unit="cm">7</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        <seg xml:lang="en">Engraved</seg>
+                                        <seg xml:lang="it">Inciso</seg>
+                                    </rs>
+                                    <seg xml:lang="en">The text is arranged in a clockwise spiral, beginning at the lower left corner, and running right around the outer margin of the face, before proceeding up the left side for a second time.</seg>
+                                    <seg xml:lang="it">Il testo è disposto in una spirale in senso orario, a partire dall'angolo inferiore sinistro e girando attorno al margine esterno della faccia, prima di procedere per la seconda volta sul lato sinistro.</seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="en">Greek letters, including 'alpha siculum' 𐅢</seg>
+                                <seg xml:lang="it">lettere greche, inclusa "alfa sicula"</seg>
+                                <locus from="line1" to="line1">Not measured</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm"/>
+                                </dimensions>
+                                <locus from="line1" to="line2">Not measured</locus>
+                                <dimensions type="interlinear">
+                                    <height unit="mm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace datingMethod="#julian">
+                                <offset>near <placeName type="ancient" ref="http://pleiades.stoa.org/places/462203" cert="low">Euboia (?)<geo>37.15674, 14.70555</geo></placeName></offset>
+                                <offset>near <placeName type="modern" ref="http://www.geonames.org/2524392/licodia-eubea.html">Licodia Eubea</placeName></offset>
+                            </origPlace>
+                            <origDate n="Cb" notBefore-custom="-0550" notAfter-custom="-0450">
+                               <seg xml:lang="en"> Second half C6 or first half C5 BC</seg>
+                                <seg xml:lang="it">Seconda metà del VI sec. o prima metà del V sec. a.C.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="1929-08">
+                            <seg xml:lang="en">Found in 1929 in the area of an ancient necropolis in contrada Sciri Sottano<geo>14.60573, 37.11507</geo>, 10km south-west of Licodia Eubea</seg>
+                            <seg xml:lang="it">Rinvenuto nel 1929 nell’area dell’antica necropoli in contrada Sciri Sottano<geo>14.60573, 37.11507</geo>, 10 km circa a sud-ovest di Licodia Eubea.</seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied" resp="#JP">2017.07.10</provenance>
+                        <acquisition>Catania, Museo Civico di Catania, cast made perhaps in the 1930s</acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="location">Display, Voci di pietra no.1</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="it">Italian</language>
+                <language ident="scx">Sikel</language>
+                <language ident="scx-Latn">Ancient Sikel language transliterated in Latin characters</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">
+                        <seg xml:lang="en">funerary</seg>
+                        <seg xml:lang="it">epigrafe sepolcrale</seg>
+                    </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="edited">
+            <listChange>
+               <change when="2017-07-19" who="#JP">File created by Jonathan Prag, derived from ISic3362, with modifications</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="front">
+            <graphic " url="voci01.jpg" height="" width="">
+                <desc>Photo J. Prag</desc>
+            </graphic>
+         </surface>
+        <surface type="rear">
+            <graphic url="voci01_rear.jpg" height="" width="">
+                <desc>Photo J. Prag</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="scx">
+                <ab>
+                    <lb n="1" rend="spiral-clockwise"/>ΝΕΝΔΑΣ<unclear>ΠΥ</unclear><gap reason="lost" atLeast="4" atMost="5" unit="character"/>ΣΤΕΒΕΓΠΡΑΑΡΕΙΕΝΒΟ<gap reason="lost" quantity="1" unit="character"/>ΡΕΝΑΙϜΙΔΕΠΑΓΟΣΤΙΚΕΑΙΤΕ<gap reason="lost" atLeast="2" atMost="3" unit="character"/>ΛΥΒΕ
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="scx-Latn">
+            <ab>
+                <lb n="1" rend="spiral-clockwise"/>nendas<unclear>pu</unclear><gap reason="lost" atLeast="4" atMost="5" unit="character"/>stebegpraareienbo<gap reason="lost" quantity="1" unit="character"/>renaividepagostikeaite<gap reason="lost" atLeast="2" atMost="3" unit="character"/>lube
+            </ab>
+            </div>
+            <div type="apparatus">
+               <listApp>
+                   <app><note>Text after Agostiniani 1992</note></app>
+               </listApp>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p><!--No translation currently agreed--></p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p><!--No translation currently agreed--></p>
+            </div>
+            <div type="commentary" xml:lang="en">
+                <p>The text is probably a funerary inscription. The letters do not run left-to-right, but in a spiral, beginning at the bottom left (a feature also found in some early Greek inscriptions). The initial word Nendas is found in other Sikel inscriptions and usually thought to be a personal name. According to ancient authors such as Thucydides, the Sikels were one of three ethnic groups present on the island before the arrival of the Phoenicians and Greeks. A small number of inscriptions from the sixth and fifth centuries BC have been found in the south-east of the island, including this one. These use the Greek alphabet (with the distinctive form of alpha 𐅢 visible here) but appear to be in the Sikel language – in other words, the practice of writing appears to have been adopted from the Greek settlers. The Sikel language is considered to be similar to the Sabellic languages of central Italy.</p>
+                <p>This example is a plaster cast of the original stone, which is now in the Museo Archeologico Regionale "Paolo Orsi", Siracusa, inv. no.47071 = ISicily 3362. The cast was made by 'Terracotte Vella', of Caltagirone (as recorded on the back), and is one of two which were made at the time of discovery (recorded, with reference to one being made 'dai noti fabbricanti di cermaiche fratelli Vella’, by Francesco Ribezzo, "L’Iscrizione Sicano-Italica scoperta a Sciri (Σχῆραι?) presso Licodìa Eubea (Caltagirone)," in Rivista Indo-Greco-Italica 17 (1933), fasc. 3-4, pp. 197-211). </p>
+            </div>
+            <div type="commentary" xml:lang="it">
+                <p>Il testo è probabilmente una iscrizione funeraria. Le lettere non girano da sinistra a destra, ma a spirale, iniziando dal basso a sinistra ( una caratteristica che si trova anche in alcune iscrizioni greche antiche). La parola iniziale Nendas si rinviene in altre iscrizioni sicule ed usualmente si pensa che sia un nome di persona. Secondo autori antichi come Tucidide, i Siculi erano uno dei tre gruppi etnici presenti nell’isola prima dell’arrivo dei Fenici e dei Greci. Un piccolo numero di iscrizioni dal sesto al quinto secolo a. C. sono state trovate nel sud est dell’isola, inclusa questa. Questa usa l’alfabeto greco (con la tipica forma dell’alfa che qui si vede) ma appare essere in lingua Sicula – in altre parole, la pratica della scrittura appare essere stata tratta dai coloni greci. La lingua sicula è ritenuta essere simile alle lingue sabelliche del centro Italia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <author>Ribezzo</author>
+                        <date>1933</date>
+                        <ptr target="http://zotero.org/groups/382445/items/4CFJ4SXT"/>
+                    </bibl>
+                    <bibl>
+                        <author>Ribezzo</author>
+                        <date>1934</date>
+                        <ptr target="http://zotero.org/groups/382445/items/36BSI8FC"/>
+                    </bibl>
+                    <bibl>
+                        <author>Schmoll</author>
+                        <date>1958</date>
+                        <citedRange>30-31 no.16</citedRange>
+                        <ptr target="http://zotero.org/groups/382445/items/JQNCGI8C"/>
+                    </bibl>
+                    <bibl>
+                        <author>Agostiniani</author>
+                        <date>1992</date>
+                        <citedRange>148 no.7</citedRange>
+                        <ptr target="http://zotero.org/groups/382445/items/9PTH7BSP"/>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
